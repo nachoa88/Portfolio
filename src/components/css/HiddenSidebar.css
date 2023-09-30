@@ -1,0 +1,10 @@
+#hiddenSidebar {
+    padding-top: 150px;
+    right: 0;
+    z-index: 2;
+    width: 60%;
+}
+
+#closeButton {
+    padding:0 12px;
+}
