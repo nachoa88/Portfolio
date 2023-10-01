@@ -32,9 +32,9 @@ function HomePage() {
             <div className="w3-main w3-padding-large" id="content">
                 <NavButton toggleSidebar={toggleSidebar} />
                 <Header />
-                <PortfolioSection id="portfolioSection" />
+                <PortfolioSection />
                 <AboutSection />
-                <ContactSection id="contact" />
+                <ContactSection />
             </div>
 
         </>

@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 function HiddenSidebar({ isVisible, toggleSidebar }) {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
@@ -15,7 +13,8 @@ function HiddenSidebar({ isVisible, toggleSidebar }) {
                     <i className="fa fa-remove"></i>
                 </button>
                 <div className="w3-bar-block w3-center">
-                    <Link to="/" className="w3-bar-item w3-button w3-hover-black" >Home</Link>
+                    <button className="w3-bar-item w3-button w3-hover-black" 
+                        onClick={() => { toggleSidebar(); scrollToSection("home"); }}>Home</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
                         onClick={() => { toggleSidebar(); scrollToSection("portfolioSection"); }}>Portfolio</button>
                     <button className="w3-bar-item w3-button w3-hover-black"

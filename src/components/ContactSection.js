@@ -10,7 +10,7 @@ function ContactSection() {
         <p><i className="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: nacho.albiol@gmail.com</p>
       </div>
 
-      <img src="img/Map.jpg" className="w3-image w3-greyscale" id="mapImg"/>
+      <img src="img/map.jpg" className="w3-image w3-greyscale" id="mapImg"/>
 
       <p>Lets get in touch. Send me a message:</p>
       <form action="/action_page.php" target="_blank">
