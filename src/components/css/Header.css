@@ -7,3 +7,9 @@
     width: 60%;
     margin: auto;
 }
+
+#resumeBtn{
+    background-color: rgb(235, 235, 235);
+    margin-top: 16px;
+    padding: 12px 24px;
+}

@@ -5,6 +5,7 @@ import HiddenSidebar from '../components/HiddenSidebar.js';
 import NavButton from '../components/NavButton.js';
 import Header from '../components/Header.js';
 import PortfolioSection from '../components/PortfolioSection.js';
+import AboutSection from '../components/AboutSection.js';
 import ContactSection from '../components/ContactSection.js';
 
 import '../components/css/LeftSidebar.css';
@@ -12,7 +13,9 @@ import '../components/css/HiddenSidebar.css';
 import '../components/css/NavButton.css';
 import '../components/css/Header.css';
 import '../components/css/PortfolioSection.css';
+import '../components/css/AboutSection.css';
 import '../components/css/ContactSection.css';
+
 
 
 function HomePage() {
@@ -30,6 +33,7 @@ function HomePage() {
                 <NavButton toggleSidebar={toggleSidebar} />
                 <Header />
                 <PortfolioSection id="portfolioSection" />
+                <AboutSection />
                 <ContactSection id="contact" />
             </div>
 

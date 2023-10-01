@@ -1,10 +1,31 @@
+/* Defines animation "animate-right" */
+@keyframes animate-right {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
+}
+
 #hiddenSidebar {
     padding-top: 150px;
     right: 0;
     z-index: 2;
     width: 60%;
+    background-color: black;
+    animation: animate-right 0.5s;
+    font-size: 2rem;
 }
 
+/*('rem' --> root em) 1 rem is equal to the font size of the root element, so if the root element changes, 
+it will change proportionally. Rem unit are useful for responsive design.*/
 #closeButton {
     padding:0 12px;
+    background-color: black;
+    color: white;
+}
+
+.w3-bar-block {
+    color: grey;
 }
