@@ -1,1 +1,17 @@
 /*GENERAL STYLE*/
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 50px;
+}
+
+/* Home Page CSS */
+#content{
+    margin-left: 40%;
+}
+
+hr {
+    margin-bottom: 30px;
+}
