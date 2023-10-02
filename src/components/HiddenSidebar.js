@@ -18,7 +18,7 @@ function HiddenSidebar({ isVisible, toggleSidebar }) {
                     <button className="w3-bar-item w3-button w3-hover-black"
                         onClick={() => { toggleSidebar(); scrollToSection("portfolioSection"); }}>Portfolio</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
-                        onClick={() => { toggleSidebar(); scrollToSection("about"); }}>About</button>
+                        onClick={() => { toggleSidebar(); scrollToSection("about"); }}>About Me</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
                         onClick={() => { toggleSidebar(); scrollToSection("contact"); }}>Contact</button>
                 </div>

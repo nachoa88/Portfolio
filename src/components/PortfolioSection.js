@@ -1,63 +1,71 @@
 function PortfolioSection() {
     return (
         <div className="w3-padding-32 w3-content" id="portfolioSection">
-            <h2>My Portfolio</h2>
+            <h2>Portfolio</h2>
             <hr className="w3-opacity" />
 
             <div className="row">
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="https://i.imgur.com/ZTkt4I5.jpg" className="card-img-top" alt="..." />
+                        <img src="img/laphotography.jpg" className="card-img-top" alt="sample of photography portfolio" />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit Site</a>
-                            <a href="#" className="btn "><i className="fab fa-github"></i> Github</a>
+                            <h5 className="card-title">Photography Portfolio</h5>
+                            <p className="card-text">This project was made for a photographer friend of mine, it's a portfolio of his work.
+                                I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.</p>
+                            <div className="row">
+                                <div className="col-xl-6 col-sm-12">
+                                    <a href="..." className="btn mr-2"><i className="fas fa-link"></i>Learn More</a>
+                                </div>
+                                <div className="col-xl-6 col-md-12">
+                                    <a href="https://laphotography.es/" Target="_blank" className="btn mr-2">
+                                        <i className="fas fa-link"></i> Visit Site</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="https://i.imgur.com/ZTkt4I5.jpg" className="card-img-top" alt="..." />
+                        <img src="img/konecta.jpg" className="card-img-top" alt="sample of konect project" />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit Site</a>
-                            <a href="#" className="btn"><i className="fab fa-github"></i> Github</a>
+                            <h5 className="card-title">K0N3CT4</h5>
+                            <p className="card-text">This project was made with my group during the Web Development Course. Front-end 
+                            was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.</p>
+                            <div className="row">
+                                <div className="col-xl-6 col-sm-12">
+                                    <a href="..." className="btn mr-2"><i className="fas fa-link"></i>Learn More</a>
+                                </div>
+                                <div className="col-xl-6 col-md-12">
+                                    <a href="https://github.com/nachoa88/KoNeCTaReact" Target="_blank" className="btn mr-2">
+                                        <i className="fab fa-github"></i> Github</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="https://i.imgur.com/ZTkt4I5.jpg" className="card-img-top" alt="..." />
+                        <img src="img/portfolio.jpg" className="card-img-top" alt="sample of my portfolio" />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit Site</a>
-                            <a href="#" className="btn"><i className="fab fa-github"></i> Github</a>
+                            <h5 className="card-title">My Portfolio</h5>
+                            <p className="card-text">This is my own portfolio, it was made with React, using some samples from W3Schools
+                            and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skiils. I've used Hostinger to host my website.</p>
+                            <div className="row">
+                                <div className="col-xl-6 col-sm-12">
+                                    <a href="..." className="btn mr-2"><i className="fas fa-link"></i>Learn More</a>
+                                </div>
+                                <div className="col-xl-6 col-md-12">
+                                    <a href="https://github.com/nachoa88/Portfolio" Target="_blank" className="btn mr-2">
+                                        <i className="fab fa-github"></i> Github</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
 
-                <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="card">
-                        <img src="https://i.imgur.com/ZTkt4I5.jpg" className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit Site</a>
-                            <a href="#" className="btn"><i className="fab fa-github"></i> Github</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
-
         </div>
     );
 }

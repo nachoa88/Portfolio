@@ -9,11 +9,15 @@
 }
 
 .card {
-    width: 18rem;
     background: #222;
     border: 1px solid #dd2476;
     color: rgba(250, 250, 250, 0.8);
     margin-bottom: 2rem;
+}
+
+.card-title {
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .btn {
@@ -25,6 +29,7 @@
     border-image-source: var(--gradient) !important;
     text-decoration: none;
     transition: all .4s ease;
+    display: block;
 }
 
 .btn:hover,

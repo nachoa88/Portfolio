@@ -7,7 +7,7 @@ function ContactSection() {
       <div className="w3-section">
         <p><i className="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Barcelona, 08017</p>
         <p><i className="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +34 677 246 546</p>
-        <p><i className="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: nacho.albiol@gmail.com</p>
+        <p><i className="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: nacho.albiol88@gmail.com</p>
       </div>
 
       <img src="img/map.jpg" className="w3-image w3-greyscale" id="mapImg"/>

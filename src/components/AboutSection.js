@@ -1,7 +1,7 @@
 function AboutSection() {
     return (
         <div className="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-            <h2>About</h2>
+            <h2>About Me</h2>
             <hr className="w3-opacity" />
             <p>
                 My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. For the last years I've been through
@@ -12,8 +12,8 @@ function AboutSection() {
             </p>
             <p>
                 As for my soft skills, I consider myself a serious, responsible, decisive and hard-working person. I enjoy learning
-                from different projects and I have a very good ability to work as a team and learn from my coworkers. I have lots of
-                patience and I'm resilient, very used to resolve issues to achieve my goals.
+                from different projects and I have a very good ability to work as a team and learn from my coworkers. I'm resilient, have lots of
+                patience, and problem-solver by nature.
             </p>
 
             <h3>My Skills</h3>
