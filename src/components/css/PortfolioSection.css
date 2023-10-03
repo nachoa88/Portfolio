@@ -2,7 +2,6 @@
     color: gray;
 }
 
-
 /* CARDS STYLE */
 :root {
     --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
@@ -20,6 +19,24 @@
     margin-bottom: 15px;
 }
 
+.card-text {
+    height: 160px; /* Default height for large screens*/
+    
+    /* Media queries for different screen sizes, px variate a lot because of rows */
+    @media screen and (max-width: 1450px) {
+        height: 200px;
+    }
+    @media screen and (max-width: 1200px) {
+        height: 140px;
+    }
+    @media screen and (max-width: 768px) {
+        height: 100px;
+    }
+    @media screen and (max-width: 576px) {
+        height: 130px;
+    }
+}
+
 .btn {
     border: 5px solid;
     border-image-slice: 1;
@@ -30,6 +47,8 @@
     text-decoration: none;
     transition: all .4s ease;
     display: block;
+    white-space: nowrap;
+    /* This is for the text not to be wrapped and it will stay in one line */
 }
 
 .btn:hover,

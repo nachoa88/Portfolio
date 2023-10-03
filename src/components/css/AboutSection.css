@@ -11,4 +11,22 @@
 
 .iconImg {
     width: 60%;
+    margin-bottom: 10px;
+}
+
+#about-text {
+    margin-bottom: 70px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.skill-text{
+    color: black;
+    margin-top: 5px;
+}
+
+.w3-wide {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
