@@ -3,19 +3,20 @@ function AboutSection() {
         <div className="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
             <h2>About Me</h2>
             <hr className="w3-opacity" />
-            <p>
-                My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. For the last years I've been through
-                the process of professional reconversion, going from the educational to the programming and development sector. At
-                first, I started learning Unity and C# on my own, and later doing a web application development intensive course
-                full-stack profile. Right now I'm doing my first steps in the business, and willing to continue learning and
-                imporving my knoledge in this areas.
-            </p>
-            <p>
-                As for my soft skills, I consider myself a serious, responsible, decisive and hard-working person. I enjoy learning
-                from different projects and I have a very good ability to work as a team and learn from my coworkers. I'm resilient, have lots of
-                patience, and problem-solver by nature.
-            </p>
-
+            <div id="about-text">
+                <p>
+                    My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. For the last years I've been through
+                    the process of professional reconversion, going from the educational to the programming and development sector. At
+                    first, I started learning Unity and C# on my own, and later doing a web application development intensive course
+                    full-stack profile. Right now I'm doing my first steps in the business, and willing to continue learning and
+                    imporving my knoledge in this areas.
+                </p>
+                <p>
+                    As for my soft skills, I consider myself a serious, responsible, decisive and hard-working person. I enjoy learning
+                    from different projects and I have a very good ability to work as a team and learn from my coworkers. I'm resilient, have lots of
+                    patience, and problem-solver by nature.
+                </p>
+            </div>
             <h3>My Skills</h3>
             <hr className="w3-opacity" />
             <div className="row">
@@ -23,31 +24,31 @@ function AboutSection() {
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/html5_icon.png" />
-                        <p>HTML5</p>
+                        <p className="skill-text">HTML5</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/css3_icon.png" />
-                        <p>CSS</p>
+                        <p className="skill-text">CSS</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="/img/icons/javascript_icon.png" />
-                        <p>JavaScript</p>
+                        <p className="skill-text">JavaScript</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/react_icon.png" />
-                        <p>React</p>
+                        <p className="skill-text">React</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/bootstrap_icon.png" />
-                        <p>Bootstrap</p>
+                        <p className="skill-text">Bootstrap</p>
                     </div>
                 </div>
 
@@ -58,13 +59,13 @@ function AboutSection() {
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/csharp_icon.png" />
-                        <p>C#</p>
+                        <p className="skill-text">C#</p>
                     </div>
                 </div>
-                <div className="col-xl-2 col-md-4 col-sm-6">
+                <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/unity_icon.png" />
-                        <p>Unity 2D & 3D</p>
+                        <p className="skill-text">Unity 2D & 3D</p>
                     </div>
                 </div>
             </div>
@@ -74,13 +75,19 @@ function AboutSection() {
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/wordpress_icon.png" />
-                        <p>Wordpress</p>
+                        <p className="skill-text">Wordpress</p>
                     </div>
                 </div>
-                <div className="col-xl-2 col-md-4 col-sm-6">
+                <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/elementor_icon.png" />
-                        <p>Elementor</p>
+                        <p className="skill-text">Elementor</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-md-4 col-sm-4 col-6">
+                    <div className="icon-container">
+                        <img className="iconImg" src="img/icons/figma_icon.png" />
+                        <p className="skill-text">Figma</p>
                     </div>
                 </div>
             </div>
@@ -90,19 +97,31 @@ function AboutSection() {
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/github_icon.png" />
-                        <p>GitHub</p>
+                        <p className="skill-text">GitHub</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-md-4 col-sm-4 col-6">
+                    <div className="icon-container">
+                        <img className="iconImg" src="img/icons/aws_icon.png" />
+                        <p className="skill-text">Amazon Web Services</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-md-4 col-sm-4 col-6">
+                    <div className="icon-container">
+                        <img className="iconImg" src="img/icons/trello_icon.png" />
+                        <p className="skill-text">Trello</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/ubuntu_icon.png" />
-                        <p>Ubuntu 22.04</p>
+                        <p className="skill-text">Ubuntu 22.04</p>
                     </div>
                 </div>
             </div>
 
 
-
+            <h3>Section in progress...</h3>
             <div className="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
                 <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">14+</span><br />

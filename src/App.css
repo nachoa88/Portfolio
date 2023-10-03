@@ -1,6 +1,8 @@
 /*GENERAL STYLE*/
 body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: 500;
 }
 
 /* Home Page CSS */
@@ -9,5 +11,10 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
+    border-top: 5px double black;
     margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
 }

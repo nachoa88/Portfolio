@@ -36,7 +36,6 @@ function HomePage() {
                 <AboutSection />
                 <ContactSection />
             </div>
-
         </>
     );
 }
