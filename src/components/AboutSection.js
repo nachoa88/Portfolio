@@ -23,31 +23,31 @@ function AboutSection() {
                 <h5 className="w3-wide">Front-End</h5>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/html5_icon.png" />
+                        <img className="iconImg" src="img/icons/html5_icon.png" alt="HTML5 icon"/>
                         <p className="skill-text">HTML5</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/css3_icon.png" />
+                        <img className="iconImg" src="img/icons/css3_icon.png" alt="CSS icon"/>
                         <p className="skill-text">CSS</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="/img/icons/javascript_icon.png" />
+                        <img className="iconImg" src="/img/icons/javascript_icon.png" alt="JavaScript icon"/>
                         <p className="skill-text">JavaScript</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/react_icon.png" />
+                        <img className="iconImg" src="img/icons/react_icon.png" alt="React icon"/>
                         <p className="skill-text">React</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/bootstrap_icon.png" />
+                        <img className="iconImg" src="img/icons/bootstrap_icon.png" alt="Bootstrap icon"/>
                         <p className="skill-text">Bootstrap</p>
                     </div>
                 </div>
@@ -58,13 +58,13 @@ function AboutSection() {
                 <h5 className="w3-wide">Game Development</h5>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/csharp_icon.png" />
+                        <img className="iconImg" src="img/icons/csharp_icon.png" alt="C Sharp icon"/>
                         <p className="skill-text">C#</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/unity_icon.png" />
+                        <img className="iconImg" src="img/icons/unity_icon.png" alt="Unity icon"/>
                         <p className="skill-text">Unity 2D & 3D</p>
                     </div>
                 </div>
@@ -74,19 +74,19 @@ function AboutSection() {
                 <h5 className="w3-wide">Web Design</h5>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/wordpress_icon.png" />
+                        <img className="iconImg" src="img/icons/wordpress_icon.png" alt="Wordpress icon"/>
                         <p className="skill-text">Wordpress</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/elementor_icon.png" />
+                        <img className="iconImg" src="img/icons/elementor_icon.png" alt="Elementor icon"/>
                         <p className="skill-text">Elementor</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/figma_icon.png" />
+                        <img className="iconImg" src="img/icons/figma_icon.png" alt="Figma icon"/>
                         <p className="skill-text">Figma</p>
                     </div>
                 </div>
@@ -96,25 +96,25 @@ function AboutSection() {
                 <h5 className="w3-wide">Other skills</h5>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/github_icon.png" />
+                        <img className="iconImg" src="img/icons/github_icon.png" alt="GitHub icon"/>
                         <p className="skill-text">GitHub</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/aws_icon.png" />
+                        <img className="iconImg" src="img/icons/aws_icon.png" alt="HTML5 icon"/>
                         <p className="skill-text">Amazon Web Services</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/trello_icon.png" />
+                        <img className="iconImg" src="img/icons/trello_icon.png" alt="Trello icon"/>
                         <p className="skill-text">Trello</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/ubuntu_icon.png" />
+                        <img className="iconImg" src="img/icons/ubuntu_icon.png" alt="Ubuntu icon"/>
                         <p className="skill-text">Ubuntu 22.04</p>
                     </div>
                 </div>
