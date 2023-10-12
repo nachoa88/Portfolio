@@ -20,13 +20,18 @@
     font-size: 1.2rem;
 }
 
-.skill-text{
-    color: black;
-    margin-top: 5px;
+.dark #about-text {
+    color: white;
 }
 
-.w3-wide {
+.skill-title {
     margin-top: 20px;
     margin-bottom: 20px;
     text-decoration: underline;
+    font-size: large;
+}
+
+.skill-text{
+    color: black;
+    margin-top: 5px;
 }

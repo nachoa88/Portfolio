@@ -1,4 +1,4 @@
-.home-page-footer {
+footer {
     background-color: lightgray;
     opacity: 0.7;
     display: flex;
@@ -6,23 +6,12 @@
     align-items: center;
     justify-content: center;
     height: 25vh;
-    width: 60%; /* As the picture uses the 40% of the screen, footer needs to use only 60% */
+    width: 100%; /* As the picture uses the 40% of the screen, footer needs to use only 60% */
     margin-left: auto; /* Also, align it to the right, to see that 60% */
     @media screen and (max-width: 992px) {
           width: 100%; /* When the screen is smaller and the left picture dissappear the footer returns to 100% */
       }
 }
-
-.other-page-footer {
-    background-color: lightgray;
-    opacity: 0.7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 25vh;
-    width: 100%; /* Width for other pages */
-  }
 
 .footer-icons a {
     margin: 0 10px; /* Add left and right margin to create spacing between "a" elements */

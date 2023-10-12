@@ -2,8 +2,18 @@
 body, h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
     /* font-family: 'Open-Dyslexic', sans-serif;*/
+    background-color: whitesmoke;
     color: black;
     font-weight: 500;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+/* Dark theme styles */
+body.dark, .dark h1 {
+    /* Theme-specific styling properties for dark theme */
+    background-color: rgb(30, 30, 30);
+    color: whitesmoke;
+    /* Add other dark theme styles here */
 }
 
 /* Home Page CSS */

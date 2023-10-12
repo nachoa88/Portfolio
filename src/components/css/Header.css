@@ -8,8 +8,12 @@
     margin: auto;
 }
 
-#resumeBtn{
+#resumeBtn {
     background-color: rgb(235, 235, 235);
     margin-top: 16px;
     padding: 12px 24px;
+}
+
+h1.w3-jumbo {
+    font-weight: bold;
 }
