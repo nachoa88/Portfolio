@@ -1,7 +1,16 @@
 #menuIcon{
     width: auto; 
     right: 0;
-    color: darkgray
+    color: black;
+    background-color: whitesmoke;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.dark #menuIcon{
+    width: auto; 
+    right: 0;
+    color: white;
+    background-color: rgb(30, 30, 30);
 }
 
 

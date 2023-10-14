@@ -8,7 +8,7 @@ function NavButton({ toggleSidebar }) {
       };
 
     return (
-        <span className="w3-button w3-top w3-white w3-xxlarge w3-hover-text-black"
+        <span className="w3-button w3-top w3-xxlarge w3-hover-text-black"
             id="menuIcon" onClick={toggleSidebar} onKeyDown={handleButtonClick} tabIndex={0} role="button" aria-label="Toggle Sidebar">
                 <i className="fa fa-bars"></i>
         </span>

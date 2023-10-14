@@ -3,7 +3,6 @@ function PortfolioSection() {
         <div className="w3-padding-32 w3-content" id="portfolioSection">
             <h2>Portfolio</h2>
             <hr className="w3-opacity" />
-
             <div className="row">
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">

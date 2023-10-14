@@ -6,7 +6,6 @@
     cursor: pointer; /* Change cursor to pointer on hover for better usability */
     height: 40px; /* Adjust the height as needed */
     margin: 0 5px; /* Add margin to create spacing */
-    color: black;
 }
 
 .theme-toggle i {
@@ -46,4 +45,14 @@
 .theme-toggle input[type="checkbox"]:checked::before {
     transform: translateX(20px);
     transition: transform 1s ease;
+}
+
+.theme-icon {
+    margin-right: 0.5rem;;
+    color: black;
+    transition: color 0.5s ease;
+}
+
+.dark .theme-icon {
+    color: whitesmoke;
 }

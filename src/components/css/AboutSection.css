@@ -18,10 +18,11 @@
     margin-bottom: 70px;
     color: black;
     font-size: 1.2rem;
+    transition: color 0.5s ease;
 }
 
 .dark #about-text {
-    color: white;
+    color: whitesmoke;
 }
 
 .skill-title {
@@ -34,4 +35,9 @@
 .skill-text{
     color: black;
     margin-top: 5px;
+    transition: color 0.5s ease;
+}
+
+.dark .skill-text{
+    color: whitesmoke;
 }
