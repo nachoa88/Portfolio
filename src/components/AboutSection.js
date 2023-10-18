@@ -1,4 +1,9 @@
-function AboutSection() {
+function AboutSection({ isDarkMode }) {
+    // This is for the system to check if we're in light mode to add a '.png' and if it's dark to add a '_w.png' and show a different icon.
+    const getIconFileName = (baseFileName) => {
+        return isDarkMode ? `${baseFileName}_w.png` : `${baseFileName}.png`;
+    };
+    
     return (
         <div className="w3-content w3-justify w3-padding-32" id="about">
             <h2>About Me</h2>
@@ -64,7 +69,7 @@ function AboutSection() {
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/unity_icon.png" alt="Unity icon" />
+                        <img className="iconImg" src={getIconFileName("img/icons/unity_icon")} alt="Unity icon" />
                         <p className="skill-text">Unity 2D & 3D</p>
                     </div>
                 </div>
@@ -96,13 +101,13 @@ function AboutSection() {
                 <p className="skill-title w3-wide">Other Skills</p>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/github_icon.png" alt="GitHub icon" />
+                        <img className="iconImg" src={getIconFileName("img/icons/github_icon")} alt="GitHub icon" />
                         <p className="skill-text">GitHub</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
-                        <img className="iconImg" src="img/icons/aws_icon.png" alt="HTML5 icon" />
+                        <img className="iconImg" src={getIconFileName("img/icons/aws_icon")} alt="HTML5 icon" />
                         <p className="skill-text">Amazon Web Services</p>
                     </div>
                 </div>

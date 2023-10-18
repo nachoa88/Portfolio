@@ -42,7 +42,8 @@ function HomePage() {
                 <NavButton toggleSidebar={toggleSidebar} />
                 <Header />
                 <PortfolioSection />
-                <AboutSection />
+                {/* I pass this information to be able to change the icons for dark & light theme*/}
+                <AboutSection isDarkMode={isDarkTheme}/>
                 <ContactSection />
             </div>
         </>
