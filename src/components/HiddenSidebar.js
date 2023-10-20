@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 function HiddenSidebar({ isVisible, toggleSidebar }) {
+    const { t } = useTranslation();
+    
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -14,13 +18,13 @@ function HiddenSidebar({ isVisible, toggleSidebar }) {
                 </button>
                 <div className="w3-bar-block w3-center">
                     <button className="w3-bar-item w3-button w3-hover-black" 
-                        onClick={() => { toggleSidebar(); scrollToSection("home"); }} aria-label="Navigate to Home">Home</button>
+                        onClick={() => { toggleSidebar(); scrollToSection("home"); }} aria-label="Navigate to Home">{t('sidebar-home')}</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
-                        onClick={() => { toggleSidebar(); scrollToSection("portfolioSection"); }} aria-label="Navigate to Portfolio">Portfolio</button>
+                        onClick={() => { toggleSidebar(); scrollToSection("portfolioSection"); }} aria-label="Navigate to Portfolio">{t('sidebar-portfolio')}</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
-                        onClick={() => { toggleSidebar(); scrollToSection("about"); }} aria-label="Navigate to About Me">About Me</button>
+                        onClick={() => { toggleSidebar(); scrollToSection("about"); }} aria-label="Navigate to About Me">{t('sidebar-about')}</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
-                        onClick={() => { toggleSidebar(); scrollToSection("contact"); }} aria-label="Navigate to Contact">Contact</button>
+                        onClick={() => { toggleSidebar(); scrollToSection("contact"); }} aria-label="Navigate to Contact">{t('sidebar-contact')}</button>
                 </div>
             </nav>
         )

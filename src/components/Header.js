@@ -2,7 +2,7 @@ import Resume from '../assets/CV2023.pdf'
 import { useTranslation } from 'react-i18next';
 
 function Header() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     
     return (
         <header className="w3-container w3-center" id="home">

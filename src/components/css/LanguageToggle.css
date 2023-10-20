@@ -35,6 +35,8 @@
 
 .dropdown-item {
     color: whitesmoke;
+    display: flex;
+    align-items: center;
 }
 
 .dropdown-item:hover {

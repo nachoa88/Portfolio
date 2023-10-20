@@ -1,0 +1,32 @@
+{
+    "sidebar-home": "Inici",
+    "sidebar-portfolio": "Portfoli",
+    "sidebar-about": "Sobre Mi",
+    "sidebar-contact": "Contacte",
+    
+    "header-subtitle": "Desenvolupador Web i de Videojocs.",
+    "download-cv": "Descarrega CV",
+
+    "learn-more": "Més informació",
+    "visit-site": "Visita la Web",
+    "konecta-text": "Aquest projecte ho vam fer conjuntament amb el meu grup al Curs de Desenvolupament Web. Pel front-end es fa servir React i pel back-end Spring Boot, utilitzant AWS per als nostres servidors.",
+    "portfolio-text": "Aquest és el meu propi portfoli, està fet amb React, utilitzant alguns templates de W3Schools i Bootstrap, posant en pràctica les meves habilitats en HTML, CSS, JS i Bootstrap.",
+    "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
+
+    "about-first": "Em dic Ignacio Albiol, sóc desenvolupador web i de videojocs, i visc a Barcelona. Durant els darrers anys he travessat per un procés de reconversió professional, passant del sector educatiu al de programació i desenvolupament. Al principi, vaig començar aprenent Unity i C# pel meu compte, i posteriorment vaig fer un curs intensiu de desenvolupament d'aplicacions web amb perfil full-stack. Actualment estic fent els meus primers passos al mercat, disposat a seguir aprenent i millorant els meus coneixements en aquestes àrees.",
+    "about-second": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. Gaudeixo aprenent de diferents projectes i tinc molt bona capacitat per treballar en equip i aprendre dels meus companys de feina. Sóc resilient, tinc molta paciència i sóc resolutiu per naturalesa.",
+
+    "my-skills": "Les Meves Habilitats",
+    "game-dev": "Desenvolupament de Videojocs",
+    "web-design": "Disseny Web",
+    "other": "Altres Habilitats",
+
+    "contact-me": "Contacta'm",
+    "phone": "Telèfon",
+    "get-in-touch": "Posa't en contacte. Envia'm un missatge:",
+    "name": "Nombre",
+    "email": "Email",
+    "subject": "Assumpte",
+    "message": "Missatge",
+    "send-message": "ENVIA MISSATGE"
+}

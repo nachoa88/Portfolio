@@ -15,6 +15,11 @@ const languages = [
         name: 'Español',
         countryCode: 'es'
     },
+    {
+        code: 'cat',
+        name: 'Català',
+        countryCode: 'cat'
+    },
 ]
 
 function LanguageToggle() {
@@ -28,8 +33,12 @@ function LanguageToggle() {
                 {languages.map(({ code, name, countryCode }) => (
                     <li key={countryCode}>
                         <Dropdown.Item onClick={() => i18next.changeLanguage(code)}>
-                            <span className={`fi fi-${countryCode}`}></span>
-                            {name}
+                            {code === 'cat' ? (
+                                <img src="img/icons/cat_flag_icon.png" alt="Català" style={{ width: '19px', height: '14.5px' }} />
+                            ) : (
+                                <span className={`fi fi-${countryCode}`}></span>
+                            )}
+                            <span style={{ marginLeft: '5px' }}>{name}</span>
                         </Dropdown.Item>
                     </li>
                 )
@@ -40,22 +49,3 @@ function LanguageToggle() {
 }
 
 export default LanguageToggle;
-
-{/* 
-<div className="dropdown">
-                <span className="bi bi-globe2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></span>
-
-                <ul className="dropdown-menu">
-                    {languages.map(({ code, name, countryCode }) => (
-                        <li key={countryCode}>
-                            <button className="dropdown-item" onClick={() => i18next.changeLanguage(code)}>
-                                <span className={`fi fi-${countryCode}`}></span>{name}
-                            </button>
-                        </li>
-                    )
-                    )}
-                </ul>
-            </div>
-*/}
-
-
