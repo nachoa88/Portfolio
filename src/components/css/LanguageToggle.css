@@ -1,0 +1,42 @@
+/* INCLUDES CONTAINER FOR THEME & LANGUAJE COLOR */
+.toggle-container {
+    display: inline-flex; /* Use inline-flex to adjust to the content's width */
+    gap: 10px; /* Adjust the gap (spacing) between the two components as needed */
+    align-items: center;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.dark .toggle-container {
+    background-color: rgb(20, 20, 20);
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    color: black;
+    transition: color 0.5s ease;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:active {
+    background-color: rgb(100, 100, 100) !important;
+}
+
+.dark .dropdown-toggle {
+    color: whitesmoke;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-item {
+    color: whitesmoke;
+}
+
+.dropdown-item:hover {
+    background-color: darkgray;
+}

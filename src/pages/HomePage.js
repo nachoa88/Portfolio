@@ -9,6 +9,7 @@ import AboutSection from '../components/AboutSection.js';
 import ContactSection from '../components/ContactSection.js';
 
 import ThemeToggle from "../components/ThemeToggle.js";
+import LanguageToggle from "../components/LanguageToggle.js";
 
 import '../components/css/LeftSidebar.css';
 import '../components/css/HiddenSidebar.css';
@@ -19,6 +20,7 @@ import '../components/css/AboutSection.css';
 import '../components/css/ContactSection.css';
 
 import '../components/css/ThemeToggle.css';
+import '../components/css/LanguageToggle.css';
 
 function HomePage() {
     const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -38,12 +40,15 @@ function HomePage() {
             <LeftSidebar />
             <HiddenSidebar isVisible={sidebarVisible} toggleSidebar={toggleSidebar} />
             <div className="w3-main w3-padding-large" id="content">
-                <ThemeToggle toggleTheme={toggleTheme} />
+                <div className="toggle-container">
+                    <ThemeToggle toggleTheme={toggleTheme} />
+                    <LanguageToggle />
+                </div>
                 <NavButton toggleSidebar={toggleSidebar} />
                 <Header />
                 <PortfolioSection />
                 {/* I pass this information to be able to change the icons for dark & light theme*/}
-                <AboutSection isDarkMode={isDarkTheme}/>
+                <AboutSection isDarkMode={isDarkTheme} />
                 <ContactSection />
             </div>
         </>

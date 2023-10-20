@@ -28,3 +28,7 @@
 h1.w3-jumbo {
     font-weight: bold;
 }
+
+.button-text {
+    margin-left: 5px;
+}

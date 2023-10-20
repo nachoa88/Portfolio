@@ -4,9 +4,9 @@ import Footer from '../components/Footer.js';
 import HomePage from '../pages/HomePage.js';
 import ProjectsPage from "../pages/ProjectsPage.js";
 
-
 import '../components/css/NavbarModel.css';
 import '../components/css/Footer.css';
+
 
 function Routing() {
     

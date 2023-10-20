@@ -24,8 +24,6 @@ function ThemeToggle({ toggleTheme }) {
     }, [isDarkMode]);
 
     return (
-
-
         <div className="nav-item">
             <label htmlFor="dark-mode-toggle" className={`theme-toggle ${isDarkMode ? 'dark' : 'light'}`}>
                 <i className={`theme-icon fas ${isDarkMode ? 'fa-moon' : 'fa-sun'}`} aria-hidden="true"></i>
