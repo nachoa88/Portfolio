@@ -1,8 +1,36 @@
 /*GENERAL STYLE*/
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
+body {
+    font-family: Georgia, serif;
+    /* font-family: 'Open-Dyslexic', sans-serif;*/
     color: black;
-    font-weight: 500;
+    background-color: whitesmoke;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    color: black;
+    transition: color 0.5s ease;
+}
+
+hr {
+    border-top: 5px double black;
+    margin-bottom: 30px;
+    transition: border-top 0.5s ease;
+}
+
+/* Dark theme styles */
+body.dark {
+    color: whitesmoke;
+    background-color: rgb(30, 30, 30);
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: whitesmoke;
+}
+
+.dark hr {
+    border-top: 5px double whitesmoke;
 }
 
 /* Home Page CSS */
@@ -10,10 +38,7 @@ body, h1, h2, h3, h4, h5, h6 {
     margin-left: 40%;
 }
 
-hr {
-    border-top: 5px double black;
-    margin-bottom: 30px;
-}
+
 
 a {
     text-decoration: none;

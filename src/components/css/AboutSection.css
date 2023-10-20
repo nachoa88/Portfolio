@@ -18,15 +18,26 @@
     margin-bottom: 70px;
     color: black;
     font-size: 1.2rem;
+    transition: color 0.5s ease;
+}
+
+.dark #about-text {
+    color: whitesmoke;
+}
+
+.skill-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: large;
 }
 
 .skill-text{
     color: black;
     margin-top: 5px;
+    transition: color 0.5s ease;
 }
 
-.w3-wide {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: underline;
+.dark .skill-text{
+    color: whitesmoke;
 }

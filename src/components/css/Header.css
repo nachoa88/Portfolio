@@ -2,14 +2,33 @@
     padding: 128px 16px;
 }
 
-#imgHome1 {
+#home-img {
     display: block;
     width: 60%;
     margin: auto;
 }
 
 #resumeBtn{
-    background-color: rgb(235, 235, 235);
+    background-color: lightgray;
+    transition: background-color 0.5s ease;
     margin-top: 16px;
     padding: 12px 24px;
+    border-radius: 5px;
+}
+
+#resumeBtn:hover {
+    background-color: rgb(100, 100, 100) !important;
+    color: white !important;
+}
+
+.dark #resumeBtn{
+    background-color: rgb(20, 20, 20);
+}
+
+h1.w3-jumbo {
+    font-weight: bold;
+}
+
+.button-text {
+    margin-left: 5px;
 }

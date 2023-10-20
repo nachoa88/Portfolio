@@ -3,6 +3,7 @@
 }
 
 /* CARDS STYLE */
+/*This is like creating a function named --gradient in the root element that then can be applied to any element or class. */
 :root {
     --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
 }
@@ -17,6 +18,7 @@
 .card-title {
     margin-top: 5px;
     margin-bottom: 15px;
+    font-size: large;
 }
 
 .card-text {
@@ -37,7 +39,7 @@
     }
 }
 
-.btn {
+.card-body .btn {
     border: 5px solid;
     border-image-slice: 1;
     background: var(--gradient) !important;
@@ -51,8 +53,8 @@
     /* This is for the text not to be wrapped and it will stay in one line */
 }
 
-.btn:hover,
-.btn:focus {
+.card-body .btn:hover,
+.card-body .btn:focus {
     background: var(--gradient) !important;
     -webkit-background-clip: none !important;
     -webkit-text-fill-color: #fff !important;
