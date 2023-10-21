@@ -39,7 +39,7 @@ function HomePage() {
         <>
             <LeftSidebar />
             <HiddenSidebar isVisible={sidebarVisible} toggleSidebar={toggleSidebar} />
-            <div className="w3-main w3-padding-large" id="content">
+            <div className="w3-main w3-padding-large" id="home">
                 <div className="toggle-container">
                     <ThemeToggle toggleTheme={toggleTheme} />
                     <LanguageToggle />

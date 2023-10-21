@@ -1,13 +1,13 @@
 import ProjectBody from "../components/ProjectBody";
-import NavbarModel from "../components/NavbarModel";
+import Navbar from "../components/Navbar";
 
 import '../components/css/ProjectBody.css';
-import '../components/css/NavbarModel.css';
+import '../components/css/Navbar.css';
 
 function ProjectsPage() {
     return (
         <>
-            <NavbarModel />
+            <Navbar />
             <ProjectBody />
             
         </>

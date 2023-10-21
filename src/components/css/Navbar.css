@@ -1,0 +1,59 @@
+.navbar {
+    background-color: lightgray;
+    transition: background-color 0.5s ease;
+}
+
+.dark .navbar {
+    background-color: rgb(20, 20, 20);
+}
+
+.navbar-nav {
+    gap: 10px; /* Adjust the gap (spacing) between the two components as needed */
+}
+
+.nav-link{
+    padding: 7.5px 0px 7.5px 0px !important;
+}
+
+.icon-center {
+    margin-bottom: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease;
+    height: 42.88px;
+    width: 119.18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.dark .nav-item a {
+    color: whitesmoke;
+}
+
+.nav-item a:hover {
+    background-color: rgb(65, 65, 65) !important;
+    box-shadow: 0 0 10px black;
+    color: whitesmoke !important;
+}
+
+.dark .nav-item a:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+
+.nav-item a:focus{
+    color: whitesmoke;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 0 10px black;
+}
+
+.dark .nav-item a:focus{
+    box-shadow: 0 0 10px whitesmoke;
+}

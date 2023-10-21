@@ -1,5 +1,8 @@
 {
-    "language": "Language",
+    "sidebar-home": "Home",
+    "sidebar-portfolio": "Portfolio",
+    "sidebar-about": "About Me",
+    "sidebar-contact": "Contact",
     
     "header-subtitle": "Game and Web Developer.",
     "download-cv": "Download Resume",
@@ -8,5 +11,22 @@
     "visit-site": "Visit Site",
     "konecta-text": "This project was made with my group during the Web Development Course. Front-end was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.",
     "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skiils. I've used Hostinger to host my website.",
-    "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools."
+    "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
+
+    "about-first": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. For the last years I've been through the process of professional reconversion, going from the educational to the programming and development sector. At first, I started learning Unity and C# on my own, and later doing a web application development intensive course full-stack profile. Right now I'm doing my first steps in the business, and willing to continue learning and imporving my knoledge in this areas.",
+    "about-second": "As for my soft skills, I consider myself a serious, responsible, decisive and hard-working person. I enjoy learning from different projects and I have a very good ability to work as a team and learn from my coworkers. I'm resilient, have lots of patience, and problem-solver by nature.",
+
+    "my-skills": "My Skills",
+    "game-dev": "Game Development",
+    "web-design": "Web Design",
+    "other": "Other Skills",
+
+    "contact-me": "Contact Me",
+    "phone": "Phone",
+    "get-in-touch": "Lets get in touch. Send me a message:",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send-message": "Send Message"
 }

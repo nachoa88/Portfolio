@@ -1,12 +1,32 @@
 {
-    "language": "Idioma",
+    "sidebar-home": "Inicio",
+    "sidebar-portfolio": "Portfolio",
+    "sidebar-about": "Sobre Mi",
+    "sidebar-contact": "Contacto",
     
     "header-subtitle": "Desarrollador Web y de Videojuegos.",
-    "download-cv": "Descargar Currículum",
+    "download-cv": "Descargar CV",
 
-    "learn-more": "Más info",
+    "learn-more": "Más información",
     "visit-site": "Visitar Web",
-    "konecta-text": "This project was made with my group during the Web Development Course. Front-end was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.",
-    "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skiils. I've used Hostinger to host my website.",
-    "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools."
+    "konecta-text": "Este proyecto lo realicé junto con mi grupo durante el Curso de Desarrollo Web. El front-end se realizó en React y el back-end con Spring Boot, utilizando AWS para nuestros servidores, bases de datos y almacenamiento.",
+    "portfolio-text": "Este es mi propio portfolio, fue hecho con React, usando algunos templates de W3Schools y Bootstrap, poniendo en práctica mis habilidades en HTML, CSS, JS y Bootstrap. He utilizado Hostinger para alojar mi sitio web.",
+    "photography-text": "Este proyecto fue hecho para un amigo que es fotógrafo, básicamente es un portfolio de su trabajo. Lo he hecho con Wordpress y el complemento de Elementor, fue mi primer acercamiento a estas herramientas.",
+
+    "about-first": "Mi nombre es Ignacio Albiol, soy desarrollador web y de videojuegos, y vivo en Barcelona. Durante los últimos años he atravesado un proceso de reconversión profesional, pasando del sector educativo al de programación y desarrollo. Al principio, comencé aprendiendo Unity y C# por mi cuenta, y posteriormente hice un curso intensivo de desarrollo de aplicaciones web con perfil full-stack. Actualmente estoy dando mis primeros pasos en el mercado, dispuesto a seguir aprendiendo y mejorando mis conocimientos en estas áreas.",
+    "about-second": "En cuanto a mis habilidades interpersonales, me considero una persona seria, responsable, decidida y trabajadora. Disfruto aprender de diferentes proyectos y tengo muy buena capacidad para trabajar en equipo y aprender de mis compañeros de trabajo. Soy resiliente, tengo mucha paciencia y resuelvo problemas por naturaleza.",
+
+    "my-skills": "Mis Habilidades",
+    "game-dev": "Desarrollo de Videojuegos",
+    "web-design": "Diseño Web",
+    "other": "Otras Habilidades",
+
+    "contact-me": "Contáctame",
+    "phone": "Teléfono",
+    "get-in-touch": "Ponte en contacto. Envíame un mensaje:",
+    "name": "Nombre",
+    "email": "Email",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send-message": "Enviar Mensaje"
 }

@@ -1,14 +1,25 @@
-#home {
+#header {
     padding: 128px 16px;
+    @media screen and (max-width: 992px) {
+        padding: 48px 16px;
+    }
 }
 
-#home-img {
+#header-img {
     display: block;
     width: 60%;
     margin: auto;
 }
 
-#resumeBtn{
+#home-img-medium {
+    padding: 0 80px;
+}
+
+#home-img-small {
+    padding: 0 30px;
+}
+
+#resumeBtn {
     background-color: lightgray;
     transition: background-color 0.5s ease;
     margin-top: 16px;
@@ -21,7 +32,7 @@
     color: white !important;
 }
 
-.dark #resumeBtn{
+.dark #resumeBtn {
     background-color: rgb(20, 20, 20);
 }
 

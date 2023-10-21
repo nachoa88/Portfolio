@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 function AboutSection({ isDarkMode }) {
+    const { t } = useTranslation();
+    
     // This is for the system to check if we're in light mode to add a '.png' and if it's dark to add a '_w.png' and show a different icon.
     const getIconFileName = (baseFileName) => {
         return isDarkMode ? `${baseFileName}_w.png` : `${baseFileName}.png`;
@@ -6,23 +10,13 @@ function AboutSection({ isDarkMode }) {
     
     return (
         <div className="w3-content w3-justify w3-padding-32" id="about">
-            <h2>About Me</h2>
+            <h2>{t('sidebar-about')}</h2>
             <hr className="w3-opacity" />
             <div id="about-text">
-                <p>
-                    My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. For the last years I've been through
-                    the process of professional reconversion, going from the educational to the programming and development sector. At
-                    first, I started learning Unity and C# on my own, and later doing a web application development intensive course
-                    full-stack profile. Right now I'm doing my first steps in the business, and willing to continue learning and
-                    imporving my knoledge in this areas.
-                </p>
-                <p>
-                    As for my soft skills, I consider myself a serious, responsible, decisive and hard-working person. I enjoy learning
-                    from different projects and I have a very good ability to work as a team and learn from my coworkers. I'm resilient, have lots of
-                    patience, and problem-solver by nature.
-                </p>
+                <p>{t('about-first')}</p>
+                <p>{t('about-second')}</p>
             </div>
-            <h3>My Skills</h3>
+            <h3>{t('my-skills')}</h3>
             <hr className="w3-opacity" />
             <div className="row">
                 <p className="skill-title w3-wide">Front-End</p>
@@ -60,7 +54,7 @@ function AboutSection({ isDarkMode }) {
             </div>
 
             <div className="row">
-                <p className="skill-title w3-wide">Game Development</p>
+                <p className="skill-title w3-wide">{t("game-dev")}</p>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/csharp_icon.png" alt="C Sharp icon" />
@@ -76,7 +70,7 @@ function AboutSection({ isDarkMode }) {
             </div>
 
             <div className="row">
-                <p className="skill-title w3-wide">Web Design</p>
+                <p className="skill-title w3-wide">{t("web-design")}</p>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/wordpress_icon.png" alt="Wordpress icon" />
@@ -98,7 +92,7 @@ function AboutSection({ isDarkMode }) {
             </div>
 
             <div className="row">
-                <p className="skill-title w3-wide">Other Skills</p>
+                <p className="skill-title w3-wide">{t("other")}</p>
                 <div className="col-xl-2 col-md-4 col-sm-4 col-6">
                     <div className="icon-container">
                         <img className="iconImg" src={getIconFileName("img/icons/github_icon")} alt="GitHub icon" />
