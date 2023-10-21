@@ -17,19 +17,34 @@
     background: none;
     border: none;
     color: black;
-    transition: color 0.5s ease;
-}
-
-.dropdown-toggle:hover,
-.dropdown-toggle:active {
-    background-color: rgb(100, 100, 100) !important;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
 }
 
 .dark .dropdown-toggle {
     color: whitesmoke;
 }
 
-.dropdown-menu{
+.dropdown-toggle:hover,
+.dropdown-toggle:active {
+    background-color: rgb(65, 65, 65) !important;
+    box-shadow: 0 0 10px black;
+}
+
+.dark .dropdown-toggle:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+
+.dropdown-toggle:focus {
+    color: whitesmoke !important;
+    background-color: rgb(20, 20, 20) !important;
+    box-shadow: 0 0 10px black;
+}
+
+.dark .dropdown-toggle:focus {
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+.dropdown-menu {
     background-color: black;
 }
 

@@ -31,12 +31,32 @@
     }
 }
 
-/*('rem' --> root em) 1 rem is equal to the font size of the root element, so if the root element changes, 
-it will change proportionally. Rem unit are useful for responsive design.*/
-#closeButton {
-    padding:0 12px;
+#closeButton{
+    right: 0;
+    top: 0;
+    margin-top: 12px;
+    margin-right: 24px;
+    width: 58.83px;
+    height: 51.83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: whitesmoke;
     background-color: black;
-    color: white;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+#closeButton:hover {
+    background-color: rgb(65, 65, 65) !important;
+    box-shadow: 0 0 10px lightgray;
+    color: whitesmoke !important;
+}
+
+#closeButton:focus{
+    background-color: rgb(20, 20, 20) !important;
+    box-shadow: 0 0 10px whitesmoke;
+    outline: none;
 }
 
 .w3-bar-block {

@@ -34,12 +34,6 @@ body.dark {
 }
 
 /* Home Page CSS */
-#content{
+#home{
     margin-left: 40%;
-}
-
-
-
-a {
-    text-decoration: none;
 }

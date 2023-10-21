@@ -26,7 +26,7 @@ function LanguageToggle() {
     return (
         <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">
-                <span className="bi bi-globe2"></span>
+                <span className="bi bi-translate h3"></span>
             </Dropdown.Toggle>
 
             <Dropdown.Menu>

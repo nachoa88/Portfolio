@@ -24,7 +24,7 @@ function ContactSection() {
         <p><input className="w3-input w3-padding-16 w3-border" type="text" placeholder={t("subject")} required name="Subject" /></p>
         <p><input className="w3-input w3-padding-16 w3-border" type="text" placeholder={t("message")} required name="Message" /></p>
         <p>
-          <button className="w3-button w3-light-grey w3-padding-large" type="submit">
+          <button className="w3-button" id="messageBtn" type="submit">
             <i className="fa fa-paper-plane"></i> {t("send-message")}
           </button>
         </p>
