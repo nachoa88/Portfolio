@@ -19,8 +19,7 @@ function Footer() {
                 <Link className="bi bi-instagram" to="https://www.instagram.com/albiol.nacho/" target="_blank"
                     rel="noopener noreferrer" aria-label="Instagram Profile of Ignacio Albiol"></Link>
             </div>
-            <p className="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
-                rel="noopener noreferrer" className="w3-hover-text-green">w3.css</a></p>
+            <p className="w3-medium">Copyright 2023 - Ignacio Albiol Dev.</p>
         </footer>
     );
 }

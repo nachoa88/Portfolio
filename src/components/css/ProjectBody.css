@@ -22,10 +22,22 @@ footer a:hover {
 }
 
 .project-text{
-    padding: 4rem;
+    padding: 0px 30px;
     font-size: large;
 }
 
+.project-subtitle{
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.bold-text{
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
 #project-img{
-    padding: 4rem;
+    margin: 50px 0px;
+    padding: 0px 30px;
 }

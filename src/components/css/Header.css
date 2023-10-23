@@ -19,27 +19,41 @@
     padding: 0 30px;
 }
 
-#resumeBtn {
-    background-color: lightgray;
-    transition: background-color 0.5s ease;
+.resume-btn {
     margin-top: 16px;
     padding: 12px 24px;
     border-radius: 5px;
+    background-color: lightgray;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+    border: none;
+    outline: none;
 }
 
-#resumeBtn:hover {
-    background-color: rgb(100, 100, 100) !important;
-    color: white !important;
-}
-
-.dark #resumeBtn {
+.dark .resume-btn {
     background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+}
+
+.resume-btn:hover {
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0 0 10px black;
+    color: whitesmoke;
+}
+
+.dark .resume-btn:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+
+.resume-btn:focus{
+    color: whitesmoke;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 0 10px black;
+}
+
+.dark .resume-btn:focus{
+    box-shadow: 0 0 10px whitesmoke;
 }
 
 h1.w3-jumbo {
     font-weight: bold;
-}
-
-.button-text {
-    margin-left: 5px;
 }

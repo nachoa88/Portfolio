@@ -4,7 +4,7 @@ function PortfolioSection() {
     const { t } = useTranslation();
 
     return (
-        <div className="w3-padding-32 w3-content" id="portfolioSection">
+        <div className="w3-padding-32 w3-content" id="portfolio">
             <h2>{t('sidebar-portfolio')}</h2>
             <hr className="w3-opacity" />
             <div className="row">
