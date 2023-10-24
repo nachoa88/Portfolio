@@ -1,10 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HomePage from '../pages/HomePage.js';
-import ProjectsPage from "../pages/ProjectsPage.js";
+import KonectaPage from "../pages/KonectaPage.js";
+import PortfolioPage from "../pages/PortfolioPage.js";
+import LaPhotographyPage from "../pages/LaPhotographyPage.js";
 import Footer from '../components/Footer.js';
 
+
 import '../components/css/Footer.css';
+
 
 
 function Routing() {
@@ -13,7 +17,9 @@ function Routing() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<HomePage />} />
-                <Route path="projects" element={<ProjectsPage />} />
+                <Route path="konecta" element={<KonectaPage />} />
+                <Route path="portfolioPage" element={<PortfolioPage />} />
+                <Route path="laphotography" element={<LaPhotographyPage />} />
             </Routes>
             <Footer />
         </BrowserRouter>

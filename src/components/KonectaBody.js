@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next';
 
-function ProjectBody() {
+function KonectaBody() {
     const { t } = useTranslation();
 
     return (
-        <header className="container" id="projectS">
+        <header className="container" id="projects">
             <h2><b>K0N3CT4</b></h2>
             <hr className="w3-opacity" />
             <div className="row">
@@ -58,4 +58,4 @@ function ProjectBody() {
     );
 }
 
-export default ProjectBody;
+export default KonectaBody;

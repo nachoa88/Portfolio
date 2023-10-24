@@ -1,17 +1,17 @@
-import ProjectBody from "../components/ProjectBody";
+import LaPhotographyBody from "../components/LaPhotographyBody";
 import Navbar from "../components/Navbar";
 
 import '../components/css/ProjectBody.css';
 import '../components/css/Navbar.css';
 
-function ProjectsPage() {
+function LaPhotographyPage() {
     return (
         <>
             <Navbar />
-            <ProjectBody />
+            <LaPhotographyBody />
             
         </>
     );
 }
 
-export default ProjectsPage;
+export default LaPhotographyPage;

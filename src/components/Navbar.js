@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 import Dropdown from 'react-bootstrap/Dropdown';
 
@@ -38,20 +39,20 @@ function Navbar() {
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
                                 <li>
-                                    <Dropdown.Item><a className="dropdown-item" href="...">Action</a></Dropdown.Item>
+                                    <Dropdown.Item><a className="dropdown-item" href="...">K0N3CT4</a></Dropdown.Item>
                                 </li>
                                 <li>
-                                    <Dropdown.Item><a className="dropdown-item" href="...">Another action</a></Dropdown.Item>
+                                    <Dropdown.Item><a className="dropdown-item" href="...">LA Photography</a></Dropdown.Item>
                                 </li>
                                 <Dropdown.Divider />
                                 <li>
-                                    <Dropdown.Item><a className="dropdown-item" href="...">Something else here</a></Dropdown.Item>
+                                    <Dropdown.Item><a className="dropdown-item" href="...">My Portfolio</a></Dropdown.Item>
                                 </li>
                             </Dropdown.Menu>
                         </Dropdown>
                         <li className="nav-item">
-                            <Link to="/" className="nav-link" aria-label="Go to Contact">
-                                <i className="bi bi-person-fill h3 icon-center"></i>Contact</Link></li>
+                            <HashLink smooth to="/#contact" className="nav-link" aria-label="Go to Contact">
+                                <i className="bi bi-person-fill h3 icon-center"></i>Contact</HashLink></li>
                     </ul>
 
                 </div>
