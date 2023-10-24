@@ -28,5 +28,27 @@
     "email": "Email",
     "subject": "Asunto",
     "message": "Mensaje",
-    "send-message": "Enviar Mensaje"
+    "send-message": "Enviar Mensaje",
+
+    "idea-title": "¿Cómo surgió la idea?",
+    "idea-konecta-1": "K0N3CT4 surge como resultado del proyecto final grupal para el curso de Desarrollo Web que finalicé en noviembre del 2023. Fue desarrollado por mí y otras 3 personas, la idea general del proyecto surgió a partir de la consigna propuesta por nuestro profesor: ¿Cómo relacionar adolescentes y cultura?",
+    "idea-konecta-2": "Esta pregunta nos ha llevado a pensar en diferentes formas de acercar la cultura a los adolescentes, teniendo en cuenta sus necesidades y restricciones. Es por esto que decidimos crear una aplicación específica para ellos, que sea práctica y sencilla, y en donde puedan encontrar eventos culturales del “underground” que sean gratuitos.",
+    "idea-konecta-3": "El proyecto recopilará información sobre estos eventos culturales y los mostrará en dos formatos, un listado con todos los detalles (descripción, tipo de evento, hora y lugar) y también en un mapa.",
+    "idea-konecta-4": "Tanto el listado como el mapa, permiten a los usuarios filtrar el contenido para encontrar de forma rápida el tipo de evento que se adapta a sus necesidades. Estos filtros se podrán personalizar al crear un usuario completando los campos de intereses.",
+    "idea-konecta-5": "A su vez, los usuarios podrán interactuar entre sí, ver los eventos a los que asisten sus amigos y desbloquear recompensas por participar en la comunidad, comentando y calificando los eventos a los que han asistido.",
+    "how-title": "¿Cómo se llevó a cabo el proyecto?",
+    "how-konecta-1": "En cuanto al proceso de desarrollo, lo primero que hemos hecho ha sido realizar un bosquejo LO-FI en Figma, tanto mobile como desktop, que luego se ha ido mejorando, agregando color y estilo.",
+    "how-konecta-2": "Por otro lado, hemos utilizando Trello para administrar nuestro flujo de trabajo y repartir las tareas, y GitHub para ayudarnos a administrar, rastrear y controlar los cambios mientras desarrollábamos la aplicación.",
+    "front-end": "Front-End",
+    "front-konecta-text": "Realizado en React, utilizando la librería Router para gestionar el tráfico de una página a la otra, y JavaScript como lenguaje principal para las funciones y componentes. Para el estilo se ha utilizado tanto CSS como Bootrsap, y para mejorar la responsividad, Media Queries. Luego hemos trasladado la build del proyecto a una instancia de EC2 de Amazon Web Services.",
+    "back-end": "Back-End",
+    "back-konecta-text": "Hemos utilizado Spring Boot para nuestra API, y en dónde hemos creado nuestros controladores, entidades y repositorios. Una vez realizada y comprobada su funcionalidad, al igual que el front-end, la hemos trasladado a una instancia EC2 de AWS mediante Apache Tomcat en formato .war.",
+    "data-base": "Base de Datos",
+    "db-konecta-text": "La base de datos fue creada primero en formato .json y luego trasladad a un RDS en Amazon Web Services. La misma se depliega en la aplicación mediante un “fetch”.",
+
+    "in-dev-konecta" : "Futuras Actualizaciones",
+    "dev-konecta-text" : "El proyecto aún se encuentra en desarrollo.........",
+
+    "colaborators-konecta" : "Colaboradores:",
+    "colaborators-text" : "lista pendiente"
 }

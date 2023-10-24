@@ -1,35 +1,61 @@
-#contact {
-    margin-bottom: 64px;
-}
-
-#mapImg {
-    width: 50%;
-    margin: 32px 0;
-}
-
-.w3-section {
-    color: rgb(30, 30, 30);
+#contact p {
+    color: black;
     transition: color 0.5s ease;
 }
 
-.dark .w3-section {
-    color: whitesmoke
+.dark #contact p {
+    color: whitesmoke;
 }
 
-#messageBtn {
-    background-color: lightgray;
-    transition: background-color 0.5s ease;
+.contact-form input, .contact-form textarea {
+    border-radius: 5px;
+}
+
+.contact-info i {
+    margin-right: 15px;
+}
+
+.get-touch {
+    font-size: large;
+}
+
+#mapImg {
+    border-radius: 5px;
+    width: 40%;
+    margin: 32px 0;
+}
+
+.message-btn {
     margin-top: 16px;
     padding: 12px 24px;
     border-radius: 5px;
-    color: black;
+    background-color: lightgray;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+    border: none;
+    outline: none;
 }
 
-#messageBtn:hover {
-    background-color: rgb(100, 100, 100) !important;
-    color: white !important;
-}
-
-.dark #messageBtn {
+.dark .message-btn {
     background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+}
+
+.message-btn:hover {
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0 0 10px black;
+    color: whitesmoke;
+}
+
+.dark .message-btn:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+
+.message-btn:focus{
+    color: whitesmoke;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 0 10px black;
+}
+
+.dark .message-btn:focus{
+    box-shadow: 0 0 10px whitesmoke;
 }

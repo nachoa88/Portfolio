@@ -25,7 +25,7 @@ const languages = [
 function LanguageToggle() {
     return (
         <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <Dropdown.Toggle variant="success" id="dropdown-basic" aria-label="Select Language">
                 <span className="bi bi-translate h3"></span>
             </Dropdown.Toggle>
 

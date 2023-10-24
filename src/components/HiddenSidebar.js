@@ -20,7 +20,7 @@ function HiddenSidebar({ isVisible, toggleSidebar }) {
                     <button className="w3-bar-item w3-button w3-hover-black" 
                         onClick={() => { toggleSidebar(); scrollToSection("home"); }} aria-label="Navigate to Home">{t('sidebar-home')}</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
-                        onClick={() => { toggleSidebar(); scrollToSection("portfolioSection"); }} aria-label="Navigate to Portfolio">{t('sidebar-portfolio')}</button>
+                        onClick={() => { toggleSidebar(); scrollToSection("portfolio"); }} aria-label="Navigate to Portfolio">{t('sidebar-portfolio')}</button>
                     <button className="w3-bar-item w3-button w3-hover-black"
                         onClick={() => { toggleSidebar(); scrollToSection("about"); }} aria-label="Navigate to About Me">{t('sidebar-about')}</button>
                     <button className="w3-bar-item w3-button w3-hover-black"

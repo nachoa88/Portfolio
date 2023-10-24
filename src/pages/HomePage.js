@@ -35,11 +35,16 @@ function HomePage() {
         setDarkTheme(darkMode);
     };
 
+    const homeStyles = {
+        marginLeft: '40%',
+    };
+
+    
     return (
         <>
             <LeftSidebar />
             <HiddenSidebar isVisible={sidebarVisible} toggleSidebar={toggleSidebar} />
-            <div className="w3-main w3-padding-large" id="home">
+            <div className="w3-main w3-padding-large" id="home" style={homeStyles}>
                 <div className="toggle-container">
                     <ThemeToggle toggleTheme={toggleTheme} />
                     <LanguageToggle />

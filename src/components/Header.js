@@ -10,11 +10,10 @@ function Header() {
             <p>{t('header-subtitle')}</p>
             <img src="img/fotoCV2.jpg" className="w3-image w3-hide-large w3-hide-small w3-round" id="home-img-medium" alt="Portfolio"/>
             <img src="img/fotoCV2.jpg" className="w3-image w3-hide-large w3-hide-medium w3-round" id="home-img-small" alt="Portfolio"/>
-            <a href={Resume} target="_blank" rel="noopener noreferrer"> {/* rel="noopener noreferrer" is for security */}
-            <button className="w3-button" id="resumeBtn">
+            <button className="resume-btn" onClick={() => window.open(Resume, '_blank')} download={Resume}>
                 <i className="bi bi-download"></i>
                 <span className="button-text">{t('download-cv')}</span>
-            </button></a>
+            </button>
         </header>
     );
 }
