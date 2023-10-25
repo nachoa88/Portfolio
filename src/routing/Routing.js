@@ -18,7 +18,7 @@ function Routing() {
             <Routes>
                 <Route index element={<HomePage />} />
                 <Route path="konecta" element={<KonectaPage />} />
-                <Route path="portfolioPage" element={<PortfolioPage />} />
+                <Route path="portfoliopage" element={<PortfolioPage />} />
                 <Route path="laphotography" element={<LaPhotographyPage />} />
             </Routes>
             <Footer />

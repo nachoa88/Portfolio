@@ -5,21 +5,25 @@ function LaPhotographyBody() {
 
     return (
         <header className="container" id="projects">
-            <h2><b>LA Photography</b></h2>
+            <h2 className="project-title">LA Photography</h2>
+            <hr className="w3-opacity" />
+            <h3 className="project-subtitle">{t("idea-title")}</h3>
+            
             <hr className="w3-opacity" />
             <h2>Work in progress, sorry...</h2>
             <hr className="w3-opacity" />
 
-            <hr className="w3-opacity" />
+        
             <div className="row">
-                <div className="col-xl-7 col-md-6 col-sm-12">
+                <div className="col-xl-7 col-md-12 col-sm-12">
                 </div>
-                <div className="col-xl-5 col-md-6 col-sm-12">
+                <div className="col-xl-5 col-md-12 col-sm-12">
                 </div>
-                
-                <div className="col-xl-5 col-md-6 col-sm-12">
+            </div>
+            <div className="row">
+                <div className="col-xl-5 col-md-12 col-sm-12">
                 </div>
-                <div className="col-xl-7 col-md-6 col-sm-12">
+                <div className="col-xl-7 col-md-12 col-sm-12">
                 </div>
             </div>
         </header>

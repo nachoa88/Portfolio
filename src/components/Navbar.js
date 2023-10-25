@@ -39,14 +39,17 @@ function Navbar() {
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
                                 <li>
-                                    <Dropdown.Item><a className="dropdown-item" href="...">K0N3CT4</a></Dropdown.Item>
+                                    <Dropdown.Item><Link className="dropdown-item" to="/konecta" aria-label="Go to Konecta project">
+                                        K0N3CT4</Link></Dropdown.Item>
                                 </li>
                                 <li>
-                                    <Dropdown.Item><a className="dropdown-item" href="...">LA Photography</a></Dropdown.Item>
+                                    <Dropdown.Item><Link className="dropdown-item" to="/laphotography" aria-label="Go to LA Photography">
+                                        LA Photography</Link></Dropdown.Item>
                                 </li>
                                 <Dropdown.Divider />
                                 <li>
-                                    <Dropdown.Item><a className="dropdown-item" href="...">My Portfolio</a></Dropdown.Item>
+                                <Dropdown.Item><Link className="dropdown-item" to="/portfoliopage" aria-label="Go to My Portfolio">
+                                        My Portfolio</Link></Dropdown.Item>
                                 </li>
                             </Dropdown.Menu>
                         </Dropdown>
