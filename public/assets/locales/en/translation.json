@@ -13,8 +13,9 @@
     "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skills. I've used Hostinger to host my website.",
     "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
 
-    "about-first": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. For the last years I've been through the process of professional reconversion, going from the educational to the programming and development sector. At first, I started learning Unity and C# on my own, and later doing a web application development intensive course full-stack profile. Right now I'm doing my first steps in the business, and willing to continue learning and imporving my knoledge in this areas.",
-    "about-second": "As for my soft skills, I consider myself a serious, responsible, decisive and hard-working person. I enjoy learning from different projects and I have a very good ability to work as a team and learn from my coworkers. I'm resilient, have lots of patience, and problem-solver by nature.",
+    "about-first": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course",
+    "about-second": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator",
+    "about-third": "Currently, I am committed to continuous growth and learning in these exciting areas. Excited about the future, and ready to contribute with my experience to the development of new projects.",
 
     "my-skills": "My Skills",
     "game-dev": "Game Development",
