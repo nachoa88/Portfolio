@@ -13,9 +13,9 @@
     "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skills. I've used Hostinger to host my website.",
     "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
 
-    "about-first": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course",
-    "about-second": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator",
-    "about-third": "Currently, I am committed to continuous growth and learning in these exciting areas. Excited about the future, and ready to contribute with my experience to the development of new projects.",
+    "about-1": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course",
+    "about-2": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator",
+    "about-3": "Currently, I am committed to continuous growth and learning in these exciting areas. Excited about the future, and ready to contribute with my experience to the development of new projects.",
 
     "my-skills": "My Skills",
     "game-dev": "Game Development",
@@ -58,5 +58,16 @@
 
     "colaborators-konecta" : "Collaborators:",
 
-    "skills-used" : "Used tools:"
+    "skills-used" : "Used tools:",
+
+    "idea-laphoto-1" : "This project arises from two factors. On the one hand, my desire to continue learning and getting to know new tools. On the other hand, friendship, I have a good friend of mine who is a photographer, and he did not have a website on which to show his work and projects.",
+    "idea-laphoto-2" : "This is why I decided to create a photography portfolio using WordPress and Elementor, so that it is easy to use and keep updated, and above all so that he himself is able to manage the content of the page in a simple way.",
+    "idea-laphoto-3" : "Knowing the material that my friend has, I knew that the portfolio would need some fundamental segments, the possibility of including photographs, books in PDF and multimedia projects. So I thought that for the main page the best thing would be a gallery where you can see featured photographs and at the end, a section where there is a brief summary of the segments mentioned before. On the other hand, the user should also have easy access to the different pages where the photos could be found depending on the place or theme.",
+
+    "how-laphoto-1" : "As for the process, the first thing I did was get together with him and create a sketch of what he would like the page to be, looking and comparing different portfolios and pages from other photographers. From here on, I had to investigate on my own about the operation of WordPress and its different plugins, since I had no prior knowledge. The one that most effectively covered my needs was Elementor, along with Essential Addons for Elementor.",
+    "how-laphoto-2" : "Once the basic structure of the page was created, I created a default style thanks to the Theme Builder included in Elementor so as not to have to make style changes for each component.",
+    "how-laphoto-3" : "The next step was to create and save a template of the components that would be repeated on more than one page (header, footer and some galleries). From there I have been adding the different sections and pages until the current state.",
+    "how-laphoto-4" : "As I have progressed with the project, I have always been looking and reviewing how the page behaved on different devices, making modifications from Elementor so that the result is as optimal as possible.",
+    "how-laphoto-5" : "Finally, I have added the possibility of changing the language, in principle only two (English and Spanish), for which I have used the TranslatePress - Multilingual plugin. This plugin allows both automatic and manual translations, which in this case was what I was looking for.",
+    "how-laphoto-6" : "You can take a look at the page by clicking on the following link: "
 }

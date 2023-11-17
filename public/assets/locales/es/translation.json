@@ -13,9 +13,9 @@
     "portfolio-text": "Este es mi propio portfolio, fue hecho con React, usando algunos templates de W3Schools y Bootstrap, poniendo en práctica mis habilidades en HTML, CSS, JS y Bootstrap. He utilizado Hostinger para alojar mi sitio web.",
     "photography-text": "Este proyecto fue hecho para un amigo que es fotógrafo, básicamente es un portfolio de su trabajo. Lo he hecho con Wordpress y el complemento de Elementor, fue mi primer acercamiento a estas herramientas.",
 
-    "about-first": "Mi nombre es Ignacio Albiol, soy desarrollador web y de videojuegos, y vivo en Barcelona. Durante los últimos años he atravesado un proceso de reconversión profesional, pasando desde el sector educativo hacia el mundo de la programación y desarrollo. Inicié mi camino aprendiendo Unity y C# de forma autodidacta, y luego consolidé mis habilidades con una formación integral en desarrollo de aplicaciones web full-stack.",
-    "about-second": "En cuanto a mis habilidades interpersonales, me considero una persona seria, responsable, decidida y trabajadora. Me gusta sumergirme en proyectos diversos, y he aprendido a trabajar en equipo de manera efectiva, extrayendo lo mejor de la colaboración con mis compañeros. Además, soy paciente y resiliente, cualidades clave en el mundo del desarrollo, y que he perfeccionado a lo largo de mi trayectoria profesional como educador.",
-    "about-third": "Actualmente, me encuentro comprometido con el continuo crecimiento y aprendizaje en estas apasionantes áreas. Emocionado por el futuro, y listo para aportar mi experiencia en el desarrollo de nuevos proyectos.",
+    "about-1": "Mi nombre es Ignacio Albiol, soy desarrollador web y de videojuegos, y vivo en Barcelona. Durante los últimos años he atravesado un proceso de reconversión profesional, pasando desde el sector educativo hacia el mundo de la programación y desarrollo. Inicié mi camino aprendiendo Unity y C# de forma autodidacta, y luego consolidé mis habilidades con una formación integral en desarrollo de aplicaciones web full-stack.",
+    "about-2": "En cuanto a mis habilidades interpersonales, me considero una persona seria, responsable, decidida y trabajadora. Me gusta sumergirme en proyectos diversos, y he aprendido a trabajar en equipo de manera efectiva, extrayendo lo mejor de la colaboración con mis compañeros. Además, soy paciente y resiliente, cualidades clave en el mundo del desarrollo, y que he perfeccionado a lo largo de mi trayectoria profesional como educador.",
+    "about-3": "Actualmente, me encuentro comprometido con el continuo crecimiento y aprendizaje en estas apasionantes áreas. Emocionado por el futuro, y listo para aportar mi experiencia en el desarrollo de nuevos proyectos.",
 
     "my-skills": "Mis Habilidades",
     "game-dev": "Desarrollo de Videojuegos",
@@ -58,5 +58,16 @@
 
     "colaborators-konecta" : "Colaboradores:",
 
-    "skills-used" : "Herramientas utilizadas:"
+    "skills-used" : "Herramientas utilizadas:",
+
+    "idea-laphoto-1" : "Este proyecto surge a raíz de dos factores. Por un lado, mis ganas de seguir aprendiendo y conociendo nuevas herramientas. Por otro lado, la amistad, tengo un buen amigo mío fotógrafo, y que no tenía una página web en la que enseñar sus trabajos y proyectos.",
+    "idea-laphoto-2" : "Es por esto que decidí crear un portfolio de fotografía utilizando WordPress y Elementor, para que sea fácil de utilizar y mantener actualizado, y sobre todo para que él mismo pueda gestionar el contenido de la página de forma sencilla.",
+    "idea-laphoto-3" : "Conociendo el material que tiene mí amigo, sabía que el portfolio necesitaría de algunos apartados fundamentales, la posibilidad de incluir fotografías, libros en pdf y un proyecto multimedia. Por lo que pensé que para la página principal lo mejor sería una galería en donde se puedan ver fotografías destacadas y al acabar, una sección en donde haya un breve resumen de los apartados mencionados anteriormente. Por otro lado, también debería tener a fácil acceso las diferentes páginas en dónde se pudieran encontrar las fotos según el lugar o temática.",
+
+    "how-laphoto-1" : "En cuanto al proceso, lo primero que he hecho fue reunirme con él y crear un boceto de cómo le gustaría que sea la página, mirando y comparando diferentes portfolios y páginas de otros fotógrafos. A partir de aquí, he tenido que investigar por mí cuenta sobre el funcionamiento de WordPress y de sus diferentes plugins, ya que no disponía de conocimientos previos. El que cubrió de manera más eficaz mis necesidades fue Elementor, junto con Essential Addons for Elementor.",
+    "how-laphoto-2" : "Una vez creada la estructura básica de la página, he creado un estilo predeterminado gracias al Theme Builder incluido en Elementor para no tener que realizar los cambios de estilo para cada componente.",
+    "how-laphoto-3" : "El siguiente paso fue crear y guardar un template de los componentes que se repetirían en más de una página (header, footer y algunas galerías). A partir de allí he ido agregando las diferentes secciones y páginas hasta el estado actual.",
+    "how-laphoto-4" : "A medida que he ido avanzando con el proyecto, siempre he ido mirando y revisando cómo se comportaba la página en diferentes dispositivos, haciendo modificaciones desde Elementor para que el resultado sea el más óptimo posible.",
+    "how-laphoto-5" : "Por último, he agregado la posibilidad de cambiar de idioma, en principio sólo dos (inglés y español), para la cual he utilizado el plugin TranslatePress - Multilingual. Este complemento permite tanto dejar traducciones automáticas como también hacer traducciones manuales, que era lo que en este caso me interesaba más.",
+    "how-laphoto-6" : "Puedes echar un vistazo a la página haciendo click en el siguiente enlace: "
 }

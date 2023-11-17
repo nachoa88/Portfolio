@@ -13,9 +13,9 @@
     "portfolio-text": "Aquest és el meu propi portfoli, està fet amb React, utilitzant alguns templates de W3Schools i Bootstrap, posant en pràctica les meves habilitats en HTML, CSS, JS i Bootstrap.",
     "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
 
-    "about-first": "Em dic Ignacio Albiol, sóc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
-    "about-second": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, sóc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",
-    "about-third": "Actualment, estic compromès amb el creixement i aprenentatge continu en aquestes àrees apassionants. Emocionat pel futur i preparat per aportar la meva experiència en el desenvolupament de nous projectes.",
+    "about-1": "Em dic Ignacio Albiol, sóc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
+    "about-2": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, sóc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",
+    "about-3": "Actualment, estic compromès amb el creixement i aprenentatge continu en aquestes àrees apassionants. Emocionat pel futur i preparat per aportar la meva experiència en el desenvolupament de nous projectes.",
 
     "my-skills": "Les Meves Habilitats",
     "game-dev": "Desenvolupament de Videojocs",
@@ -58,5 +58,16 @@
 
     "colaborators-konecta" : "Col·laboradors:",
 
-    "skills-used" : "Eines utilitzades:"
+    "skills-used" : "Eines utilitzades:",
+
+    "idea-laphoto-1" : "Aquest projecte sorgeix arran de dos factors. Per una banda, les meves ganes de seguir aprenent i coneixent noves eines. D'altra banda, l'amistat, tinc un bon amic meu fotògraf, i que no tenia una pàgina web on ensenyar els seus treballs i projectes.",
+    "idea-laphoto-2" : "És per això que vaig decidir crear un portfoli de fotografia utilitzant WordPress i Elementor, perquè sigui fàcil d'utilitzar i mantenir-lo actualitzat, i sobretot perquè ell mateix pugui gestionar el contingut de la pàgina de forma senzilla.",
+    "idea-laphoto-3" : "Coneixent el material que té el meu amic, sabia que el portfoli necessitaria alguns apartats fonamentals, la possibilitat d'incloure fotografies, llibres en pdf i un projecte multimèdia. Per això vaig pensar que per a la pàgina principal el millor seria una galeria on es puguin veure fotografies destacades i al final, una secció on hi hagi un breu resum dels apartats esmentats anteriorment. D'altra banda, també hauria de tenir fàcil accés les diferents pàgines on es poguessin trobar les fotos segons el lloc o temàtica.",
+
+    "how-laphoto-1" : "Pel que fa al procés, el primer que he fet va ser reunir-me amb ell i crear un esbós de com li agradaria que sigui la pàgina, mirant i comparant diferents portfolis i pàgines d'altres fotògrafs. A partir d'aquí, he hagut d'investigar pel meu compte sobre el funcionament de WordPress i dels seus diferents plugins, ja que no disposava de coneixements previs. El que va cobrir de manera més eficaç les meves necessitats va ser Elementor, juntament amb Essential Addons for Elementor.",
+    "how-laphoto-2" : "Un cop creada l'estructura bàsica de la pàgina, he creat un estil predeterminat gràcies al Theme Builder inclòs a Elementor per no haver de fer els canvis d'estil per a cada component.",
+    "how-laphoto-3" : "El pas següent va ser crear i desar un template dels components que es repetirien en més d'una pàgina (header, footer i algunes galeries). A partir d'aquí he anat afegint les diferents seccions i pàgines fins a l'estat actual.",
+    "how-laphoto-4" : "A mesura que he anat avançant amb el projecte, sempre he anat mirant i revisant com es comportava la pàgina a diferents dispositius, fent modificacions des d'Elementor perquè el resultat sigui el més òptim possible.",
+    "how-laphoto-5" : "Finalment, he afegit la possibilitat de canviar d'idioma, en principi només dos (anglès i espanyol), per a la qual he fet servir el plugin TranslatePress - Multilingual. Aquest complement permet tant deixar traduccions automàtiques com fer traduccions manuals, que era el que en aquest cas m'interessava més.",
+    "how-laphoto-6" : "Pots donar un cop d'ull a la pàgina fent click al següent enllaç: "
 }
