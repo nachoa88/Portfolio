@@ -9,12 +9,14 @@
 
     "learn-more": "Més informació",
     "visit-site": "Visita la Web",
+    "play-game" : "Jugar",
     "konecta-text": "Aquest projecte ho vam fer conjuntament amb el meu grup al Curs de Desenvolupament Web. Pel front-end es fa servir React i pel back-end Spring Boot, utilitzant AWS per als nostres servidors.",
     "portfolio-text": "Aquest és el meu propi portfoli, està fet amb React, utilitzant alguns templates de W3Schools i Bootstrap, posant en pràctica les meves habilitats en HTML, CSS, JS i Bootstrap.",
     "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
+    "projectboost-text": "Un dels projectes pel curs de GameDev.tv Team. És un senzill joc on el jugador ha d'arribar a la plataforma de destinació enfrontant-se a diferents obstacles, com més ràpid ho faci, més punts sumarà.",
 
-    "about-1": "Em dic Ignacio Albiol, sóc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
-    "about-2": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, sóc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",
+    "about-1": "Em dic Ignacio Albiol, soc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
+    "about-2": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, soc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",
     "about-3": "Actualment, estic compromès amb el creixement i aprenentatge continu en aquestes àrees apassionants. Emocionat pel futur i preparat per aportar la meva experiència en el desenvolupament de nous projectes.",
 
     "my-skills": "Les Meves Habilitats",
@@ -46,28 +48,46 @@
     "data-base": "Base de Dades",
     "db-konecta-text": "La base de dades va ser creada en principi en format .json i després traslladada a un RDS a Amazon Web Services. Aquesta es desplega a l'aplicació mitjançant un fetch i és l'encarregada de mostrar-nos tota la informació de cada esdeveniment.",
 
-    "in-dev-konecta" : "Futures Actualitzacions",
-    "dev-konecta-text" : "El projecte encara es troba en fase de desenvolupament i compta amb molt de potencial per agregar diferents features. Aquestes són les funcionalitats que s'afegiran properament:",
-    "dev-konecta-item1" : "Pantalla d'edició de perfil d'usuari.",
-    "dev-konecta-item2" : "Creació de perfil d'Administrador d'esdeveniments.",
-    "dev-konecta-item3" : "Mapa funcional.",
-    "dev-konecta-item4" : "Possibilitat que l'usuari pugui marcar l'assistència a un esdeveniment, i que aquest aparegui al seu perfil.",
-    "dev-konecta-item5" : "Sistema de qualificació per als esdeveniments (like i dislike).",
-    "dev-konecta-item6" : "Sistema de interacció entre usuaris.",
-    "dev-konecta-item7" : "Sistema de recompenses per participació a la comunitat (Tokens).",
+    "in-dev-konecta": "Futures Actualitzacions",
+    "dev-konecta-text": "El projecte encara es troba en fase de desenvolupament i compta amb molt de potencial per agregar diferents features. Aquestes són les funcionalitats que s'afegiran properament:",
+    "dev-konecta-item1": "Pantalla d'edició de perfil d'usuari.",
+    "dev-konecta-item2": "Creació de perfil d'Administrador d'esdeveniments.",
+    "dev-konecta-item3": "Mapa funcional.",
+    "dev-konecta-item4": "Possibilitat que l'usuari pugui marcar l'assistència a un esdeveniment, i que aquest aparegui al seu perfil.",
+    "dev-konecta-item5": "Sistema de qualificació per als esdeveniments (like i dislike).",
+    "dev-konecta-item6": "Sistema de interacció entre usuaris.",
+    "dev-konecta-item7": "Sistema de recompenses per participació a la comunitat (Tokens).",
 
-    "colaborators-konecta" : "Col·laboradors:",
+    "colaborators-konecta": "Col·laboradors:",
 
-    "skills-used" : "Eines utilitzades:",
+    "skills-used": "Eines utilitzades:",
 
-    "idea-laphoto-1" : "Aquest projecte sorgeix arran de dos factors. Per una banda, les meves ganes de seguir aprenent i coneixent noves eines. D'altra banda, l'amistat, tinc un bon amic meu fotògraf, i que no tenia una pàgina web on ensenyar els seus treballs i projectes.",
-    "idea-laphoto-2" : "És per això que vaig decidir crear un portfoli de fotografia utilitzant WordPress i Elementor, perquè sigui fàcil d'utilitzar i mantenir-lo actualitzat, i sobretot perquè ell mateix pugui gestionar el contingut de la pàgina de forma senzilla.",
-    "idea-laphoto-3" : "Coneixent el material que té el meu amic, sabia que el portfoli necessitaria alguns apartats fonamentals, la possibilitat d'incloure fotografies, llibres en pdf i un projecte multimèdia. Per això vaig pensar que per a la pàgina principal el millor seria una galeria on es puguin veure fotografies destacades i al final, una secció on hi hagi un breu resum dels apartats esmentats anteriorment. D'altra banda, també hauria de tenir fàcil accés les diferents pàgines on es poguessin trobar les fotos segons el lloc o temàtica.",
+    "idea-laphoto-1": "Aquest projecte sorgeix arran de dos factors. Per una banda, les meves ganes de seguir aprenent i coneixent noves eines. D'altra banda, l'amistat, tinc un bon amic meu fotògraf, i que no tenia una pàgina web on ensenyar els seus treballs i projectes.",
+    "idea-laphoto-2": "És per això que vaig decidir crear un portfoli de fotografia utilitzant WordPress i Elementor, perquè sigui fàcil d'utilitzar i mantenir-lo actualitzat, i sobretot perquè ell mateix pugui gestionar el contingut de la pàgina de forma senzilla.",
+    "idea-laphoto-3": "Coneixent el material que té el meu amic, sabia que el portfoli necessitaria alguns apartats fonamentals, la possibilitat d'incloure fotografies, llibres en pdf i un projecte multimèdia. Per això vaig pensar que per a la pàgina principal el millor seria una galeria on es puguin veure fotografies destacades i al final, una secció on hi hagi un breu resum dels apartats esmentats anteriorment. D'altra banda, també hauria de tenir fàcil accés les diferents pàgines on es poguessin trobar les fotos segons el lloc o temàtica.",
 
-    "how-laphoto-1" : "Pel que fa al procés, el primer que he fet va ser reunir-me amb ell i crear un esbós de com li agradaria que sigui la pàgina, mirant i comparant diferents portfolis i pàgines d'altres fotògrafs. A partir d'aquí, he hagut d'investigar pel meu compte sobre el funcionament de WordPress i dels seus diferents plugins, ja que no disposava de coneixements previs. El que va cobrir de manera més eficaç les meves necessitats va ser Elementor, juntament amb Essential Addons for Elementor.",
-    "how-laphoto-2" : "Un cop creada l'estructura bàsica de la pàgina, he creat un estil predeterminat gràcies al Theme Builder inclòs a Elementor per no haver de fer els canvis d'estil per a cada component.",
-    "how-laphoto-3" : "El pas següent va ser crear i desar un template dels components que es repetirien en més d'una pàgina (header, footer i algunes galeries). A partir d'aquí he anat afegint les diferents seccions i pàgines fins a l'estat actual.",
-    "how-laphoto-4" : "A mesura que he anat avançant amb el projecte, sempre he anat mirant i revisant com es comportava la pàgina a diferents dispositius, fent modificacions des d'Elementor perquè el resultat sigui el més òptim possible.",
-    "how-laphoto-5" : "Finalment, he afegit la possibilitat de canviar d'idioma, en principi només dos (anglès i espanyol), per a la qual he fet servir el plugin TranslatePress - Multilingual. Aquest complement permet tant deixar traduccions automàtiques com fer traduccions manuals, que era el que en aquest cas m'interessava més.",
-    "how-laphoto-6" : "Pots donar un cop d'ull a la pàgina fent click al següent enllaç: "
+    "how-laphoto-1": "Pel que fa al procés, el primer que he fet va ser reunir-me amb ell i crear un esbós de com li agradaria que sigui la pàgina, mirant i comparant diferents portfolis i pàgines d'altres fotògrafs. A partir d'aquí, he hagut d'investigar pel meu compte sobre el funcionament de WordPress i dels seus diferents plugins, ja que no disposava de coneixements previs. El que va cobrir de manera més eficaç les meves necessitats va ser Elementor, juntament amb Essential Addons for Elementor.",
+    "how-laphoto-2": "Un cop creada l'estructura bàsica de la pàgina, he creat un estil predeterminat gràcies al Theme Builder inclòs a Elementor per no haver de fer els canvis d'estil per a cada component.",
+    "how-laphoto-3": "El pas següent va ser crear i desar un template dels components que es repetirien en més d'una pàgina (header, footer i algunes galeries). A partir d'aquí he anat afegint les diferents seccions i pàgines fins a l'estat actual.",
+    "how-laphoto-4": "A mesura que he anat avançant amb el projecte, sempre he anat mirant i revisant com es comportava la pàgina a diferents dispositius, fent modificacions des d'Elementor perquè el resultat sigui el més òptim possible.",
+    "how-laphoto-5": "Finalment, he afegit la possibilitat de canviar d'idioma, en principi només dos (anglès i espanyol), per a la qual he fet servir el plugin TranslatePress - Multilingual. Aquest complement permet tant deixar traduccions automàtiques com fer traduccions manuals, que era el que en aquest cas m'interessava més.",
+    "how-laphoto-6": "Pots donar un cop d'ull a la pàgina fent click al següent enllaç: ",
+
+    "my-portfolio": "El Meu Portfolio",
+    "how-portfolio-1": "Este proyecto lo creé para continuar aprendiendo, poner en práctica conocimientos adquiridos y también para tener una plataforma en donde pudiera enseñar mis trabajos y proyectos.",
+    "how-portfolio-2": "He utilizado como base un template de W3Schools hecho en HTML y lo primero que hice fue pasar los fragmentos que me interesaban de ese HTML a componentes de React utilizando JavaScript. Luego he ido modificándolos y adaptándolos a gusto con la ayuda de CSS, Bootstrap y Media Queries para lograr que sea lo más responsivo posible. Por último, he creado los componentes restantes hasta tener todos los apartados que hay actualmente (Cards para los proyectos, Sobre Mi, Habilidades, Contáctame).",
+    "design-portfolio": "Diseño Responsivo y Accesible",
+    "design-portfolio-text": "El diseño está principalmente pensado para que sea lo más accesible posible, la web posee un 100% en accesibilidad medido utilizando la herramienta Lighthouse de Google Chrome. Para lograr esto, he evitado el uso de muchos colores y he utilizado contrastes altos entre tipografía y fondos. Por otro lado, he utilizado Georgia Serif como tipo de letra ya que es una de las tantas que favorecen la lectura. A su vez, cada imagen tiene su descripción como texto alternativo y, tanto los botones como el formulario, tienen sus respectivos aria-label indicando su función.",
+
+    "form-portfolio": "Formulario de contacto: EmailJS",
+    "form-portfolio-text": "...... estoy en ello .....",
+
+    "func-portfolio": "Funcionalidades Agregadas",
+    "func-portfolio-intro": "He creado dos funcionalidades para que el usuario tenga una mejor experiencia al visitar la página, la posibilidad de cambiar entre light y dark mode y de seleccionar el idioma (por el momento disponible para Inglés, Catalán y Español).",
+    "func-portfolio-text-1": "He elegido hacer el cambio de un theme al otro mediante una función que agregue un tipo de clase específico al componente body (className=”dark”) y utilizar CSS para aplicar los cambios en el estilo (.dark).",
+    "func-portfolio-text-2": "¿Cómo funciona? Al hacer click en el botón y pasar del Light al Dark Mode, este theme se aplica como nombre de clase al elemento body del HTML, por lo que el className del body será “dark”. CSS verá este cambio en la clase de body, y aplicará los estilos correspondientes con la transición indicada. Al volver a hacer click, la clase “dark” se eliminará y volverá a su estado anterior con sus respectivos estilos.",
+    "func-portfolio-text-3": "Para poder acceder a esta información, saber cuál es el theme actual, y a partir de ahí poder actualizarlo, he utilizado los hooks useEffect y useState.",
+
+    "lang-select-portfolio": "Selección de Idiomas",
+    "lang-select-portfolio-text": "...... estoy en ello ..... He usado i18next."
 }

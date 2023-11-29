@@ -44,6 +44,19 @@ function PortfolioSection() {
                         </div>
                     </div>
                 </div>
+                <div className="col-xl-4 col-md-6 col-sm-12">
+                    <div className="card">
+                        <img src="img/project-boost.jpg" className="card-img-top" alt="Sample of Space-Boost" />
+                        <div className="card-body">
+                            <p className="card-title">Game: Space-Boost</p>
+                            <p className="card-text">{t('projectboost-text')}</p>
+                            <a href="https://sharemygame.com/@nachoa88/project-boost-prototype" target="_blank" rel="noopener noreferrer" className="btn mr-2">
+                                <i className="fas fa-link" style={{ marginRight: '5px' }}></i>{t('play-game')}</a>
+                            <a href="https://github.com/nachoa88/SpaceBoost-Prototype" target="_blank" rel="noopener noreferrer" className="btn mr-2">
+                                <i className="fab fa-github" style={{ marginRight: '5px' }}></i>Github</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>

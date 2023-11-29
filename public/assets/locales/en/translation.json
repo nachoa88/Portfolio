@@ -9,12 +9,14 @@
 
     "learn-more": "Learn More",
     "visit-site": "Visit Site",
+    "play-game" : "Play Game",
     "konecta-text": "This project was made with my group during the Web Development Course. Front-end was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.",
     "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skills. I've used Hostinger to host my website.",
     "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
+    "projectboost-text": "One of the projects for the GameDev.tv Team course. It's a simple game where the player must reach the destination platform facing different obstacles, the faster, the more points he will score.",
 
-    "about-1": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course",
-    "about-2": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator",
+    "about-1": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course.",
+    "about-2": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator.",
     "about-3": "Currently, I am committed to continuous growth and learning in these exciting areas. Excited about the future, and ready to contribute with my experience to the development of new projects.",
 
     "my-skills": "My Skills",
@@ -46,28 +48,46 @@
     "data-base": "Data Base",
     "db-konecta-text": "The database was first created in .json format and then moved to an RDS on Amazon Web Services. It is displayed in the application using a “fetch” and is responsible for showing us all the information about each event.",
 
-    "in-dev-konecta" : "Future Updates",
-    "dev-konecta-text" : "The project is still in the development phase and has a lot of potential to add different features. These are the features that will be added soon:",
-    "dev-konecta-item1" : "Registered user edit profile screen.",
-    "dev-konecta-item2" : "Creation of Super User profile.",
-    "dev-konecta-item3" : "Functional map.",
-    "dev-konecta-item4" : "Possibility for the user to mark attendance at an event, and for it to appear in their profile.",
-    "dev-konecta-item5" : "Rating system for events (like and dislike).",
-    "dev-konecta-item6" : "User interaction system.",
-    "dev-konecta-item7" : "Reward system for participation in the community (Tokens).",
+    "in-dev-konecta": "Future Updates",
+    "dev-konecta-text": "The project is still in the development phase and has a lot of potential to add different features. These are the features that will be added soon:",
+    "dev-konecta-item1": "Registered user edit profile screen.",
+    "dev-konecta-item2": "Creation of Super User profile.",
+    "dev-konecta-item3": "Functional map.",
+    "dev-konecta-item4": "Possibility for the user to mark attendance at an event, and for it to appear in their profile.",
+    "dev-konecta-item5": "Rating system for events (like and dislike).",
+    "dev-konecta-item6": "User interaction system.",
+    "dev-konecta-item7": "Reward system for participation in the community (Tokens).",
 
-    "colaborators-konecta" : "Collaborators:",
+    "colaborators-konecta": "Collaborators:",
 
-    "skills-used" : "Used tools:",
+    "skills-used": "Used tools:",
 
-    "idea-laphoto-1" : "This project arises from two factors. On the one hand, my desire to continue learning and getting to know new tools. On the other hand, friendship, I have a good friend of mine who is a photographer, and he did not have a website on which to show his work and projects.",
-    "idea-laphoto-2" : "This is why I decided to create a photography portfolio using WordPress and Elementor, so that it is easy to use and keep updated, and above all so that he himself is able to manage the content of the page in a simple way.",
-    "idea-laphoto-3" : "Knowing the material that my friend has, I knew that the portfolio would need some fundamental segments, the possibility of including photographs, books in PDF and multimedia projects. So I thought that for the main page the best thing would be a gallery where you can see featured photographs and at the end, a section where there is a brief summary of the segments mentioned before. On the other hand, the user should also have easy access to the different pages where the photos could be found depending on the place or theme.",
+    "idea-laphoto-1": "This project arises from two factors. On the one hand, my desire to continue learning and getting to know new tools. On the other hand, friendship, I have a good friend of mine who is a photographer, and he did not have a website on which to show his work and projects.",
+    "idea-laphoto-2": "This is why I decided to create a photography portfolio using WordPress and Elementor, so that it is easy to use and keep updated, and above all so that he himself is able to manage the content of the page in a simple way.",
+    "idea-laphoto-3": "Knowing the material that my friend has, I knew that the portfolio would need some fundamental segments, the possibility of including photographs, books in PDF and multimedia projects. So I thought that for the main page the best thing would be a gallery where you can see featured photographs and at the end, a section where there is a brief summary of the segments mentioned before. On the other hand, the user should also have easy access to the different pages where the photos could be found depending on the place or theme.",
 
-    "how-laphoto-1" : "As for the process, the first thing I did was get together with him and create a sketch of what he would like the page to be, looking and comparing different portfolios and pages from other photographers. From here on, I had to investigate on my own about the operation of WordPress and its different plugins, since I had no prior knowledge. The one that most effectively covered my needs was Elementor, along with Essential Addons for Elementor.",
-    "how-laphoto-2" : "Once the basic structure of the page was created, I created a default style thanks to the Theme Builder included in Elementor so as not to have to make style changes for each component.",
-    "how-laphoto-3" : "The next step was to create and save a template of the components that would be repeated on more than one page (header, footer and some galleries). From there I have been adding the different sections and pages until the current state.",
-    "how-laphoto-4" : "As I have progressed with the project, I have always been looking and reviewing how the page behaved on different devices, making modifications from Elementor so that the result is as optimal as possible.",
-    "how-laphoto-5" : "Finally, I have added the possibility of changing the language, in principle only two (English and Spanish), for which I have used the TranslatePress - Multilingual plugin. This plugin allows both automatic and manual translations, which in this case was what I was looking for.",
-    "how-laphoto-6" : "You can take a look at the page by clicking on the following link: "
+    "how-laphoto-1": "As for the process, the first thing I did was get together with him and create a sketch of what he would like the page to be, looking and comparing different portfolios and pages from other photographers. From here on, I had to investigate on my own about the operation of WordPress and its different plugins, since I had no prior knowledge. The one that most effectively covered my needs was Elementor, along with Essential Addons for Elementor.",
+    "how-laphoto-2": "Once the basic structure of the page was created, I created a default style thanks to the Theme Builder included in Elementor so as not to have to make style changes for each component.",
+    "how-laphoto-3": "The next step was to create and save a template of the components that would be repeated on more than one page (header, footer and some galleries). From there I have been adding the different sections and pages until the current state.",
+    "how-laphoto-4": "As I have progressed with the project, I have always been looking and reviewing how the page behaved on different devices, making modifications from Elementor so that the result is as optimal as possible.",
+    "how-laphoto-5": "Finally, I have added the possibility of changing the language, in principle only two (English and Spanish), for which I have used the TranslatePress - Multilingual plugin. This plugin allows both automatic and manual translations, which in this case was what I was looking for.",
+    "how-laphoto-6": "You can take a look at the page by clicking on the following link: ",
+
+    "my-portfolio": "My Portfolio",
+    "how-portfolio-1": "Este proyecto lo creé para continuar aprendiendo, poner en práctica conocimientos adquiridos y también para tener una plataforma en donde pudiera enseñar mis trabajos y proyectos.",
+    "how-portfolio-2": "He utilizado como base un template de W3Schools hecho en HTML y lo primero que hice fue pasar los fragmentos que me interesaban de ese HTML a componentes de React utilizando JavaScript. Luego he ido modificándolos y adaptándolos a gusto con la ayuda de CSS, Bootstrap y Media Queries para lograr que sea lo más responsivo posible. Por último, he creado los componentes restantes hasta tener todos los apartados que hay actualmente (Cards para los proyectos, Sobre Mi, Habilidades, Contáctame).",
+    "design-portfolio": "Diseño Responsivo y Accesible",
+    "design-portfolio-text": "El diseño está principalmente pensado para que sea lo más accesible posible, la web posee un 100% en accesibilidad medido utilizando la herramienta Lighthouse de Google Chrome. Para lograr esto, he evitado el uso de muchos colores y he utilizado contrastes altos entre tipografía y fondos. Por otro lado, he utilizado Georgia Serif como tipo de letra ya que es una de las tantas que favorecen la lectura. A su vez, cada imagen tiene su descripción como texto alternativo y, tanto los botones como el formulario, tienen sus respectivos aria-label indicando su función.",
+
+    "form-portfolio": "Formulario de contacto: EmailJS",
+    "form-portfolio-text": "...... work in progress .....",
+
+    "func-portfolio": "Funcionalidades Agregadas",
+    "func-portfolio-intro": "He creado dos funcionalidades para que el usuario tenga una mejor experiencia al visitar la página, la posibilidad de cambiar entre light y dark mode y de seleccionar el idioma (por el momento disponible para Inglés, Catalán y Español).",
+    "func-portfolio-text-1": "He elegido hacer el cambio de un theme al otro mediante una función que agregue un tipo de clase específico al componente body (className=”dark”) y utilizar CSS para aplicar los cambios en el estilo (.dark).",
+    "func-portfolio-text-2": "¿Cómo funciona? Al hacer click en el botón y pasar del Light al Dark Mode, este theme se aplica como nombre de clase al elemento body del HTML, por lo que el className del body será “dark”. CSS verá este cambio en la clase de body, y aplicará los estilos correspondientes con la transición indicada. Al volver a hacer click, la clase “dark” se eliminará y volverá a su estado anterior con sus respectivos estilos.",
+    "func-portfolio-text-3": "Para poder acceder a esta información, saber cuál es el theme actual, y a partir de ahí poder actualizarlo, he utilizado los hooks useEffect y useState.",
+
+    "lang-select-portfolio": "Selección de Idiomas",
+    "lang-select-portfolio-text": "...... work in progress ..... He usado i18next."
 }

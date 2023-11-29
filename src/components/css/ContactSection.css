@@ -29,6 +29,7 @@
     margin-top: 16px;
     padding: 12px 24px;
     border-radius: 5px;
+    color: black;
     background-color: lightgray;
     transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
     border: none;

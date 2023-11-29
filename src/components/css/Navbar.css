@@ -57,3 +57,42 @@
 .dark .nav-item a:focus{
     box-shadow: 0 0 10px whitesmoke;
 }
+
+/*MOBILE ICON & DROPDOWN STYLE*/
+.custom-icon {
+    font-size: 100%;
+    height: 37.75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: lightgray;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.dark .custom-icon {
+    color: whitesmoke;
+    background-color: rgb(20, 20, 20);
+}
+
+.custom-icon:hover {
+    background-color: rgb(65, 65, 65) !important;
+    box-shadow: 0 0 10px black;
+    color: whitesmoke !important;
+}
+
+.dark .custom-icon:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+
+.custom-icon:focus {
+    color: whitesmoke;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 0 10px black;
+}
+
+.dark .custom-icon:focus {
+    box-shadow: 0 0 10px whitesmoke;
+}

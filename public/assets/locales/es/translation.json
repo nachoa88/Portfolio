@@ -9,9 +9,11 @@
 
     "learn-more": "Más información",
     "visit-site": "Visitar Web",
+    "play-game" : "Jugar",
     "konecta-text": "Este proyecto lo realicé junto con mi grupo durante el Curso de Desarrollo Web. El front-end se realizó en React y el back-end con Spring Boot, utilizando AWS para nuestros servidores, bases de datos y almacenamiento.",
     "portfolio-text": "Este es mi propio portfolio, fue hecho con React, usando algunos templates de W3Schools y Bootstrap, poniendo en práctica mis habilidades en HTML, CSS, JS y Bootstrap. He utilizado Hostinger para alojar mi sitio web.",
     "photography-text": "Este proyecto fue hecho para un amigo que es fotógrafo, básicamente es un portfolio de su trabajo. Lo he hecho con Wordpress y el complemento de Elementor, fue mi primer acercamiento a estas herramientas.",
+    "projectboost-text": "Uno de los proyectos para el curso de GameDev.tv Team. Es un sencillo juego donde el jugador debe llegar a la plataforma de destino enfrentándosea diferentes obstáculos, cuanto más rápido lo haga, más puntos sumará.",
 
     "about-1": "Mi nombre es Ignacio Albiol, soy desarrollador web y de videojuegos, y vivo en Barcelona. Durante los últimos años he atravesado un proceso de reconversión profesional, pasando desde el sector educativo hacia el mundo de la programación y desarrollo. Inicié mi camino aprendiendo Unity y C# de forma autodidacta, y luego consolidé mis habilidades con una formación integral en desarrollo de aplicaciones web full-stack.",
     "about-2": "En cuanto a mis habilidades interpersonales, me considero una persona seria, responsable, decidida y trabajadora. Me gusta sumergirme en proyectos diversos, y he aprendido a trabajar en equipo de manera efectiva, extrayendo lo mejor de la colaboración con mis compañeros. Además, soy paciente y resiliente, cualidades clave en el mundo del desarrollo, y que he perfeccionado a lo largo de mi trayectoria profesional como educador.",
@@ -46,28 +48,46 @@
     "data-base": "Base de Datos",
     "db-konecta-text": "La base de datos fue creada primero en formato .json y luego trasladada a un RDS en Amazon Web Services. La misma se depliega en la aplicación mediante un “fetch” y es la encargada de mostrarnos toda la información de cada evento.",
 
-    "in-dev-konecta" : "Futuras Actualizaciones",
-    "dev-konecta-text" : "El proyecto aún se encuentra en fase de desarrollo y cuenta con mucho potencial para agregar diferentes features. Estas son las funcionalidades que se agregarán próximamente:",
-    "dev-konecta-item1" : "Pantalla de edición de perfil de usuario.",
-    "dev-konecta-item2" : "Creación de perfil de Administrador de eventos.",
-    "dev-konecta-item3" : "Mapa funcional.",
-    "dev-konecta-item4" : "Posibilidad de que el usuario pueda marcar la asistencia a un evento, y que este aparezca en su perfil.",
-    "dev-konecta-item5" : "Sistema de calificación para los eventos (like y dislike).",
-    "dev-konecta-item6" : "Sistema de interacción entre usuarios.",
-    "dev-konecta-item7" : "Sistema de recompensas por participación en la comunidad (Tokens).",
+    "in-dev-konecta": "Futuras Actualizaciones",
+    "dev-konecta-text": "El proyecto aún se encuentra en fase de desarrollo y cuenta con mucho potencial para agregar diferentes features. Estas son las funcionalidades que se agregarán próximamente:",
+    "dev-konecta-item1": "Pantalla de edición de perfil de usuario.",
+    "dev-konecta-item2": "Creación de perfil de Administrador de eventos.",
+    "dev-konecta-item3": "Mapa funcional.",
+    "dev-konecta-item4": "Posibilidad de que el usuario pueda marcar la asistencia a un evento, y que este aparezca en su perfil.",
+    "dev-konecta-item5": "Sistema de calificación para los eventos (like y dislike).",
+    "dev-konecta-item6": "Sistema de interacción entre usuarios.",
+    "dev-konecta-item7": "Sistema de recompensas por participación en la comunidad (Tokens).",
 
-    "colaborators-konecta" : "Colaboradores:",
+    "colaborators-konecta": "Colaboradores:",
 
-    "skills-used" : "Herramientas utilizadas:",
+    "skills-used": "Herramientas utilizadas:",
 
-    "idea-laphoto-1" : "Este proyecto surge a raíz de dos factores. Por un lado, mis ganas de seguir aprendiendo y conociendo nuevas herramientas. Por otro lado, la amistad, tengo un buen amigo mío fotógrafo, y que no tenía una página web en la que enseñar sus trabajos y proyectos.",
-    "idea-laphoto-2" : "Es por esto que decidí crear un portfolio de fotografía utilizando WordPress y Elementor, para que sea fácil de utilizar y mantener actualizado, y sobre todo para que él mismo pueda gestionar el contenido de la página de forma sencilla.",
-    "idea-laphoto-3" : "Conociendo el material que tiene mí amigo, sabía que el portfolio necesitaría de algunos apartados fundamentales, la posibilidad de incluir fotografías, libros en pdf y un proyecto multimedia. Por lo que pensé que para la página principal lo mejor sería una galería en donde se puedan ver fotografías destacadas y al acabar, una sección en donde haya un breve resumen de los apartados mencionados anteriormente. Por otro lado, también debería tener a fácil acceso las diferentes páginas en dónde se pudieran encontrar las fotos según el lugar o temática.",
+    "idea-laphoto-1": "Este proyecto surge a raíz de dos factores. Por un lado, mis ganas de seguir aprendiendo y conociendo nuevas herramientas. Por otro lado, la amistad, tengo un buen amigo mío fotógrafo, y que no tenía una página web en la que enseñar sus trabajos y proyectos.",
+    "idea-laphoto-2": "Es por esto que decidí crear un portfolio de fotografía utilizando WordPress y Elementor, para que sea fácil de utilizar y mantener actualizado, y sobre todo para que él mismo pueda gestionar el contenido de la página de forma sencilla.",
+    "idea-laphoto-3": "Conociendo el material que tiene mí amigo, sabía que el portfolio necesitaría de algunos apartados fundamentales, la posibilidad de incluir fotografías, libros en pdf y un proyecto multimedia. Por lo que pensé que para la página principal lo mejor sería una galería en donde se puedan ver fotografías destacadas y al acabar, una sección en donde haya un breve resumen de los apartados mencionados anteriormente. Por otro lado, también debería tener a fácil acceso las diferentes páginas en dónde se pudieran encontrar las fotos según el lugar o temática.",
 
-    "how-laphoto-1" : "En cuanto al proceso, lo primero que he hecho fue reunirme con él y crear un boceto de cómo le gustaría que sea la página, mirando y comparando diferentes portfolios y páginas de otros fotógrafos. A partir de aquí, he tenido que investigar por mí cuenta sobre el funcionamiento de WordPress y de sus diferentes plugins, ya que no disponía de conocimientos previos. El que cubrió de manera más eficaz mis necesidades fue Elementor, junto con Essential Addons for Elementor.",
-    "how-laphoto-2" : "Una vez creada la estructura básica de la página, he creado un estilo predeterminado gracias al Theme Builder incluido en Elementor para no tener que realizar los cambios de estilo para cada componente.",
-    "how-laphoto-3" : "El siguiente paso fue crear y guardar un template de los componentes que se repetirían en más de una página (header, footer y algunas galerías). A partir de allí he ido agregando las diferentes secciones y páginas hasta el estado actual.",
-    "how-laphoto-4" : "A medida que he ido avanzando con el proyecto, siempre he ido mirando y revisando cómo se comportaba la página en diferentes dispositivos, haciendo modificaciones desde Elementor para que el resultado sea el más óptimo posible.",
-    "how-laphoto-5" : "Por último, he agregado la posibilidad de cambiar de idioma, en principio sólo dos (inglés y español), para la cual he utilizado el plugin TranslatePress - Multilingual. Este complemento permite tanto dejar traducciones automáticas como también hacer traducciones manuales, que era lo que en este caso me interesaba más.",
-    "how-laphoto-6" : "Puedes echar un vistazo a la página haciendo click en el siguiente enlace: "
+    "how-laphoto-1": "En cuanto al proceso, lo primero que he hecho fue reunirme con él y crear un boceto de cómo le gustaría que sea la página, mirando y comparando diferentes portfolios y páginas de otros fotógrafos. A partir de aquí, he tenido que investigar por mí cuenta sobre el funcionamiento de WordPress y de sus diferentes plugins, ya que no disponía de conocimientos previos. El que cubrió de manera más eficaz mis necesidades fue Elementor, junto con Essential Addons for Elementor.",
+    "how-laphoto-2": "Una vez creada la estructura básica de la página, he creado un estilo predeterminado gracias al Theme Builder incluido en Elementor para no tener que realizar los cambios de estilo para cada componente.",
+    "how-laphoto-3": "El siguiente paso fue crear y guardar un template de los componentes que se repetirían en más de una página (header, footer y algunas galerías). A partir de allí he ido agregando las diferentes secciones y páginas hasta el estado actual.",
+    "how-laphoto-4": "A medida que he ido avanzando con el proyecto, siempre he ido mirando y revisando cómo se comportaba la página en diferentes dispositivos, haciendo modificaciones desde Elementor para que el resultado sea el más óptimo posible.",
+    "how-laphoto-5": "Por último, he agregado la posibilidad de cambiar de idioma, en principio sólo dos (inglés y español), para la cual he utilizado el plugin TranslatePress - Multilingual. Este complemento permite tanto dejar traducciones automáticas como también hacer traducciones manuales, que era lo que en este caso me interesaba más.",
+    "how-laphoto-6": "Puedes echar un vistazo a la página haciendo click en el siguiente enlace: ",
+
+    "my-portfolio": "Mi Portfolio",
+    "how-portfolio-1": "Este proyecto lo creé para continuar aprendiendo, poner en práctica conocimientos adquiridos y también para tener una plataforma en donde pudiera enseñar mis trabajos y proyectos.",
+    "how-portfolio-2": "He utilizado como base un template de W3Schools hecho en HTML y lo primero que hice fue pasar los fragmentos que me interesaban de ese HTML a componentes de React utilizando JavaScript. Luego he ido modificándolos y adaptándolos a gusto con la ayuda de CSS, Bootstrap y Media Queries para lograr que sea lo más responsivo posible. Por último, he creado los componentes restantes hasta tener todos los apartados que hay actualmente (Cards para los proyectos, Sobre Mi, Habilidades, Contáctame).",
+    "design-portfolio": "Diseño Responsivo y Accesible",
+    "design-portfolio-text": "El diseño está principalmente pensado para que sea lo más accesible posible, la web posee un 100% en accesibilidad medido utilizando la herramienta Lighthouse de Google Chrome. Para lograr esto, he evitado el uso de muchos colores y he utilizado contrastes altos entre tipografía y fondos. Por otro lado, he utilizado Georgia Serif como tipo de letra ya que es una de las tantas que favorecen la lectura. A su vez, cada imagen tiene su descripción como texto alternativo y, tanto los botones como el formulario, tienen sus respectivos aria-label indicando su función.",
+
+    "form-portfolio": "Formulario de contacto: EmailJS",
+    "form-portfolio-text": "...... estoy en ello .....",
+
+    "func-portfolio": "Funcionalidades Agregadas",
+    "func-portfolio-intro": "He creado dos funcionalidades para que el usuario tenga una mejor experiencia al visitar la página, la posibilidad de cambiar entre light y dark mode y de seleccionar el idioma (por el momento disponible para Inglés, Catalán y Español).",
+    "func-portfolio-text-1": "He elegido hacer el cambio de un theme al otro mediante una función que agregue un tipo de clase específico al componente body (className=”dark”) y utilizar CSS para aplicar los cambios en el estilo (.dark).",
+    "func-portfolio-text-2": "¿Cómo funciona? Al hacer click en el botón y pasar del Light al Dark Mode, este theme se aplica como nombre de clase al elemento body del HTML, por lo que el className del body será “dark”. CSS verá este cambio en la clase de body, y aplicará los estilos correspondientes con la transición indicada. Al volver a hacer click, la clase “dark” se eliminará y volverá a su estado anterior con sus respectivos estilos.",
+    "func-portfolio-text-3": "Para poder acceder a esta información, saber cuál es el theme actual, y a partir de ahí poder actualizarlo, he utilizado los hooks useEffect y useState.",
+
+    "lang-select-portfolio": "Selección de Idiomas",
+    "lang-select-portfolio-text": "...... estoy en ello ..... He usado i18next."
 }
