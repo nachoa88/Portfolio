@@ -13,23 +13,40 @@ footer {
       }
 }
 
-.project-text{
-    padding: 0px 30px;
-    font-size: large;
+.project-title{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .project-subtitle{
     font-weight: bold;
-    margin-bottom: 30px;
-    padding: 0px 30px;
+    margin-top: 20px;
+}
+
+.project-text{
+    font-size: large;
+}
+
+.project-img {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.skills-used{
+    margin-bottom: 40px;
 }
 
 .bold-text{
-    padding: 0px 30px;
     font-weight: bold;
 }
 
-#project-img{
-    margin: 50px 0px;
-    padding: 0px 30px;
+.project-list i {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.project-list a:hover {
+    opacity: 0.5;
 }

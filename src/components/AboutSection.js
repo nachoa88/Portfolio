@@ -13,8 +13,9 @@ function AboutSection({ isDarkMode }) {
             <h2>{t('sidebar-about')}</h2>
             <hr className="w3-opacity" />
             <div id="about-text">
-                <p>{t('about-first')}</p>
-                <p>{t('about-second')}</p>
+                <p>{t('about-1')}</p>
+                <p>{t('about-2')}</p>
+                <p>{t('about-3')}</p>
             </div>
             <h3>{t('my-skills')}</h3>
             <hr className="w3-opacity" />

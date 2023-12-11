@@ -9,12 +9,16 @@
 
     "learn-more": "Més informació",
     "visit-site": "Visita la Web",
+    "play-game" : "Jugar",
     "konecta-text": "Aquest projecte ho vam fer conjuntament amb el meu grup al Curs de Desenvolupament Web. Pel front-end es fa servir React i pel back-end Spring Boot, utilitzant AWS per als nostres servidors.",
     "portfolio-text": "Aquest és el meu propi portfoli, està fet amb React, utilitzant alguns templates de W3Schools i Bootstrap, posant en pràctica les meves habilitats en HTML, CSS, JS i Bootstrap.",
     "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
+    "projectboost-text": "Projecte pel curs de GameDev.tv Team, creat amb C# en Unity utilitzant només figures primàreas. El jugador ha d'arribar a la plataforma de destinació enfrontant-se a diferents obstacles, com més ràpid ho faci, més punts sumarà.",
+    "tilevania-text": "Projecte pel curs de GameDev.tv Team, creat amb C# en Unity 2D. En aquest joc de plataforma, el jugador haurà de recórrer els nivells, enfrontar-se a enemics i recol·lectar la major quantitat de monedes possibles.",
 
-    "about-first": "Em dic Ignacio Albiol, sóc desenvolupador web i de videojocs, i visc a Barcelona. Durant els darrers anys he travessat per un procés de reconversió professional, passant del sector educatiu al de programació i desenvolupament. Al principi, vaig començar aprenent Unity i C# pel meu compte, i posteriorment vaig fer un curs intensiu de desenvolupament d'aplicacions web amb perfil full-stack. Actualment estic fent els meus primers passos al mercat, disposat a seguir aprenent i millorant els meus coneixements en aquestes àrees.",
-    "about-second": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. Gaudeixo aprenent de diferents projectes i tinc molt bona capacitat per treballar en equip i aprendre dels meus companys de feina. Sóc resilient, tinc molta paciència i sóc resolutiu per naturalesa.",
+    "about-1": "Em dic Ignacio Albiol, soc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
+    "about-2": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, soc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",
+    "about-3": "Actualment, estic compromès amb el creixement i aprenentatge continu en aquestes àrees apassionants. Emocionat pel futur i preparat per aportar la meva experiència en el desenvolupament de nous projectes.",
 
     "my-skills": "Les Meves Habilitats",
     "game-dev": "Desenvolupament de Videojocs",
@@ -30,25 +34,64 @@
     "message": "Missatge",
     "send-message": "Envia Missatge",
 
-    "idea-title": "¿Cómo surgió la idea?",
-    "idea-konecta-1": "K0N3CT4 surge como resultado del proyecto final grupal para el curso de Desarrollo Web que finalicé en noviembre del 2023. Fue desarrollado por mí y otras 3 personas, la idea general del proyecto surgió a partir de la consigna propuesta por nuestro profesor: ¿Cómo relacionar adolescentes y cultura?",
-    "idea-konecta-2": "Esta pregunta nos ha llevado a pensar en diferentes formas de acercar la cultura a los adolescentes, teniendo en cuenta sus necesidades y restricciones. Es por esto que decidimos crear una aplicación específica para ellos, que sea práctica y sencilla, y en donde puedan encontrar eventos culturales del “underground” que sean gratuitos.",
-    "idea-konecta-3": "El proyecto recopilará información sobre estos eventos culturales y los mostrará en dos formatos, un listado con todos los detalles (descripción, tipo de evento, hora y lugar) y también en un mapa.",
-    "idea-konecta-4": "Tanto el listado como el mapa, permiten a los usuarios filtrar el contenido para encontrar de forma rápida el tipo de evento que se adapta a sus necesidades. Estos filtros se podrán personalizar al crear un usuario completando los campos de intereses.",
-    "idea-konecta-5": "A su vez, los usuarios podrán interactuar entre sí, ver los eventos a los que asisten sus amigos y desbloquear recompensas por participar en la comunidad, comentando y calificando los eventos a los que han asistido.",
-    "how-title": "¿Cómo se llevó a cabo el proyecto?",
-    "how-konecta-1": "En cuanto al proceso de desarrollo, lo primero que hemos hecho ha sido realizar un bosquejo LO-FI en Figma, tanto mobile como desktop, que luego se ha ido mejorando, agregando color y estilo.",
-    "how-konecta-2": "Por otro lado, hemos utilizando Trello para administrar nuestro flujo de trabajo y repartir las tareas, y GitHub para ayudarnos a administrar, rastrear y controlar los cambios mientras desarrollábamos la aplicación.",
-    "front-end": "Front-End",
-    "front-konecta-text": "Realizado en React, utilizando la librería Router para gestionar el tráfico de una página a la otra, y JavaScript como lenguaje principal para las funciones y componentes. Para el estilo se ha utilizado tanto CSS como Bootrsap, y para mejorar la responsividad, Media Queries. Luego hemos trasladado la build del proyecto a una instancia de EC2 de Amazon Web Services.",
-    "back-end": "Back-End",
-    "back-konecta-text": "Hemos utilizado Spring Boot para nuestra API, y en dónde hemos creado nuestros controladores, entidades y repositorios. Una vez realizada y comprobada su funcionalidad, al igual que el front-end, la hemos trasladado a una instancia EC2 de AWS mediante Apache Tomcat en formato .war.",
-    "data-base": "Base de Datos",
-    "db-konecta-text": "La base de datos fue creada primero en formato .json y luego trasladad a un RDS en Amazon Web Services. La misma se depliega en la aplicación mediante un “fetch”.",
+    "idea-title": "Com va sorgir la idea?",
+    "idea-konecta-1": "K0N3CT4 sorgeix com a resultat del projecte final grupal per al curs de Desenvolupament Web que vaig finalitzar el novembre del 2023. Va ser desenvolupat per mi i 3 persones més, la idea general del projecte va sorgir a partir de la consigna proposada pel nostre professor: Com relacionar adolescents i cultura?",
+    "idea-konecta-2": "Aquesta pregunta ens ha portat a pensar en diferents maneres d'apropar la cultura als adolescents, tenint en compte les seves necessitats i restriccions. És per això que decidim crear una aplicació específica per a ells, que sigui pràctica i senzilla, i on puguin trobar esdeveniments culturals de l'underground que siguin gratuïts.",
+    "idea-konecta-3": "El projecte recopilarà informació sobre aquests esdeveniments culturals i els mostrarà en dos formats, un llistat amb tots els detalls (descripció, tipus desdeveniment, hora i lloc) i també en un mapa.",
+    "idea-konecta-4": "Tant el llistat com el mapa permeten als usuaris filtrar el contingut per trobar ràpidament el tipus d'esdeveniment que s'adapta a les vostres necessitats. Aquests filtres es podran personalitzar quan creeu un usuari completant els camps d'interessos.",
+    "idea-konecta-5": "Al mateix temps, els usuaris podran interactuar entre ells, veure els esdeveniments als quals assisteixen els seus amics i desbloquejar recompenses per participar a la comunitat, comentant i qualificant els esdeveniments a què han assistit.",
+    
+    "how-title": "Com es va fer el projecte?",
+    "how-konecta-1": "Pel que fa al procés de desenvolupament, el primer que hem fet ha estat fer un esbós LO-FI a Figma, tant mobile com desktop, que després s'ha anat millorant, afegint color i estil.",
+    "how-konecta-2": "D'altra banda, hem utilitzat Trello per administrar el nostre flux de treball i repartir les tasques, i GitHub per ajudar-nos a administrar, rastrejar i controlar els canvis mentre desenvolupàvem l'aplicació.",
+    "front-konecta-text": "Realitzat a React, utilitzant la llibreria Router per gestionar el trànsit d'una pàgina a l'altra, i JavaScript com a llenguatge principal per a les funcions i els components. Per a l'estil s'han utilitzat tant CSS com Bootrsap, i per millorar la responsivitat, Media Queries. També hem posat molt èmfasi que l'aplicació sigui accessible per a tota mena d'usuaris, amb una mitjana d'accessibilitat del 98%. Per desplegar-ho, hem traslladat la build del projecte a una instància d'EC2 d'Amazon Web Services.",
+    "back-konecta-text": "Hem utilitzat Spring Boot per a la nostra API, i on hem creat els nostres controladors, entitats i repositoris. Un cop realitzada i comprovada la seva funcionalitat, igual que el front-end, l'hem traslladada a una instància EC2 d'AWS mitjançant Apache Tomcat en format .war.",
+    "data-base": "Base de Dades",
+    "db-konecta-text": "La base de dades va ser creada en principi en format .json i després traslladada a un RDS a Amazon Web Services. Aquesta es desplega a l'aplicació mitjançant un fetch i és l'encarregada de mostrar-nos tota la informació de cada esdeveniment.",
 
-    "in-dev-konecta" : "Futuras Actualizaciones",
-    "dev-konecta-text" : "El proyecto aún se encuentra en desarrollo.........",
+    "in-dev-konecta": "Futures Actualitzacions",
+    "dev-konecta-text": "El projecte encara es troba en fase de desenvolupament i compta amb molt de potencial per agregar diferents features. Aquestes són les funcionalitats que s'afegiran properament:",
+    "dev-konecta-item1": "Pantalla d'edició de perfil d'usuari.",
+    "dev-konecta-item2": "Creació de perfil d'Administrador d'esdeveniments.",
+    "dev-konecta-item3": "Mapa funcional.",
+    "dev-konecta-item4": "Possibilitat que l'usuari pugui marcar l'assistència a un esdeveniment, i que aquest aparegui al seu perfil.",
+    "dev-konecta-item5": "Sistema de qualificació per als esdeveniments (like i dislike).",
+    "dev-konecta-item6": "Sistema de interacció entre usuaris.",
+    "dev-konecta-item7": "Sistema de recompenses per participació a la comunitat (Tokens).",
 
-    "colaborators-konecta" : "Colaboradores:",
-    "colaborators-text" : "lista pendiente"
+    "colaborators-konecta": "Col·laboradors:",
+
+    "skills-used": "Eines utilitzades:",
+
+    "idea-laphoto-1": "Aquest projecte sorgeix arran de dos factors. Per una banda, les meves ganes de seguir aprenent i coneixent noves eines. D'altra banda, l'amistat, tinc un bon amic meu fotògraf, i que no tenia una pàgina web on ensenyar els seus treballs i projectes.",
+    "idea-laphoto-2": "És per això que vaig decidir crear un portfoli de fotografia utilitzant WordPress i Elementor, perquè sigui fàcil d'utilitzar i mantenir-lo actualitzat, i sobretot perquè ell mateix pugui gestionar el contingut de la pàgina de forma senzilla.",
+    "idea-laphoto-3": "Coneixent el material que té el meu amic, sabia que el portfoli necessitaria alguns apartats fonamentals, la possibilitat d'incloure fotografies, llibres en pdf i un projecte multimèdia. Per això vaig pensar que per a la pàgina principal el millor seria una galeria on es puguin veure fotografies destacades i al final, una secció on hi hagi un breu resum dels apartats esmentats anteriorment. D'altra banda, també hauria de tenir fàcil accés les diferents pàgines on es poguessin trobar les fotos segons el lloc o temàtica.",
+
+    "how-laphoto-1": "Pel que fa al procés, el primer que he fet va ser reunir-me amb ell i crear un esbós de com li agradaria que sigui la pàgina, mirant i comparant diferents portfolis i pàgines d'altres fotògrafs. A partir d'aquí, he hagut d'investigar pel meu compte sobre el funcionament de WordPress i dels seus diferents plugins, ja que no disposava de coneixements previs. El que va cobrir de manera més eficaç les meves necessitats va ser Elementor, juntament amb Essential Addons for Elementor.",
+    "how-laphoto-2": "Un cop creada l'estructura bàsica de la pàgina, he creat un estil predeterminat gràcies al Theme Builder inclòs a Elementor per no haver de fer els canvis d'estil per a cada component.",
+    "how-laphoto-3": "El pas següent va ser crear i desar un template dels components que es repetirien en més d'una pàgina (header, footer i algunes galeries). A partir d'aquí he anat afegint les diferents seccions i pàgines fins a l'estat actual.",
+    "how-laphoto-4": "A mesura que he anat avançant amb el projecte, sempre he anat mirant i revisant com es comportava la pàgina a diferents dispositius, fent modificacions des d'Elementor perquè el resultat sigui el més òptim possible.",
+    "how-laphoto-5": "Finalment, he afegit la possibilitat de canviar d'idioma, en principi només dos (anglès i espanyol), per a la qual he fet servir el plugin TranslatePress - Multilingual. Aquest complement permet tant deixar traduccions automàtiques com fer traduccions manuals, que era el que en aquest cas m'interessava més.",
+    "how-laphoto-6": "Pots donar un cop d'ull a la pàgina fent click al següent enllaç: ",
+
+    "my-portfolio": "El Meu Portfolio",
+    "how-portfolio-1": "Aquest projecte el vaig crear per continuar aprenent, posar en pràctica coneixements adquirits i també per tenir una plataforma on pogués ensenyar els meus treballs i projectes.",
+    "how-portfolio-2": "He fet servir com a base un templat de W3Schools fet en HTML i el primer que vaig fer va ser passar els fragments que m'interessaven d'aquest HTML a components de React utilitzant JavaScript. Després he anat modificant-los i adaptant-los de gust amb l'ajuda de CSS, Bootstrap i Media Queries per aconseguir que sigui el més responsiu possible. Finalment, he creat els components restants fins a tenir tots els apartats que hi ha actualment (Cards per als projectes, Sobre Mi, Habilitats, Contacta'm).",
+    "design-portfolio": "Disseny Responsiu i Accessible",
+    "design-portfolio-text": "El disseny està pensat principalment perquè sigui el més accessible possible, la web té un 100% en accessibilitat mesurat utilitzant l'eina Lighthouse de Google Chrome. Per aconseguir això he evitat l'ús de molts colors i he utilitzat contrastos alts entre tipografia i fons. D'altra banda, he utilitzat Geòrgia Serif com a tipus de lletra ja que és una de les tantes que afavoreixen la lectura. Alhora, cada imatge té la seva descripció com a text alternatiu i, tant els botons com el formulari, tenen els seus respectius aria-label indicant la seva funció.",
+
+    "form-portfolio": "Formulari de contacte: EmailJS",
+    "form-portfolio-text-1": "Per fer el formulari de contacte he decidit utilitzar EmailJS, una eina gratuïta per redireccionar els missatges sense necessitat d'un server.",
+    "form-portfolio-text-2": "El funcionament és molt senzill, crees un usuari que vincules amb el teu compte de correu electrònic al qual vols redirigir els missatges, crees un template per al mail que rebràs quan algú et contacti juntament amb els camps que ha de completar la persona. Finalment, instal·les el paquet i crees la funció dins del component del formulari a Ract. A la mateixa web d'EmailJS tens un tutorial per instal·lar-lo i utilitzar-lo.",
+    
+    "func-portfolio": "Funcionalitats Extres",
+    "func-portfolio-intro": "He creat dues funcionalitats perquè l'usuari tingui una millor experiència en visitar la pàgina, la possibilitat de canviar entre light i dark mode i seleccionar l'idioma (de moment disponible per a Anglès, Català i Espanyol).",
+    "func-portfolio-text-1": "He triat fer el canvi d'un tema a l'altre mitjançant una funció que afegeixi un tipus de classe específic al component body (className=”dark”) i utilitzar CSS per aplicar els canvis a l'estil (.dark).",
+    "func-portfolio-text-2": "Com funciona? En fer clic al botó i passar del Light al Dark Mode, aquest theme s'aplica com a nom de classe a l'element body de l'HTML, per la qual cosa el className del body serà “dark”. CSS veurà aquest canvi a la classe de body, i aplicarà els estils corresponents amb la transició indicada. En tornar a fer clic, la classe “dark” s'eliminarà i tornarà al seu estat anterior amb els estils respectius.",
+    "func-portfolio-text-3": "Per poder accedir a aquesta informació, saber quin és el theme actual, ia partir d'aquí poder-lo actualitzar, he utilitzat els hooks useEffect i useState.",
+
+    "lang-select-portfolio": "Selector d'Idiomes",
+    "lang-select-portfolio-text-1": "Per a la selecció d'idioma he fet servir el framework react-i18next basat en i18next que ens permet crear una configuració molt variada i un set up personalitzat pels nostres idiomes. En el meu cas he optat per intentar que el navegador detecti l'idioma de l'usuari, i si aquest està disponible, implementar-lo. En cas que sigui un idioma no disponible, el llenguatge per defecte seleccionat és anglès.",
+    "lang-select-portfolio-text-2": "Per altra banda, he creat tres fitxers json, un per a cada idioma disponible, per transmetre les dades. Dins de cada json he creat les propietats amb el mateix nom de referència a cada idioma, assignades a la cadena de text corresponent. En seleccionar l'idioma, cercarà aquesta propietat a què fa referència dins del json i reemplaçarà la cadena de text per la de l'idioma que toqui."
+    
 }

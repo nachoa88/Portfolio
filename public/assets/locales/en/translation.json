@@ -9,12 +9,16 @@
 
     "learn-more": "Learn More",
     "visit-site": "Visit Site",
+    "play-game" : "Play Game",
     "konecta-text": "This project was made with my group during the Web Development Course. Front-end was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.",
     "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skills. I've used Hostinger to host my website.",
     "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
+    "projectboost-text": "Project for the GameDev.tv Team course, created with C# in Unity 3D using only primary shapes. The player must reach the destination platform facing different obstacles, the faster, the more points he will score.",
+    "tilevania-text": "Project for the GameDev.tv Team course, created with C# in Unity 2D. In this platform game, the player must go through the levels, face enemies and collect as many coins as possible.",
 
-    "about-first": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. For the last years I've been through the process of professional reconversion, going from the educational to the programming and development sector. At first, I started learning Unity and C# on my own, and later doing a web application development intensive course full-stack profile. Right now I'm doing my first steps in the business, and willing to continue learning and imporving my knoledge in this areas.",
-    "about-second": "As for my soft skills, I consider myself a serious, responsible, decisive and hard-working person. I enjoy learning from different projects and I have a very good ability to work as a team and learn from my coworkers. I'm resilient, have lots of patience, and problem-solver by nature.",
+    "about-1": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course.",
+    "about-2": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator.",
+    "about-3": "Currently, I am committed to continuous growth and learning in these exciting areas. Excited about the future, and ready to contribute with my experience to the development of new projects.",
 
     "my-skills": "My Skills",
     "game-dev": "Game Development",
@@ -30,25 +34,64 @@
     "message": "Message",
     "send-message": "Send Message",
 
-    "idea-title": "¿Cómo surgió la idea?",
-    "idea-konecta-1": "K0N3CT4 surge como resultado del proyecto final grupal para el curso de Desarrollo Web que finalicé en noviembre del 2023. Fue desarrollado por mí y otras 3 personas, la idea general del proyecto surgió a partir de la consigna propuesta por nuestro profesor: ¿Cómo relacionar adolescentes y cultura?",
-    "idea-konecta-2": "Esta pregunta nos ha llevado a pensar en diferentes formas de acercar la cultura a los adolescentes, teniendo en cuenta sus necesidades y restricciones. Es por esto que decidimos crear una aplicación específica para ellos, que sea práctica y sencilla, y en donde puedan encontrar eventos culturales del “underground” que sean gratuitos.",
-    "idea-konecta-3": "El proyecto recopilará información sobre estos eventos culturales y los mostrará en dos formatos, un listado con todos los detalles (descripción, tipo de evento, hora y lugar) y también en un mapa.",
-    "idea-konecta-4": "Tanto el listado como el mapa, permiten a los usuarios filtrar el contenido para encontrar de forma rápida el tipo de evento que se adapta a sus necesidades. Estos filtros se podrán personalizar al crear un usuario completando los campos de intereses.",
-    "idea-konecta-5": "A su vez, los usuarios podrán interactuar entre sí, ver los eventos a los que asisten sus amigos y desbloquear recompensas por participar en la comunidad, comentando y calificando los eventos a los que han asistido.",
-    "how-title": "¿Cómo se llevó a cabo el proyecto?",
-    "how-konecta-1": "En cuanto al proceso de desarrollo, lo primero que hemos hecho ha sido realizar un bosquejo LO-FI en Figma, tanto mobile como desktop, que luego se ha ido mejorando, agregando color y estilo.",
-    "how-konecta-2": "Por otro lado, hemos utilizando Trello para administrar nuestro flujo de trabajo y repartir las tareas, y GitHub para ayudarnos a administrar, rastrear y controlar los cambios mientras desarrollábamos la aplicación.",
-    "front-end": "Front-End",
-    "front-konecta-text": "Realizado en React, utilizando la librería Router para gestionar el tráfico de una página a la otra, y JavaScript como lenguaje principal para las funciones y componentes. Para el estilo se ha utilizado tanto CSS como Bootrsap, y para mejorar la responsividad, Media Queries. Luego hemos trasladado la build del proyecto a una instancia de EC2 de Amazon Web Services.",
-    "back-end": "Back-End",
-    "back-konecta-text": "Hemos utilizado Spring Boot para nuestra API, y en dónde hemos creado nuestros controladores, entidades y repositorios. Una vez realizada y comprobada su funcionalidad, al igual que el front-end, la hemos trasladado a una instancia EC2 de AWS mediante Apache Tomcat en formato .war.",
-    "data-base": "Base de Datos",
-    "db-konecta-text": "La base de datos fue creada primero en formato .json y luego trasladad a un RDS en Amazon Web Services. La misma se depliega en la aplicación mediante un “fetch”.",
+    "idea-title": "How did the idea come about?",
+    "idea-konecta-1": "K0N3CT4 arises as a result of the final group project for the Web Development course that I completed in November 2023. It was developed by me and 3 other people, the general idea of the project came from the slogan proposed by our teacher: How to relate teenagers and culture?",
+    "idea-konecta-2": "This question has led us to think about different ways to bring culture closer to teenagers, taking into account their needs and restrictions. This is why we decided to create a specific application for them, which is practical and simple, and where they can find “underground” cultural events that are free.",
+    "idea-konecta-3": "The project will collect information about these cultural events and display them in two formats, a list with all the details (description, type of event, time and place) and also on a map.",
+    "idea-konecta-4": "Both the list and the map allow users to filter the content to quickly find the type of event that suits their needs. These filters can be customized when creating a user by completing the interest fields.",
+    "idea-konecta-5": "At the same time, users will be able to interact with each other, see the events their friends are attending and unlock rewards for participating in the community, commenting and rating the events they have attended.",
+    
+    "how-title": "How was the project carried out?",
+    "how-konecta-1": "Regarding the development process, the first thing we have done was make a LO-FI sketch in Figma, both mobile and desktop, which has then been improved, adding color and style.",
+    "how-konecta-2": "On the other hand, we used Trello to manage our workflow and distribute tasks, and GitHub to help us manage, track and control changes while developing the application.",
+    "front-konecta-text": "Made in React, using the Router library to manage traffic from one page to the other, and JavaScript as the main language for functions and components. For the style, both CSS and Bootrsap have been used, and to improve responsiveness, Media Queries. We have also placed great emphasis on making the application accessible to all types of users, with an average accessibility of 98%. To deploy it, we have moved the project build to an Amazon Web Services EC2 instance.",
+    "back-konecta-text": "We have used Spring Boot for our API, and where we have created our controllers, entities and repositories. Once its functionality has been created and tested, as well as the front-end, we have moved it to an AWS EC2 instance using Apache Tomcat in .war format.",
+    "data-base": "Data Base",
+    "db-konecta-text": "The database was first created in .json format and then moved to an RDS on Amazon Web Services. It is displayed in the application using a “fetch” and is responsible for showing us all the information about each event.",
 
-    "in-dev-konecta" : "Futuras Actualizaciones",
-    "dev-konecta-text" : "El proyecto aún se encuentra en desarrollo.........",
+    "in-dev-konecta": "Future Updates",
+    "dev-konecta-text": "The project is still in the development phase and has a lot of potential to add different features. These are the features that will be added soon:",
+    "dev-konecta-item1": "Registered user edit profile screen.",
+    "dev-konecta-item2": "Creation of Super User profile.",
+    "dev-konecta-item3": "Functional map.",
+    "dev-konecta-item4": "Possibility for the user to mark attendance at an event, and for it to appear in their profile.",
+    "dev-konecta-item5": "Rating system for events (like and dislike).",
+    "dev-konecta-item6": "User interaction system.",
+    "dev-konecta-item7": "Reward system for participation in the community (Tokens).",
 
-    "colaborators-konecta" : "Colaboradores:",
-    "colaborators-text" : "lista pendiente"
+    "colaborators-konecta": "Collaborators:",
+
+    "skills-used": "Used tools:",
+
+    "idea-laphoto-1": "This project arises from two factors. On the one hand, my desire to continue learning and getting to know new tools. On the other hand, friendship, I have a good friend of mine who is a photographer, and he did not have a website on which to show his work and projects.",
+    "idea-laphoto-2": "This is why I decided to create a photography portfolio using WordPress and Elementor, so that it is easy to use and keep updated, and above all so that he himself is able to manage the content of the page in a simple way.",
+    "idea-laphoto-3": "Knowing the material that my friend has, I knew that the portfolio would need some fundamental segments, the possibility of including photographs, books in PDF and multimedia projects. So I thought that for the main page the best thing would be a gallery where you can see featured photographs and at the end, a section where there is a brief summary of the segments mentioned before. On the other hand, the user should also have easy access to the different pages where the photos could be found depending on the place or theme.",
+
+    "how-laphoto-1": "As for the process, the first thing I did was get together with him and create a sketch of what he would like the page to be, looking and comparing different portfolios and pages from other photographers. From here on, I had to investigate on my own about the operation of WordPress and its different plugins, since I had no prior knowledge. The one that most effectively covered my needs was Elementor, along with Essential Addons for Elementor.",
+    "how-laphoto-2": "Once the basic structure of the page was created, I created a default style thanks to the Theme Builder included in Elementor so as not to have to make style changes for each component.",
+    "how-laphoto-3": "The next step was to create and save a template of the components that would be repeated on more than one page (header, footer and some galleries). From there I have been adding the different sections and pages until the current state.",
+    "how-laphoto-4": "As I have progressed with the project, I have always been looking and reviewing how the page behaved on different devices, making modifications from Elementor so that the result is as optimal as possible.",
+    "how-laphoto-5": "Finally, I have added the possibility of changing the language, in principle only two (English and Spanish), for which I have used the TranslatePress - Multilingual plugin. This plugin allows both automatic and manual translations, which in this case was what I was looking for.",
+    "how-laphoto-6": "You can take a look at the page by clicking on the following link: ",
+
+    "my-portfolio": "My Portfolio",
+    "how-portfolio-1": "I created this project to continue learning, put acquired knowledge into practice and also to have a platform where I could show my work and projects.",
+    "how-portfolio-2": "I used a W3Schools template made in HTML as a base and the first thing I did was to pass the fragments that interested me from that HTML to React components using JavaScript. Then I have modified and adapted them with the help of CSS, Bootstrap and Media Queries to make it as responsive as possible. Finally, I have created the remaining components until I had all the sections that currently exist (Cards for projects, About Me, Skills, Contact Me).",
+    "design-portfolio": "Responsive and Accessible Design",
+    "design-portfolio-text": "The design is meant to be as accessible as possible, the website has 100% accessibility measured using Google Chrome's Lighthouse tool. To achieve this, I have avoided using too many colors and have used high contrasts between typography and backgrounds. On the other hand, I've selected Georgia Serif as the font since it is one of the many that favor reading. In turn, each image has its description as alternative text and both the buttons and the form have their respective aria-labels indicating their function.",
+
+    "form-portfolio": "Contact form: EmailJS",
+    "form-portfolio-text-1": "For the contact form I have decided to use EmailJS, a free tool to redirect messages without the need for a server.",
+    "form-portfolio-text-2": "The functionality is very simple, you create a user that you link with your email account to which you want to redirect the messages, you create a template for the email that you will receive when someone contacts you along with the fields that the person must complete. Finally, you install the package and create the function inside the form component in Ract. On the same EmailJS website you have a tutorial for its installation and use.",
+
+    "func-portfolio": "Extra functionalities",
+    "func-portfolio-intro": "I have created two features so that the user has a better experience when visiting the page, the possibility of changing between light and dark mode and selecting the language (at the moment available for English, Catalan and Spanish).",
+    "func-portfolio-text-1": "I have chosen to make the change from one theme to the other using a function that adds a specific type of class to the body component (className=”dark”) and use CSS to apply the changes to the style (.dark).",
+    "func-portfolio-text-2": "How does it work? When you click on the button and go from Light to Dark Mode, this theme is applied as a class name to the body element of the HTML, so the className of the body will be “dark”. CSS will see this change in the body class, and apply the corresponding styles with the indicated transition. When you click again, the “dark” class will be deleted and will return to its previous state with its respective styles.",
+    "func-portfolio-text-3": "In order to access this information, know what the current theme is, and from there be able to update it, I have used the useEffect and useState hooks.",
+
+    "lang-select-portfolio": "Language Selector",
+    "lang-select-portfolio-text-1": "For the language selection I have used the react-i18next framework based on i18next that allows us to create a very varied configuration and a personalized set up for our languages. In my case I have chosen to try to get the browser to detect the user's language, and if it is available, implement it. If it is an unavailable language, the default language selected is English.",
+    "lang-select-portfolio-text-2": "On the other hand, I have created three json files, one for each available language, to pass the data. Within each json I have created the properties with the same reference name in each language, assigned to the corresponding text string. When you select the language, it will look for that referenced property within the json and replace the text string with that of the language you tap."
+    
 }

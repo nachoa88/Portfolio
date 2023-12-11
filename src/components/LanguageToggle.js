@@ -2,7 +2,6 @@ import i18next from "i18next";
 import Dropdown from 'react-bootstrap/Dropdown';
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
-
 // This are the languages saved in an array that we're going to use in the dropdown.
 const languages = [
     {
