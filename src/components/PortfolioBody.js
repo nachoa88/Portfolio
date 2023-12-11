@@ -5,7 +5,7 @@ function PortfolioBody() {
 
     return (
         <header className="container" id="projects">
-            <h2 className="project-title">{t("my-portfolio")} - Section in progress, sorry</h2>
+            <h2 className="project-title">{t("my-portfolio")}</h2>
             <hr className="w3-opacity" />
             <h3 className="project-subtitle">{t("how-title")}</h3>
 
@@ -29,7 +29,8 @@ function PortfolioBody() {
                 <div className="col-12">
                     <h4 className="bold-text">{t("form-portfolio")}</h4>
                     <p className="project-text">
-                        {t("form-portfolio-text")}<br></br>
+                        {t("form-portfolio-text-1")}<br></br>
+                        {t("form-portfolio-text-2")}<br></br>
                     </p>
                 </div>
             </div>
@@ -57,10 +58,12 @@ function PortfolioBody() {
                         {t("func-portfolio-text-2")}<br></br>
                         {t("func-portfolio-text-3")}<br></br>
                     </p>
-
-                    <h4 className="bold-text">{t("lang-select-portfolio")}</h4>
+                </div>
+                <h4 className="bold-text">{t("lang-select-portfolio")}</h4>
+                <div className="col-12">
                     <p className="project-text">
-                        {t("lang-select-portfolio-text")}<br></br>
+                        {t("lang-select-portfolio-text-1")}<br></br>
+                        {t("lang-select-portfolio-text-2")}<br></br>
                     </p>
                 </div>
             </div>

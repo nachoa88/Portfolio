@@ -13,7 +13,8 @@
     "konecta-text": "This project was made with my group during the Web Development Course. Front-end was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.",
     "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skills. I've used Hostinger to host my website.",
     "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
-    "projectboost-text": "One of the projects for the GameDev.tv Team course. It's a simple game where the player must reach the destination platform facing different obstacles, the faster, the more points he will score.",
+    "projectboost-text": "Project for the GameDev.tv Team course, created with C# in Unity 3D using only primary shapes. The player must reach the destination platform facing different obstacles, the faster, the more points he will score.",
+    "tilevania-text": "Project for the GameDev.tv Team course, created with C# in Unity 2D. In this platform game, the player must go through the levels, face enemies and collect as many coins as possible.",
 
     "about-1": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course.",
     "about-2": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator.",
@@ -74,20 +75,23 @@
     "how-laphoto-6": "You can take a look at the page by clicking on the following link: ",
 
     "my-portfolio": "My Portfolio",
-    "how-portfolio-1": "Este proyecto lo creé para continuar aprendiendo, poner en práctica conocimientos adquiridos y también para tener una plataforma en donde pudiera enseñar mis trabajos y proyectos.",
-    "how-portfolio-2": "He utilizado como base un template de W3Schools hecho en HTML y lo primero que hice fue pasar los fragmentos que me interesaban de ese HTML a componentes de React utilizando JavaScript. Luego he ido modificándolos y adaptándolos a gusto con la ayuda de CSS, Bootstrap y Media Queries para lograr que sea lo más responsivo posible. Por último, he creado los componentes restantes hasta tener todos los apartados que hay actualmente (Cards para los proyectos, Sobre Mi, Habilidades, Contáctame).",
-    "design-portfolio": "Diseño Responsivo y Accesible",
-    "design-portfolio-text": "El diseño está principalmente pensado para que sea lo más accesible posible, la web posee un 100% en accesibilidad medido utilizando la herramienta Lighthouse de Google Chrome. Para lograr esto, he evitado el uso de muchos colores y he utilizado contrastes altos entre tipografía y fondos. Por otro lado, he utilizado Georgia Serif como tipo de letra ya que es una de las tantas que favorecen la lectura. A su vez, cada imagen tiene su descripción como texto alternativo y, tanto los botones como el formulario, tienen sus respectivos aria-label indicando su función.",
+    "how-portfolio-1": "I created this project to continue learning, put acquired knowledge into practice and also to have a platform where I could show my work and projects.",
+    "how-portfolio-2": "I used a W3Schools template made in HTML as a base and the first thing I did was to pass the fragments that interested me from that HTML to React components using JavaScript. Then I have modified and adapted them with the help of CSS, Bootstrap and Media Queries to make it as responsive as possible. Finally, I have created the remaining components until I had all the sections that currently exist (Cards for projects, About Me, Skills, Contact Me).",
+    "design-portfolio": "Responsive and Accessible Design",
+    "design-portfolio-text": "The design is meant to be as accessible as possible, the website has 100% accessibility measured using Google Chrome's Lighthouse tool. To achieve this, I have avoided using too many colors and have used high contrasts between typography and backgrounds. On the other hand, I've selected Georgia Serif as the font since it is one of the many that favor reading. In turn, each image has its description as alternative text and both the buttons and the form have their respective aria-labels indicating their function.",
 
-    "form-portfolio": "Formulario de contacto: EmailJS",
-    "form-portfolio-text": "...... work in progress .....",
+    "form-portfolio": "Contact form: EmailJS",
+    "form-portfolio-text-1": "For the contact form I have decided to use EmailJS, a free tool to redirect messages without the need for a server.",
+    "form-portfolio-text-2": "The functionality is very simple, you create a user that you link with your email account to which you want to redirect the messages, you create a template for the email that you will receive when someone contacts you along with the fields that the person must complete. Finally, you install the package and create the function inside the form component in Ract. On the same EmailJS website you have a tutorial for its installation and use.",
 
-    "func-portfolio": "Funcionalidades Agregadas",
-    "func-portfolio-intro": "He creado dos funcionalidades para que el usuario tenga una mejor experiencia al visitar la página, la posibilidad de cambiar entre light y dark mode y de seleccionar el idioma (por el momento disponible para Inglés, Catalán y Español).",
-    "func-portfolio-text-1": "He elegido hacer el cambio de un theme al otro mediante una función que agregue un tipo de clase específico al componente body (className=”dark”) y utilizar CSS para aplicar los cambios en el estilo (.dark).",
-    "func-portfolio-text-2": "¿Cómo funciona? Al hacer click en el botón y pasar del Light al Dark Mode, este theme se aplica como nombre de clase al elemento body del HTML, por lo que el className del body será “dark”. CSS verá este cambio en la clase de body, y aplicará los estilos correspondientes con la transición indicada. Al volver a hacer click, la clase “dark” se eliminará y volverá a su estado anterior con sus respectivos estilos.",
-    "func-portfolio-text-3": "Para poder acceder a esta información, saber cuál es el theme actual, y a partir de ahí poder actualizarlo, he utilizado los hooks useEffect y useState.",
+    "func-portfolio": "Extra functionalities",
+    "func-portfolio-intro": "I have created two features so that the user has a better experience when visiting the page, the possibility of changing between light and dark mode and selecting the language (at the moment available for English, Catalan and Spanish).",
+    "func-portfolio-text-1": "I have chosen to make the change from one theme to the other using a function that adds a specific type of class to the body component (className=”dark”) and use CSS to apply the changes to the style (.dark).",
+    "func-portfolio-text-2": "How does it work? When you click on the button and go from Light to Dark Mode, this theme is applied as a class name to the body element of the HTML, so the className of the body will be “dark”. CSS will see this change in the body class, and apply the corresponding styles with the indicated transition. When you click again, the “dark” class will be deleted and will return to its previous state with its respective styles.",
+    "func-portfolio-text-3": "In order to access this information, know what the current theme is, and from there be able to update it, I have used the useEffect and useState hooks.",
 
-    "lang-select-portfolio": "Selección de Idiomas",
-    "lang-select-portfolio-text": "...... work in progress ..... He usado i18next."
+    "lang-select-portfolio": "Language Selector",
+    "lang-select-portfolio-text-1": "For the language selection I have used the react-i18next framework based on i18next that allows us to create a very varied configuration and a personalized set up for our languages. In my case I have chosen to try to get the browser to detect the user's language, and if it is available, implement it. If it is an unavailable language, the default language selected is English.",
+    "lang-select-portfolio-text-2": "On the other hand, I have created three json files, one for each available language, to pass the data. Within each json I have created the properties with the same reference name in each language, assigned to the corresponding text string. When you select the language, it will look for that referenced property within the json and replace the text string with that of the language you tap."
+    
 }

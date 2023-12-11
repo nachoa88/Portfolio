@@ -13,7 +13,8 @@
     "konecta-text": "Aquest projecte ho vam fer conjuntament amb el meu grup al Curs de Desenvolupament Web. Pel front-end es fa servir React i pel back-end Spring Boot, utilitzant AWS per als nostres servidors.",
     "portfolio-text": "Aquest és el meu propi portfoli, està fet amb React, utilitzant alguns templates de W3Schools i Bootstrap, posant en pràctica les meves habilitats en HTML, CSS, JS i Bootstrap.",
     "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
-    "projectboost-text": "Un dels projectes pel curs de GameDev.tv Team. És un senzill joc on el jugador ha d'arribar a la plataforma de destinació enfrontant-se a diferents obstacles, com més ràpid ho faci, més punts sumarà.",
+    "projectboost-text": "Projecte pel curs de GameDev.tv Team, creat amb C# en Unity utilitzant només figures primàreas. El jugador ha d'arribar a la plataforma de destinació enfrontant-se a diferents obstacles, com més ràpid ho faci, més punts sumarà.",
+    "tilevania-text": "Projecte pel curs de GameDev.tv Team, creat amb C# en Unity 2D. En aquest joc de plataforma, el jugador haurà de recórrer els nivells, enfrontar-se a enemics i recol·lectar la major quantitat de monedes possibles.",
 
     "about-1": "Em dic Ignacio Albiol, soc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
     "about-2": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, soc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",
@@ -74,20 +75,23 @@
     "how-laphoto-6": "Pots donar un cop d'ull a la pàgina fent click al següent enllaç: ",
 
     "my-portfolio": "El Meu Portfolio",
-    "how-portfolio-1": "Este proyecto lo creé para continuar aprendiendo, poner en práctica conocimientos adquiridos y también para tener una plataforma en donde pudiera enseñar mis trabajos y proyectos.",
-    "how-portfolio-2": "He utilizado como base un template de W3Schools hecho en HTML y lo primero que hice fue pasar los fragmentos que me interesaban de ese HTML a componentes de React utilizando JavaScript. Luego he ido modificándolos y adaptándolos a gusto con la ayuda de CSS, Bootstrap y Media Queries para lograr que sea lo más responsivo posible. Por último, he creado los componentes restantes hasta tener todos los apartados que hay actualmente (Cards para los proyectos, Sobre Mi, Habilidades, Contáctame).",
-    "design-portfolio": "Diseño Responsivo y Accesible",
-    "design-portfolio-text": "El diseño está principalmente pensado para que sea lo más accesible posible, la web posee un 100% en accesibilidad medido utilizando la herramienta Lighthouse de Google Chrome. Para lograr esto, he evitado el uso de muchos colores y he utilizado contrastes altos entre tipografía y fondos. Por otro lado, he utilizado Georgia Serif como tipo de letra ya que es una de las tantas que favorecen la lectura. A su vez, cada imagen tiene su descripción como texto alternativo y, tanto los botones como el formulario, tienen sus respectivos aria-label indicando su función.",
+    "how-portfolio-1": "Aquest projecte el vaig crear per continuar aprenent, posar en pràctica coneixements adquirits i també per tenir una plataforma on pogués ensenyar els meus treballs i projectes.",
+    "how-portfolio-2": "He fet servir com a base un templat de W3Schools fet en HTML i el primer que vaig fer va ser passar els fragments que m'interessaven d'aquest HTML a components de React utilitzant JavaScript. Després he anat modificant-los i adaptant-los de gust amb l'ajuda de CSS, Bootstrap i Media Queries per aconseguir que sigui el més responsiu possible. Finalment, he creat els components restants fins a tenir tots els apartats que hi ha actualment (Cards per als projectes, Sobre Mi, Habilitats, Contacta'm).",
+    "design-portfolio": "Disseny Responsiu i Accessible",
+    "design-portfolio-text": "El disseny està pensat principalment perquè sigui el més accessible possible, la web té un 100% en accessibilitat mesurat utilitzant l'eina Lighthouse de Google Chrome. Per aconseguir això he evitat l'ús de molts colors i he utilitzat contrastos alts entre tipografia i fons. D'altra banda, he utilitzat Geòrgia Serif com a tipus de lletra ja que és una de les tantes que afavoreixen la lectura. Alhora, cada imatge té la seva descripció com a text alternatiu i, tant els botons com el formulari, tenen els seus respectius aria-label indicant la seva funció.",
 
-    "form-portfolio": "Formulario de contacto: EmailJS",
-    "form-portfolio-text": "...... estoy en ello .....",
+    "form-portfolio": "Formulari de contacte: EmailJS",
+    "form-portfolio-text-1": "Per fer el formulari de contacte he decidit utilitzar EmailJS, una eina gratuïta per redireccionar els missatges sense necessitat d'un server.",
+    "form-portfolio-text-2": "El funcionament és molt senzill, crees un usuari que vincules amb el teu compte de correu electrònic al qual vols redirigir els missatges, crees un template per al mail que rebràs quan algú et contacti juntament amb els camps que ha de completar la persona. Finalment, instal·les el paquet i crees la funció dins del component del formulari a Ract. A la mateixa web d'EmailJS tens un tutorial per instal·lar-lo i utilitzar-lo.",
+    
+    "func-portfolio": "Funcionalitats Extres",
+    "func-portfolio-intro": "He creat dues funcionalitats perquè l'usuari tingui una millor experiència en visitar la pàgina, la possibilitat de canviar entre light i dark mode i seleccionar l'idioma (de moment disponible per a Anglès, Català i Espanyol).",
+    "func-portfolio-text-1": "He triat fer el canvi d'un tema a l'altre mitjançant una funció que afegeixi un tipus de classe específic al component body (className=”dark”) i utilitzar CSS per aplicar els canvis a l'estil (.dark).",
+    "func-portfolio-text-2": "Com funciona? En fer clic al botó i passar del Light al Dark Mode, aquest theme s'aplica com a nom de classe a l'element body de l'HTML, per la qual cosa el className del body serà “dark”. CSS veurà aquest canvi a la classe de body, i aplicarà els estils corresponents amb la transició indicada. En tornar a fer clic, la classe “dark” s'eliminarà i tornarà al seu estat anterior amb els estils respectius.",
+    "func-portfolio-text-3": "Per poder accedir a aquesta informació, saber quin és el theme actual, ia partir d'aquí poder-lo actualitzar, he utilitzat els hooks useEffect i useState.",
 
-    "func-portfolio": "Funcionalidades Agregadas",
-    "func-portfolio-intro": "He creado dos funcionalidades para que el usuario tenga una mejor experiencia al visitar la página, la posibilidad de cambiar entre light y dark mode y de seleccionar el idioma (por el momento disponible para Inglés, Catalán y Español).",
-    "func-portfolio-text-1": "He elegido hacer el cambio de un theme al otro mediante una función que agregue un tipo de clase específico al componente body (className=”dark”) y utilizar CSS para aplicar los cambios en el estilo (.dark).",
-    "func-portfolio-text-2": "¿Cómo funciona? Al hacer click en el botón y pasar del Light al Dark Mode, este theme se aplica como nombre de clase al elemento body del HTML, por lo que el className del body será “dark”. CSS verá este cambio en la clase de body, y aplicará los estilos correspondientes con la transición indicada. Al volver a hacer click, la clase “dark” se eliminará y volverá a su estado anterior con sus respectivos estilos.",
-    "func-portfolio-text-3": "Para poder acceder a esta información, saber cuál es el theme actual, y a partir de ahí poder actualizarlo, he utilizado los hooks useEffect y useState.",
-
-    "lang-select-portfolio": "Selección de Idiomas",
-    "lang-select-portfolio-text": "...... estoy en ello ..... He usado i18next."
+    "lang-select-portfolio": "Selector d'Idiomes",
+    "lang-select-portfolio-text-1": "Per a la selecció d'idioma he fet servir el framework react-i18next basat en i18next que ens permet crear una configuració molt variada i un set up personalitzat pels nostres idiomes. En el meu cas he optat per intentar que el navegador detecti l'idioma de l'usuari, i si aquest està disponible, implementar-lo. En cas que sigui un idioma no disponible, el llenguatge per defecte seleccionat és anglès.",
+    "lang-select-portfolio-text-2": "Per altra banda, he creat tres fitxers json, un per a cada idioma disponible, per transmetre les dades. Dins de cada json he creat les propietats amb el mateix nom de referència a cada idioma, assignades a la cadena de text corresponent. En seleccionar l'idioma, cercarà aquesta propietat a què fa referència dins del json i reemplaçarà la cadena de text per la de l'idioma que toqui."
+    
 }
