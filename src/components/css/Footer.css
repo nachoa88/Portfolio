@@ -33,3 +33,25 @@
 .dark .home-page-footer, .dark .other-page-footer {
     background-color: black;
 }
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.logo-img {
+    width: 70px;
+}
+
+.logo-img:hover {
+    opacity: 0.5;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
