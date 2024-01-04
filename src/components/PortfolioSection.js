@@ -8,6 +8,18 @@ function PortfolioSection() {
             <h2>{t('sidebar-portfolio')}</h2>
             <hr className="w3-opacity" />
             <div className="row">
+            <div className="col-xl-4 col-md-6 col-sm-12">
+                    <div className="card">
+                        <img src="img/pokedex.jpg" className="card-img-top" alt="Sample of konect project" />
+                        <div className="card-body">
+                            <p className="card-title">Pokédex - PokéAPI</p>
+                            <p className="card-text">{t('pokedex-text')}</p>
+                            <a href="https://pokedex-iap.netlify.app/" target="_blank" className="btn mr-2"><i className="fas fa-link" style={{ marginRight: '5px' }}></i>{t('visit-site')}</a>
+                            <a href="https://github.com/nachoa88/Pokedex-PokeAPI" target="_blank" rel="noopener noreferrer" className="btn mr-2">
+                                <i className="fab fa-github" style={{ marginRight: '5px' }}></i>Github</a>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
                         <img src="img/konecta.jpg" className="card-img-top" alt="Sample of konect project" />

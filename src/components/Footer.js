@@ -8,7 +8,7 @@ function Footer() {
 
     return (
 
-        <footer className={`${ isHomePage ? "home-page-footer" : "other-page-footer" } w3-container w3-xxlarge`}>
+        <footer className={`${isHomePage ? "home-page-footer" : "other-page-footer"} w3-container w3-xxlarge`}>
             <div className="footer-icons">
                 <Link className="bi bi-linkedin" to="https://www.linkedin.com/in/ignacio-albiol/" target="_blank"
                     rel="noopener noreferrer" aria-label="LinkedIn Profile of Ignacio Albiol"></Link>
@@ -19,7 +19,14 @@ function Footer() {
                 <Link className="bi bi-instagram" to="https://www.instagram.com/albiol.nacho/" target="_blank"
                     rel="noopener noreferrer" aria-label="Instagram Profile of Ignacio Albiol"></Link>
             </div>
-            <p className="w3-medium">Copyright 2023 - Ignacio Albiol Dev.</p>
+            <div className="footer-logo">
+                <Link to="https://ignacioalbiol.tech/" target="_blank"
+                    rel="noopener noreferrer" aria-label="Go to IAP Dev Web Page">
+                    <img src="logo.png" className="logo-img" alt="IAP Dev Logo" />
+                </Link>
+                <p className="logo-text">Copyright 2024</p>
+            </div>
+
         </footer>
     );
 }

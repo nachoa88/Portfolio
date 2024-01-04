@@ -10,6 +10,7 @@
     "learn-more": "Más información",
     "visit-site": "Visitar Web",
     "play-game" : "Jugar",
+    "pokedex-text": "Pokédex creado en React, utilizando la PokeAPI para obtener la información de los pokemones. Se puede buscar por nombre o tipo, y al hacer click en cada uno, se muestra la información detallada del mismo.",
     "konecta-text": "Este proyecto lo realicé junto con mi grupo durante el Curso de Desarrollo Web. El front-end se realizó en React y el back-end con Spring Boot, utilizando AWS para nuestros servidores, bases de datos y almacenamiento.",
     "portfolio-text": "Este es mi propio portfolio, fue hecho con React, usando algunos templates de W3Schools y Bootstrap, poniendo en práctica mis habilidades en HTML, CSS, JS y Bootstrap. He utilizado Hostinger para alojar mi sitio web.",
     "photography-text": "Este proyecto fue hecho para un amigo que es fotógrafo, básicamente es un portfolio de su trabajo. Lo he hecho con Wordpress y el complemento de Elementor, fue mi primer acercamiento a estas herramientas.",

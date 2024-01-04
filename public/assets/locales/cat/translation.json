@@ -9,7 +9,8 @@
 
     "learn-more": "Més informació",
     "visit-site": "Visita la Web",
-    "play-game" : "Jugar",
+    "play-game": "Jugar",
+    "pokedex-text": "Pokédex creat en React, utilitzant la PokeAPI per obtenir la informació dels Pokémon. Pots cercar per nom o tipus, i al fer clic en cadascun, es mostra la informació detallada del Pokémon seleccionat.",
     "konecta-text": "Aquest projecte ho vam fer conjuntament amb el meu grup al Curs de Desenvolupament Web. Pel front-end es fa servir React i pel back-end Spring Boot, utilitzant AWS per als nostres servidors.",
     "portfolio-text": "Aquest és el meu propi portfoli, està fet amb React, utilitzant alguns templates de W3Schools i Bootstrap, posant en pràctica les meves habilitats en HTML, CSS, JS i Bootstrap.",
     "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
