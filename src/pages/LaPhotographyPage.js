@@ -1,15 +1,15 @@
 import LaPhotographyBody from "../components/LaPhotographyBody";
 import Navbar from "../components/Navbar";
+import BackTopButton from "../components/BackTopButton";
 
 import '../components/css/ProjectBody.css';
-import '../components/css/Navbar.css';
 
 function LaPhotographyPage() {
     return (
         <>
             <Navbar />
             <LaPhotographyBody />
-            
+            <BackTopButton />
         </>
     );
 }

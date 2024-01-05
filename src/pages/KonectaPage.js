@@ -1,15 +1,15 @@
 import KonectaBody from "../components/KonectaBody";
 import Navbar from "../components/Navbar";
+import BackTopButton from "../components/BackTopButton";
 
 import '../components/css/ProjectBody.css';
-import '../components/css/Navbar.css';
 
 function KonectaPage() {
     return (
         <>
             <Navbar />
             <KonectaBody />
-            
+            <BackTopButton />
         </>
     );
 }

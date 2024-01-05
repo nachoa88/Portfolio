@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
+import '../components/css/HiddenSidebar.css';
+
 function HiddenSidebar({ isVisible, toggleSidebar }) {
     const { t } = useTranslation();
     
