@@ -1,3 +1,5 @@
+import '../components/css/NavButton.css';
+
 function NavButton({ toggleSidebar }) {
     // This function is to make the button more accessible.
     const handleButtonClick = (event) => {

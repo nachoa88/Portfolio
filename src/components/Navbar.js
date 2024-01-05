@@ -7,9 +7,8 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import ThemeToggle from "./ThemeToggle.js";
 import LanguageToggle from "./LanguageToggle.js";
 
-import '../components/css/ThemeToggle.css';
-import '../components/css/LanguageToggle.css';
 
+import '../components/css/Navbar.css';
 
 function Navbar() {
     const [isDarkTheme, setDarkTheme] = useState(false);

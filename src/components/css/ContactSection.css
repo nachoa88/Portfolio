@@ -15,14 +15,20 @@
     margin-right: 15px;
 }
 
+.contact-info i:hover {
+    opacity: 0.5;
+}
+
 .get-touch {
     font-size: large;
 }
 
 #mapImg {
     border-radius: 5px;
-    width: 40%;
     margin: 32px 0;
+    width: 100%;
+    max-width: 450px;
+    height: 45vh;
 }
 
 .message-btn {

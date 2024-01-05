@@ -7,20 +7,11 @@ import Header from '../components/Header.js';
 import PortfolioSection from '../components/PortfolioSection.js';
 import AboutSection from '../components/AboutSection.js';
 import ContactSection from '../components/ContactSection.js';
+import BackTopButton from '../components/BackTopButton.js';
 
 import ThemeToggle from "../components/ThemeToggle.js";
 import LanguageToggle from "../components/LanguageToggle.js";
 
-import '../components/css/LeftSidebar.css';
-import '../components/css/HiddenSidebar.css';
-import '../components/css/NavButton.css';
-import '../components/css/Header.css';
-import '../components/css/PortfolioSection.css';
-import '../components/css/AboutSection.css';
-import '../components/css/ContactSection.css';
-
-import '../components/css/ThemeToggle.css';
-import '../components/css/LanguageToggle.css';
 
 function HomePage() {
     const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -38,7 +29,6 @@ function HomePage() {
     const homeStyles = {
         marginLeft: '40%',
     };
-
     
     return (
         <>
@@ -56,6 +46,7 @@ function HomePage() {
                 <AboutSection isDarkMode={isDarkTheme} />
                 <ContactSection />
             </div>
+            <BackTopButton />
         </>
     );
 }

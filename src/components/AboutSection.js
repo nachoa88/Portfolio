@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
+import '../components/css/AboutSection.css';
+
 function AboutSection({ isDarkMode }) {
     const { t } = useTranslation();
     

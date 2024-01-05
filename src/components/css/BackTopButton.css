@@ -1,0 +1,45 @@
+#back-top {
+    z-index: 5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease-out;
+}
+
+#back-top.visible {
+    opacity: 1;
+}
+
+.dark #back-top {
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+}
+
+#back-top:hover {
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0 0 10px black;
+    color: whitesmoke;
+}
+
+.dark #back-top:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+
+#back-top:focus{
+    color: whitesmoke;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0 0 10px black;
+}
+
+.dark #back-top:focus{
+    box-shadow: 0 0 10px whitesmoke;
+}

@@ -7,10 +7,6 @@ import LaPhotographyPage from "../pages/LaPhotographyPage.js";
 import Footer from '../components/Footer.js';
 
 
-import '../components/css/Footer.css';
-
-
-
 function Routing() {
     
     return (

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
+import '../components/css/Footer.css';
+
 function Footer() {
     // This will let the browser see if the actual routing is homePage or not, and use one footer o the other one.
     const location = useLocation();
@@ -14,10 +16,6 @@ function Footer() {
                     rel="noopener noreferrer" aria-label="LinkedIn Profile of Ignacio Albiol"></Link>
                 <Link className="bi bi-github" to="https://github.com/nachoa88" target="_blank"
                     rel="noopener noreferrer" aria-label="GitHub Profile of Ignacio Albiol"></Link>
-                <Link className="bi bi-discord" to="..." target="_blank"
-                    rel="noopener noreferrer" aria-label="Discord Profile of Ignacio Albiol"></Link>
-                <Link className="bi bi-instagram" to="https://www.instagram.com/albiol.nacho/" target="_blank"
-                    rel="noopener noreferrer" aria-label="Instagram Profile of Ignacio Albiol"></Link>
             </div>
             <div className="footer-logo">
                 <Link to="https://ignacioalbiol.tech/" target="_blank"
