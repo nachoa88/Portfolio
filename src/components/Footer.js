@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 import '../components/css/Footer.css';
 
-function Footer() {
+function Footer({ getIconFileName }) {
     // This will let the browser see if the actual routing is homePage or not, and use one footer o the other one.
     const location = useLocation();
     const isHomePage = location.pathname === '/';
@@ -20,7 +20,7 @@ function Footer() {
             <div className="footer-logo">
                 <Link to="https://ignacioalbiol.tech/" target="_blank"
                     rel="noopener noreferrer" aria-label="Go to IAP Dev Web Page">
-                    <img src="logo.png" className="logo-img" alt="IAP Dev Logo" />
+                    <img src={getIconFileName("logo")}  className="logo-img" alt="IAP Dev Logo" />
                 </Link>
                 <p className="logo-text">Copyright 2024</p>
             </div>

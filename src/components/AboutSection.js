@@ -2,16 +2,11 @@ import { useTranslation } from 'react-i18next';
 
 import '../components/css/AboutSection.css';
 
-function AboutSection({ isDarkMode }) {
+function AboutSection({ getIconFileName }) {
     const { t } = useTranslation();
     
-    // This is for the system to check if we're in light mode to add a '.png' and if it's dark to add a '_w.png' and show a different icon.
-    const getIconFileName = (baseFileName) => {
-        return isDarkMode ? `${baseFileName}_w.png` : `${baseFileName}.png`;
-    };
-    
     return (
-        <div className="w3-content w3-justify w3-padding-32" id="about">
+        <div className="w3-content w3-padding-32" id="about">
             <h2>{t('sidebar-about')}</h2>
             <hr className="w3-opacity" />
             <div id="about-text">

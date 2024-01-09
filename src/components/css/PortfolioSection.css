@@ -1,7 +1,3 @@
-#portfolio {
-    color: gray;
-}
-
 /* CARDS STYLE */
 /*This is like creating a function named --gradient in the root element that then can be applied to any element or class. */
 :root {
@@ -9,10 +5,15 @@
 }
 
 .card {
-    background: #222;
+    background: rgb(45, 45, 45);
     border: 1px solid #dd2476;
     color: rgba(250, 250, 250, 0.8);
     margin-bottom: 2rem;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-title {
@@ -49,8 +50,7 @@
     text-decoration: none;
     transition: all .4s ease;
     display: block;
-    white-space: nowrap;
-    /* This is for the text not to be wrapped and it will stay in one line */
+    white-space: nowrap; /* This is for the text not to be wrapped and it will stay in one line */
 }
 
 .card-body .btn:hover,

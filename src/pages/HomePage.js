@@ -13,23 +13,17 @@ import ThemeToggle from "../components/ThemeToggle.js";
 import LanguageToggle from "../components/LanguageToggle.js";
 
 
-function HomePage() {
+function HomePage({ toggleTheme, getIconFileName }) {
     const [sidebarVisible, setSidebarVisible] = useState(false);
 
     const toggleSidebar = () => {
         setSidebarVisible(!sidebarVisible);
     };
 
-    const [isDarkTheme, setDarkTheme] = useState(false);
-
-    const toggleTheme = (darkMode) => {
-        setDarkTheme(darkMode);
-    };
-
     const homeStyles = {
         marginLeft: '40%',
     };
-    
+
     return (
         <>
             <LeftSidebar />
@@ -43,7 +37,7 @@ function HomePage() {
                 <Header />
                 <PortfolioSection />
                 {/* I pass this information to be able to change the icons for dark & light theme*/}
-                <AboutSection isDarkMode={isDarkTheme} />
+                <AboutSection getIconFileName={getIconFileName} />
                 <ContactSection />
             </div>
             <BackTopButton />

@@ -3,9 +3,27 @@
 }
 
 .sidebar-background {
+    position: relative; /*Is necessary for the ::after effect. Make it a positioned element. */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../../../public/img/portrait2.jpg');
+    background-image: url('../../../public/img/portrait.jpg');
     height: 100%;
-  }
+}
+
+/*Effect for the Portrait in light mode to match the background. */
+.sidebar-background::after {
+    content: "";
+    position: absolute; /*absolute position relative to the .sidebar-background "parent", not the entire page, so that the effect is only applied to this element. */
+    top: 0; /*This four elements (top, left, width, height) make the object cover the entire area of .sidebar-background "parent".*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), whitesmoke);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+body.dark .sidebar-background::after {
+    opacity: 0; /*disable opacity of effect in dark mode.*/
+}
