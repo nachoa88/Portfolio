@@ -10,7 +10,7 @@
 }
 
 .dark .toggle-container {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(45, 45, 45);
 }
 
 .dropdown-toggle {
@@ -36,7 +36,7 @@
 
 .dropdown-toggle:focus {
     color: whitesmoke !important;
-    background-color: rgb(20, 20, 20) !important;
+    background-color: rgb(45, 45, 45) !important;
     box-shadow: 0 0 10px black;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .dropdown-menu {
-    background-color: black;
+    background-color: rgb(45, 45, 45);;
 }
 
 .dropdown-item {

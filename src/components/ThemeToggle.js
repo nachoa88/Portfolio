@@ -3,7 +3,12 @@ import React, { useState, useEffect } from 'react';
 import '../components/css/ThemeToggle.css';
 
 function ThemeToggle({ toggleTheme }) {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    // Check local storage for theme preference
+    const storedTheme = localStorage.getItem('theme');
+    // If there's a theme stored in local storage and it's 'dark', set initialTheme to true. Otherwise, set initialTheme aslo to true.
+    const initialTheme = storedTheme ? storedTheme === 'dark' : true;
+    
+    const [isDarkMode, setIsDarkMode] = useState(initialTheme);
 
     // Toggle the theme and update the state
     const handleThemeToggle = () => {
@@ -15,12 +20,9 @@ function ThemeToggle({ toggleTheme }) {
     };
 
     useEffect(() => {
-        const storedTheme = localStorage.getItem('theme');
-        const initialTheme = storedTheme === 'dark' ? true : false;
-        setIsDarkMode(initialTheme); // Update the state
         toggleTheme(initialTheme); // Pass the initial theme value to the parent component
         document.body.classList.toggle('dark', initialTheme); // Apply the initial theme class to the body
-    }, []);
+    }, [isDarkMode, toggleTheme, initialTheme]);
 
     return (
         <div className="nav-item">

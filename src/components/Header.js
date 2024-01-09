@@ -1,4 +1,4 @@
-import Resume from '../assets/CV2023.pdf'
+import Resume from '../assets/CV2024.pdf'
 import { useTranslation } from 'react-i18next';
 
 import '../components/css/Header.css';
