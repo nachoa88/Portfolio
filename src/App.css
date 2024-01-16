@@ -7,7 +7,12 @@ body {
     transition: color 0.5s ease, background-color 0.5s ease;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Georgia, serif;
     color: black;
     transition: color 0.5s ease;
@@ -25,7 +30,12 @@ body.dark {
     background-color: rgb(18, 18, 18);
 }
 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
     color: whitesmoke;
 }
 
@@ -33,7 +43,57 @@ body.dark {
     border-top: 5px double whitesmoke;
 }
 
+/*BUTTONS*/
 .button-text {
-    margin-left: 5px;
+    margin-left: 8px;
     font-weight: bold;
+}
+
+.normal-btn {
+    margin-top: 16px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: black;
+    background-color: lightgray;
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.dark .normal-btn {
+    background-color: rgb(45, 45, 45);
+    color: whitesmoke;
+}
+
+/*GREEN: box-shadow: 0 0 10px #00ff9d, 0 0 15px #00ff9d, 0 0 20px #00ff9d, 0 0 25px #16b377, 0 0 30px #16b377*/
+.normal-btn:hover,
+.normal-btn:focus {
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0 0 10px #ffd500, 0 0 15px #ffd500, 0 0 20px #ffd500, 0 0 25px #ff9100, 0 0 30px #ff9100;
+    color: whitesmoke;
+}
+
+.dark .normal-btn:hover,
+.dark .normal-btn:focus {
+    background-color: rgb(18, 18, 18);
+    box-shadow: 0 0 10px #00FFFF, 0 0 15px #00FFFF, 0 0 20px #00FFFF, 0 0 25px #11b1cd, 0 0 30px #11b1cd;
+}
+
+.small-btn {
+    margin-top: 0px;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;/* This is for the text not to be wrapped and it will stay in one line */
+}
+
+.small-btn:hover,
+.small-btn:focus {
+    box-shadow: 0 0 5px #ffd500, 0 0 10px #ffd500, 0 0 15px #ff9100, 0 0 20px #ff9100;
+}
+
+.dark .small-btn:hover,
+.dark .small-btn:focus {
+    box-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 15px #11b1cd, 0 0 20px #11b1cd;
 }

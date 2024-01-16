@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
 
 import LeftSidebar from '../components/LeftSidebar.js';
-import HiddenSidebar from '../components/HiddenSidebar.js';
 import NavButton from '../components/NavButton.js';
+import Sidebar from '../components/Sidebar.js';
 import Header from '../components/Header.js';
 import PortfolioSection from '../components/PortfolioSection.js';
 import AboutSection from '../components/AboutSection.js';
 import ContactSection from '../components/ContactSection.js';
 import BackTopButton from '../components/BackTopButton.js';
 
-import ThemeToggle from "../components/ThemeToggle.js";
-import LanguageToggle from "../components/LanguageToggle.js";
-
 
 function HomePage({ toggleTheme, getIconFileName }) {
-    const [sidebarVisible, setSidebarVisible] = useState(false);
+    const [sidebarVisible, setSidebarVisible] = useState(true);
 
     const toggleSidebar = () => {
         setSidebarVisible(!sidebarVisible);
@@ -27,13 +24,10 @@ function HomePage({ toggleTheme, getIconFileName }) {
     return (
         <>
             <LeftSidebar />
-            <HiddenSidebar isVisible={sidebarVisible} toggleSidebar={toggleSidebar} />
+
             <div className="w3-main w3-padding-large" id="home" style={homeStyles}>
-                <div className="toggle-container">
-                    <ThemeToggle toggleTheme={toggleTheme} />
-                    <LanguageToggle />
-                </div>
-                <NavButton toggleSidebar={toggleSidebar} />
+                <NavButton isVisible={sidebarVisible} toggleSidebar={toggleSidebar} />
+                <Sidebar isVisible={sidebarVisible} toggleTheme={toggleTheme} />
                 <Header />
                 <PortfolioSection />
                 {/* I pass this information to be able to change the icons for dark & light theme*/}

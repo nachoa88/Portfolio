@@ -1,20 +1,24 @@
 import '../components/css/NavButton.css';
 
-function NavButton({ toggleSidebar }) {
-    // This function is to make the button more accessible.
-    const handleButtonClick = (event) => {
-        // If Enter or Space is pressed, trigger the sidebar toggle
-        if (event.key === 'Enter' || event.key === ' ') {
-          toggleSidebar();
-        }
-      };
+function NavButton({ isVisible, toggleSidebar }) {
+  // This function is to make the button more accessible.
+  const handleButtonClick = (event) => {
+    // If Enter or Space is pressed, trigger the sidebar toggle
+    if (event.key === 'Enter' || event.key === ' ') {
+      toggleSidebar();
+    }
+  };
+  const handleClick = (event) => {
+    toggleSidebar();
+    event.currentTarget.blur(); // Remove focus after click
+  };
 
-    return (
-        <span className="w3-button w3-top"
-            id="menuIcon" onClick={toggleSidebar} onKeyDown={handleButtonClick} tabIndex={0} role="button" aria-label="Toggle Sidebar">
-                <i className="fa fa-bars fa-2x"></i>
-        </span>
-    );
+  return (
+    <span className="w3-button w3-top"
+      id="menuIcon" onClick={handleClick} onKeyDown={handleButtonClick} tabIndex={0} role="button" aria-label="Toggle Sidebar">
+      {isVisible ? <i className="fa fa-remove fa-2x"></i> : <i className="fa fa-bars fa-2x"></i>}
+    </span>
+  );
 }
 
 export default NavButton;
