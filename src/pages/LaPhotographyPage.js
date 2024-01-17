@@ -4,10 +4,10 @@ import BackTopButton from "../components/BackTopButton";
 
 import '../components/css/ProjectBody.css';
 
-function LaPhotographyPage() {
+function LaPhotographyPage({ toggleTheme }) {
     return (
         <>
-            <Navbar />
+            <Navbar toggleTheme={toggleTheme} />
             <LaPhotographyBody />
             <BackTopButton />
         </>

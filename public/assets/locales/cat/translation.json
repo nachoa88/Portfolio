@@ -13,10 +13,11 @@
     "play-game": "Jugar",
     "pokedex-text": "Pokédex creat en React, utilitzant la PokeAPI per obtenir la informació dels Pokémon. Pots cercar per nom o tipus, i al fer clic en cadascun, es mostra la informació detallada del Pokémon seleccionat.",
     "konecta-text": "Aquest projecte ho vam fer conjuntament amb el meu grup al Curs de Desenvolupament Web. Pel front-end es fa servir React i pel back-end Spring Boot, utilitzant AWS per als nostres servidors.",
-    "portfolio-text": "Aquest és el meu propi portfoli, està fet amb React, utilitzant alguns templates de W3Schools i Bootstrap, posant en pràctica les meves habilitats en HTML, CSS, JS i Bootstrap.",
     "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
     "projectboost-text": "Projecte pel curs de GameDev.tv Team, creat amb C# en Unity utilitzant només figures primàreas. El jugador ha d'arribar a la plataforma de destinació enfrontant-se a diferents obstacles, com més ràpid ho faci, més punts sumarà.",
     "tilevania-text": "Projecte pel curs de GameDev.tv Team, creat amb C# en Unity 2D. En aquest joc de plataforma, el jugador haurà de recórrer els nivells, enfrontar-se a enemics i recol·lectar la major quantitat de monedes possibles.",
+
+    "more-portfolio": "Com s'ha fet el portfolio?",
 
     "about-1": "Em dic Ignacio Albiol, soc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
     "about-2": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, soc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",

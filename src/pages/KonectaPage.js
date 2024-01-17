@@ -4,10 +4,10 @@ import BackTopButton from "../components/BackTopButton";
 
 import '../components/css/ProjectBody.css';
 
-function KonectaPage() {
+function KonectaPage({ toggleTheme }) {
     return (
         <>
-            <Navbar />
+            <Navbar toggleTheme={toggleTheme} />
             <KonectaBody />
             <BackTopButton />
         </>

@@ -13,10 +13,11 @@
     "play-game" : "Jugar",
     "pokedex-text": "Pokédex creado en React, utilizando la PokeAPI para obtener la información de los pokemones. Se puede buscar por nombre o tipo, y al hacer click en cada uno, se muestra la información detallada del mismo.",
     "konecta-text": "Este proyecto lo realicé junto con mi grupo durante el Curso de Desarrollo Web. El front-end se realizó en React y el back-end con Spring Boot, utilizando AWS para nuestros servidores, bases de datos y almacenamiento.",
-    "portfolio-text": "Este es mi propio portfolio, fue hecho con React, usando algunos templates de W3Schools y Bootstrap, poniendo en práctica mis habilidades en HTML, CSS, JS y Bootstrap. He utilizado Hostinger para alojar mi sitio web.",
     "photography-text": "Este proyecto fue hecho para un amigo que es fotógrafo, básicamente es un portfolio de su trabajo. Lo he hecho con Wordpress y el complemento de Elementor, fue mi primer acercamiento a estas herramientas.",
     "projectboost-text": "Proyecto para el curso de GameDev.tv Team, creado en C# y Unity, usando sólo formas primarias. El jugador debe llegar a la plataforma de destino enfrentándosea diferentes obstáculos, cuanto más rápido lo haga, más puntos sumará.",
     "tilevania-text": "Proyecto para el curso de GameDev.tv Team, creado en C# y Unity 2D. En este juego de plataforma, el jugador deberá recorrer los niveles, enfrentarse a enemigos y recolectar la mayor cantidad de monedas posibles.",
+
+    "more-portfolio": "Cómo se hizo el portfolio?",
 
     "about-1": "Mi nombre es Ignacio Albiol, soy desarrollador web y de videojuegos, y vivo en Barcelona. Durante los últimos años he atravesado un proceso de reconversión profesional, pasando desde el sector educativo hacia el mundo de la programación y desarrollo. Inicié mi camino aprendiendo Unity y C# de forma autodidacta, y luego consolidé mis habilidades con una formación integral en desarrollo de aplicaciones web full-stack.",
     "about-2": "En cuanto a mis habilidades interpersonales, me considero una persona seria, responsable, decidida y trabajadora. Me gusta sumergirme en proyectos diversos, y he aprendido a trabajar en equipo de manera efectiva, extrayendo lo mejor de la colaboración con mis compañeros. Además, soy paciente y resiliente, cualidades clave en el mundo del desarrollo, y que he perfeccionado a lo largo de mi trayectoria profesional como educador.",

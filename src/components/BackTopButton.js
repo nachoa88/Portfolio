@@ -29,8 +29,13 @@ function BackTopButton() {
         });
     };
 
+    const handleClick = (event) => {
+        scrollToTop();
+        event.currentTarget.blur(); // Remove focus after click
+    };
+
     return (
-        <button id="back-top" className={isVisible ? 'visible' : ''} onClick={scrollToTop}>
+        <button id="back-top" className={`normal-btn ${isVisible ? 'visible' : ''}`} onClick={handleClick}>
             <span className="button-text">{t('back-to-top')}</span>
         </button>
     )

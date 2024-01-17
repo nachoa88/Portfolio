@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
 
+import ScrollToTop from '../components/utils/helpers/ScrollToTop.js';
 import HomePage from '../pages/HomePage.js';
 import KonectaPage from "../pages/KonectaPage.js";
 import PortfolioPage from "../pages/PortfolioPage.js";
@@ -23,14 +24,15 @@ function Routing() {
 
     return (
         <BrowserRouter>
+            <ScrollToTop /> {/* To scroll to the top of the page when the user navigates to a new page. */}
             <Routes>
-                <Route index element={<HomePage toggleTheme={toggleTheme} getIconFileName={getIconFileName}/>} />
-                <Route path="konecta" element={<KonectaPage />} />
-                <Route path="portfoliopage" element={<PortfolioPage />} />
-                <Route path="laphotography" element={<LaPhotographyPage />} />
+                <Route index element={<HomePage toggleTheme={toggleTheme} getIconFileName={getIconFileName} />} />
+                <Route path="konecta" element={<KonectaPage toggleTheme={toggleTheme} />} />
+                <Route path="portfoliopage" element={<PortfolioPage toggleTheme={toggleTheme} />} />
+                <Route path="laphotography" element={<LaPhotographyPage toggleTheme={toggleTheme} />} />
             </Routes>
-             {/* I pass this information to be able to change the icons for dark & light theme*/}
-            <Footer getIconFileName={getIconFileName}/>
+            {/* I pass this information to be able to change the icons for dark & light theme*/}
+            <Footer getIconFileName={getIconFileName} />
         </BrowserRouter>
     );
 }

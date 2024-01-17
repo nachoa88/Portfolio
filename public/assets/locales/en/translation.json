@@ -13,10 +13,11 @@
     "play-game" : "Play Game",
     "pokedex-text": "Pokédex created in React, using the PokeAPI to obtain the information of the Pokémon. You can search by name or type, and by clicking on each one, detailed information about it is displayed.",
     "konecta-text": "This project was made with my group during the Web Development Course. Front-end was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.",
-    "portfolio-text": "This is my own portfolio, it was made with React, using some samples from W3Schools and Bootstrap, putting in practice my HTML, CSS, JS, & Bootstrap skills. I've used Hostinger to host my website.",
     "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
     "projectboost-text": "Project for the GameDev.tv Team course, created with C# in Unity 3D using only primary shapes. The player must reach the destination platform facing different obstacles, the faster, the more points he will score.",
     "tilevania-text": "Project for the GameDev.tv Team course, created with C# in Unity 2D. In this platform game, the player must go through the levels, face enemies and collect as many coins as possible.",
+
+    "more-portfolio": "How was the portfolio made?",
 
     "about-1": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course.",
     "about-2": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator.",
