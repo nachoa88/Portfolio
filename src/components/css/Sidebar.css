@@ -19,17 +19,17 @@
     border-radius: 5px;
     padding: 5px;
     gap: 0.5vw;
-    background: linear-gradient(to right, #ffa25f, #fec77b, #ffea8e);
+    background: linear-gradient(to right, #ffea8e, #ffebaf, #fff7ec);
     display: inline-flex;
     /* Use inline-flex to adjust to the content's width */
     align-items: center;
-    border: 2px solid #ff9100;
+    border: 2px solid #ffb553;
     transition: background-color 0.5s ease, border 0.5s ease;
     z-index: 4;
 }
 
 .dark .toggle-container {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
     border: 2px solid #11b1cd;
 }
 
@@ -38,16 +38,16 @@
     height: 50px;
     border-radius: 5px;
     padding: 5px;
-    background-color: whitesmoke;
+    background-color: #fff7ec;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid #ff9100;
+    border: 2px solid #ffb553;
     transition: background-color 0.5s ease, border 0.5s ease;
 }
 
 .dark .navbar-container {
-    background-color: rgb(45, 45, 45);
+    background-color: #0f2027;
     border: 2px solid #11b1cd;
 }
 
@@ -90,7 +90,7 @@
 /*MOBIL NAVBAR*/
 @media (max-width: 768px) {
     .sidebar-container {
-        background-color: #ff9100c7;
+        background-color: #ffb553c7;
         flex-direction: column;
         top: 0;
         left: 0;

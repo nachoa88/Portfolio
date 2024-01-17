@@ -30,7 +30,7 @@ function PortfolioSection() {
                         <div className="card-body">
                             <p className="card-title">K0N3CT4</p>
                             <p className="card-text">{t('konecta-text')}</p>
-                            <a href="/konecta" className="normal-btn small-btn"><i className="fas fa-link card-icon" ></i>{t('learn-more')}</a>
+                            <Link to="/konecta" className="normal-btn small-btn"><i className="fas fa-link card-icon" ></i>{t('learn-more')}</Link>
                             <a href="https://github.com/nachoa88/KoNeCTaReact" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn">
                                 <i className="fab fa-github card-icon" ></i>Github</a>
                         </div>
@@ -42,7 +42,7 @@ function PortfolioSection() {
                         <div className="card-body">
                             <p className="card-title">Photography Portfolio</p>
                             <p className="card-text">{t('photography-text')}</p>
-                            <a href="/laphotography" className="normal-btn small-btn"><i className="fas fa-link card-icon" ></i>{t('learn-more')}</a>
+                            <Link to="/laphotography" className="normal-btn small-btn"><i className="fas fa-link card-icon" ></i>{t('learn-more')}</Link>
                             <a href="https://laphotography.es/" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn">
                                 <i className="fas fa-link card-icon" ></i>{t('visit-site')}</a>
                         </div>

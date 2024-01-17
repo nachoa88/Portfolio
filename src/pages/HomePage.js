@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import LeftSidebar from '../components/LeftSidebar.js';
 import NavButton from '../components/NavButton.js';
@@ -11,7 +11,20 @@ import BackTopButton from '../components/BackTopButton.js';
 
 
 function HomePage({ toggleTheme, getIconFileName }) {
-    const [sidebarVisible, setSidebarVisible] = useState(true);
+    // This is to set the default state of the sidebar for mobile devices.
+    const [sidebarVisible, setSidebarVisible] = useState(window.innerWidth > 768);
+    // If the window is resized, check if the sidebar should be visible or not.
+    useEffect(() => {
+        const handleResize = () => {
+            setSidebarVisible(window.innerWidth > 768);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     const toggleSidebar = () => {
         setSidebarVisible(!sidebarVisible);
@@ -20,6 +33,7 @@ function HomePage({ toggleTheme, getIconFileName }) {
     const homeStyles = {
         marginLeft: '40%',
     };
+
 
     return (
         <>

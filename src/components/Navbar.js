@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
@@ -7,28 +6,21 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import ThemeToggle from "./ThemeToggle.js";
 import LanguageToggle from "./LanguageToggle.js";
 
-
 import '../components/css/Navbar.css';
 
-function Navbar() {
-    const [isDarkTheme, setDarkTheme] = useState(false);
-
-    const toggleTheme = (darkMode) => {
-        setDarkTheme(darkMode);
-    };
+function Navbar({ toggleTheme }) {
 
     return (
-
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-            <button className="navbar-toggler custom-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                <button className="navbar-toggler custom-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fa fa-bars fa-2x"></i>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link to="/" className="nav-link" aria-label="Go to Home">
+                            <Link to="/" className="normal-btn" aria-label="Go to Home Page">
                                 <i className="bi bi-house-door-fill h3 icon-center"></i>Home</Link></li>
                         <Dropdown>
                             <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -51,14 +43,13 @@ function Navbar() {
                             </Dropdown.Menu>
                         </Dropdown>
                         <li className="nav-item">
-                            <HashLink smooth to="/#contact" className="nav-link" aria-label="Go to Contact">
+                            <HashLink smooth to="/#contact" className="normal-btn" aria-label="Go to Contact">
                                 <i className="bi bi-person-fill h3 icon-center"></i>Contact</HashLink></li>
                     </ul>
                 </div>
 
                 <ThemeToggle toggleTheme={toggleTheme} />
                 <LanguageToggle />
-
 
             </div>
         </nav>

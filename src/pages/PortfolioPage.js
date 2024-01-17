@@ -4,10 +4,10 @@ import BackTopButton from "../components/BackTopButton";
 
 import '../components/css/ProjectBody.css';
 
-function PortfolioPage() {
+function PortfolioPage({ toggleTheme }) {
     return (
         <>
-            <Navbar />
+            <Navbar toggleTheme={toggleTheme} />
             <PortfolioBody />
             <BackTopButton />
         </>

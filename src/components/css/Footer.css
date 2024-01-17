@@ -22,7 +22,10 @@
 .other-page-footer {
     width: 100%; /* Width for other pages */
     clip-path: polygon(35% 0, 65% 0, 75% 100%, 25% 100%); /*Trapezoid form for 100%*/
-  }
+    @media screen and (max-width: 992px) {
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%); /*Normal footer for mobile.*/
+    }
+}
 
 .footer-icons a {
     margin: 0 10px; /* Add left and right margin to create spacing between "a" elements */

@@ -1,7 +1,7 @@
 /* CARDS STYLE */
 .card {
     background: rgb(45, 45, 45);
-    border: 2px solid #ff9100;
+    border: 2px solid #ffb553;
     color: rgba(250, 250, 250, 0.8);
     margin-bottom: 1.5rem;
     transition: transform 0.3s;
