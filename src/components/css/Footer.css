@@ -1,43 +1,28 @@
 .home-page-footer, .other-page-footer {
-    background-color: lightgray;
+    background-color: #a9a18a;
     transition: background-color 0.5s ease;
     opacity: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 25vh;
+    height: 15vh;
 }
 
 .home-page-footer {
     width: 60%; /* As the picture uses the 40% of the screen, footer needs to use only 60% */
     margin-left: auto; /* Also, align it to the right, to see that 60% */
-    clip-path: polygon(30% 0, 70% 0, 80% 100%, 20% 100%); /*Trapezoid form for 60%*/
     @media screen and (max-width: 992px) {
           width: 100%; /* When the screen is smaller and the left picture dissappear the footer returns to 100% */
-          clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%); /*Normal footer for mobile.*/
       }
 }
 
 .other-page-footer {
     width: 100%; /* Width for other pages */
-    clip-path: polygon(35% 0, 65% 0, 75% 100%, 25% 100%); /*Trapezoid form for 100%*/
-    @media screen and (max-width: 992px) {
-        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%); /*Normal footer for mobile.*/
-    }
-}
-
-.footer-icons a {
-    margin: 0 10px; /* Add left and right margin to create spacing between "a" elements */
-    text-decoration: none;
-}
-
-.footer-icons a:hover {
-    opacity: 0.5;
 }
 
 .dark .home-page-footer, .dark .other-page-footer {
-    background-color: rgb(28, 28, 28);
+    background-color: #192429;
 }
 
 .footer-logo {
@@ -48,9 +33,16 @@
 
 .logo-img {
     width: 70px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .logo-img:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.dark .logo-img:hover {
+    transform: scale(1.1);
     opacity: 0.5;
 }
 

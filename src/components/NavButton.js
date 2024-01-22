@@ -16,7 +16,7 @@ function NavButton({ isVisible, toggleSidebar }) {
   return (
     <span className="w3-button w3-top"
       id="menuIcon" onClick={handleClick} onKeyDown={handleButtonClick} tabIndex={0} role="button" aria-label="Toggle Sidebar">
-      {isVisible ? <i className="fa fa-remove fa-2x"></i> : <i className="fa fa-bars fa-2x"></i>}
+      {isVisible ? <i className="fas fa-times fa-2x"></i> : <i className="fas fa-bars fa-2x"></i>}
     </span>
   );
 }

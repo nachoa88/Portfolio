@@ -23,14 +23,14 @@
     display: inline-flex;
     /* Use inline-flex to adjust to the content's width */
     align-items: center;
-    border: 2px solid #ffb553;
+    border: 2px solid #bfad6e;
     transition: background-color 0.5s ease, border 0.5s ease;
     z-index: 4;
 }
 
 .dark .toggle-container {
     background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
-    border: 2px solid #11b1cd;
+    border: 2px solid #4d6974;
 }
 
 .navbar-container {
@@ -42,22 +42,26 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid #ffb553;
+    border: 2px solid #bfad6e;
     transition: background-color 0.5s ease, border 0.5s ease;
 }
 
 .dark .navbar-container {
     background-color: #0f2027;
-    border: 2px solid #11b1cd;
+    border: 2px solid #4d6974;
 }
 
 .navbar-container button {
     background-color: transparent;
     width: 5vw;
+    border-top: 1px solid #bfad6e;
+    border-bottom: 1px solid #bfad6e;
 }
 
 .dark .navbar-container button {
     background-color: transparent;
+    border-top: 1px solid #4d6974;
+    border-bottom: 1px solid #4d6974;
 }
 
 /*TABLET NAVBAR*/

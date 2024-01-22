@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    border: 2px solid #ffb553;
+    border: 2px solid #bfad6e;
     color: black;
     background-color: #fff7ec;
     transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
@@ -19,7 +19,7 @@
 .dark #menuIcon{
     background-color: #0f2027;;
     color: whitesmoke;
-    border: 2px solid #11b1cd;
+    border: 2px solid #4d6974;
 }
 
 #menuIcon:hover,
