@@ -8,13 +8,13 @@ function PortfolioSection() {
     const { t } = useTranslation();
 
     return (
-        <div className="w3-padding-32 w3-content" id="portfolio">
+        <div className="portfolio" id="portfolio">
             <h2>{t('sidebar-portfolio')}</h2>
             <hr className="w3-opacity" />
             <div className="row">
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="img/pokedex.jpg" className="card-img-top" alt="Sample of konect project" />
+                        <img src="img/pokedex.jpg" className="card-img-top" alt="Sample of konect project" loading="lazy" />
                         <div className="card-body">
                             <p className="card-title">Pokédex - PokéAPI</p>
                             <p className="card-text">{t('pokedex-text')}</p>
@@ -26,7 +26,7 @@ function PortfolioSection() {
                 </div>
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="img/konecta.jpg" className="card-img-top" alt="Sample of konect project" />
+                        <img src="img/konecta.jpg" className="card-img-top" alt="Sample of konect project" loading="lazy" />
                         <div className="card-body">
                             <p className="card-title">K0N3CT4</p>
                             <p className="card-text">{t('konecta-text')}</p>
@@ -38,7 +38,7 @@ function PortfolioSection() {
                 </div>
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="img/laphotography.jpg" className="card-img-top" alt="Sample of photography portfolio" />
+                        <img src="img/laphotography.jpg" className="card-img-top" alt="Sample of photography portfolio" loading="lazy" />
                         <div className="card-body">
                             <p className="card-title">Photography Portfolio</p>
                             <p className="card-text">{t('photography-text')}</p>
@@ -50,7 +50,7 @@ function PortfolioSection() {
                 </div>
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="img/tilevania.jpg" className="card-img-top" alt="Sample of Tile Vania" />
+                        <img src="img/tilevania.jpg" className="card-img-top" alt="Sample of Tile Vania" loading="lazy" />
                         <div className="card-body">
                             <p className="card-title">Game: Tile Vania</p>
                             <p className="card-text">{t('tilevania-text')}</p>
@@ -63,7 +63,7 @@ function PortfolioSection() {
                 </div>
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="img/project-boost.jpg" className="card-img-top" alt="Sample of Space-Boost" />
+                        <img src="img/project-boost.jpg" className="card-img-top" alt="Sample of Space-Boost" loading="lazy" />
                         <div className="card-body">
                             <p className="card-title">Game: Space-Boost</p>
                             <p className="card-text">{t('projectboost-text')}</p>

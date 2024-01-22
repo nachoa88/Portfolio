@@ -35,15 +35,15 @@ function ContactSection() {
       <div className="row">
         <div className="col-lg-6 col-sm-12 contact-info order-lg-2">
           <p><a href="mailto:nacho.albiol88@gmail.com" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-envelope fa-fw w3-xxlarge"></i></a>
+            <i className="fas fa-envelope fa-fw w3-xxlarge"></i></a>
             Email: nacho.albiol88@gmail.com
           </p>
           <p><a href="https://wa.me/34677246546" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-phone fa-fw w3-xxlarge"></i></a>
+            <i className="fas fa-phone fa-fw w3-xxlarge"></i></a>
             {t("phone")}: +34 677 246 546
           </p>
           <p><a href="https://www.google.com/maps/search/?api=1&query=Barcelona" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-map-marker fa-fw w3-xxlarge"></i></a>
+            <i className="fas fa-map-marker-alt fa-fw w3-xxlarge"></i></a>
             Barcelona, 08017
           </p>
         </div>
@@ -64,7 +64,7 @@ function ContactSection() {
           <p><textarea className="w3-input w3-padding-14" placeholder={t("message")} required name="message" rows="4"></textarea></p>
           <p>
             <button className="normal-btn" type="submit" value="Send">
-              <i className="fa fa-paper-plane"></i>
+              <i className="fas fa-paper-plane"></i>
               <span className="button-text">{t("send-message")}</span>
             </button>
           </p>

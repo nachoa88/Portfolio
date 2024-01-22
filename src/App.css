@@ -1,7 +1,6 @@
 /*GENERAL STYLE*/
 body {
     font-family: Georgia, serif;
-    /* font-family: 'Open-Dyslexic', sans-serif;*/
     color: black;
     background-color: whitesmoke;
     transition: color 0.5s ease, background-color 0.5s ease;
@@ -54,7 +53,7 @@ body.dark {
     padding: 12px 24px;
     border-radius: 5px;
     color: black;
-    background-color: lightgray;
+    background-color: #d9c48b;
     transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
     border: none;
     outline: none;
@@ -62,7 +61,7 @@ body.dark {
 }
 
 .dark .normal-btn {
-    background-color: rgb(45, 45, 45);
+    background-color: #4d6974;
     color: whitesmoke;
 }
 
@@ -89,7 +88,7 @@ body.dark {
 }
 
 .dark .small-btn {
-    background-color: rgb(75, 75, 75);
+    background-color: #4D6974;
 }
 
 .small-btn:hover,

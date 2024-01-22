@@ -15,7 +15,7 @@ function Navbar({ toggleTheme }) {
             <div className="container-fluid">
                 <button className="navbar-toggler custom-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className="fa fa-bars fa-2x"></i>
+                    <i className="fas fa-bars fa-2x"></i>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">

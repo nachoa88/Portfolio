@@ -1,18 +1,31 @@
+.portfolio {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* CARDS STYLE */
 .card {
-    background: rgb(45, 45, 45);
-    border: 2px solid #ffb553;
+    background: rgb(45, 45, 45); /* Agregar degradé!!! */
+    border: 2px solid #a9a18a;
     color: rgba(250, 250, 250, 0.8);
     margin-bottom: 1.5rem;
     transition: transform 0.3s;
 }
 
 .dark .card {
-    border: 2px solid #11b1cd;
+    border: 2px solid #4d6974;
 }
 
 .card:hover {
     transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
 }
 
 .card-body {
