@@ -22,11 +22,11 @@ function Navbar({ toggleTheme }) {
                         <li className="nav-item">
                             <Link to="/" className="normal-btn" aria-label="Go to Home Page">
                                 <i className="bi bi-house-door-fill h3 icon-center"></i>Home</Link></li>
-                        <Dropdown>
+                        <Dropdown className="nav-item">
                             <Dropdown.Toggle variant="success" id="dropdown-basic">
                                 <i className="bi bi-pc-display h3 icon-center"></i>Projects
                             </Dropdown.Toggle>
-                            <Dropdown.Menu className="custom-dropdown-menu">
+                            <Dropdown.Menu className="navbar-dropdown">
                                 <li>
                                     <Dropdown.Item><Link className="dropdown-item" to="/konecta" aria-label="Go to Konecta project">
                                         K0N3CT4</Link></Dropdown.Item>

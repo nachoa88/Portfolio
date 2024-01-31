@@ -25,12 +25,14 @@
     box-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 15px #11b1cd, 0 0 20px #11b1cd;
 }
 
-.dropdown-menu {
+.language-dropdown {
     background-color: #d9c48b;
     border: 2px solid #bfad6e;
+    width: 120px;
+    min-width: 0; /*As bootstrap dropdown minimun is 160px it's necessary to override this with a min-width.*/
 }
 
-.dark .dropdown-menu {
+.dark .language-dropdown {
     background-color: #0f2027;
     border: 2px solid #4d6974;
 }

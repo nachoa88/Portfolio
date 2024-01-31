@@ -30,7 +30,7 @@ function LanguageToggle() {
                 <span className="bi bi-translate h3"></span>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu>
+            <Dropdown.Menu className="language-dropdown">
                 {languages.map(({ code, name, countryCode }) => (
                     <li key={countryCode}>
                         <Dropdown.Item onClick={() => i18next.changeLanguage(code)}>

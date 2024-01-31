@@ -7,7 +7,7 @@ function ThemeToggle({ toggleTheme }) {
     const storedTheme = localStorage.getItem('theme');
     // If there's a theme stored in local storage and it's 'dark', set initialTheme to true. Otherwise, set initialTheme aslo to true.
     const initialTheme = storedTheme ? storedTheme === 'dark' : true;
-    
+
     const [isDarkMode, setIsDarkMode] = useState(initialTheme);
 
     // Toggle the theme and update the state
@@ -25,7 +25,7 @@ function ThemeToggle({ toggleTheme }) {
     }, [isDarkMode, toggleTheme, initialTheme]);
 
     return (
-        <div className="nav-item">
+        <div>
             <label htmlFor="dark-mode-toggle" className={`theme-toggle ${isDarkMode ? 'dark' : 'light'}`}>
                 <i className={`theme-icon fas ${isDarkMode ? 'fa-moon fa-lg' : 'fa-sun fa-lg'}`} aria-hidden="true"></i>
                 <input type="checkbox" id="dark-mode-toggle" onChange={handleThemeToggle} checked={isDarkMode} aria-label="Toggle Dark Mode" />
