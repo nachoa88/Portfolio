@@ -9,21 +9,38 @@
 
 .navbar .normal-btn {
     background-color: transparent;
+    height: 35px;
 }
 
 .dark .navbar .normal-btn {
     background-color: transparent;
 }
 
+.nav-item {
+    width: 140px;
+    height: 40px;
+}
+
 .navbar-nav {
     gap: 10px; /* Adjust the gap (spacing) between the two components as needed */
-    align-items: center;
 }
 
 .icon-center {
     margin-bottom: 0;
     margin-right: 5px;
     vertical-align: middle;
+}
+
+.navbar-dropdown {
+    background-color: #d9c48b;
+    border: 2px solid #bfad6e;
+    width: 180px;
+    min-width: 0; /*As bootstrap dropdown minimun is 160px it's necessary to override this with a min-width.*/
+}
+
+.dark .navbar-dropdown {
+    background-color: #0f2027;
+    border: 2px solid #4d6974;
 }
 
 
