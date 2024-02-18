@@ -9,9 +9,9 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    border: 2px solid #bfad6e;
+    border: 2px solid #2c5364;
     color: black;
-    background-color: #fff7ec;
+    background-color: #7dbbd3;
     transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
     z-index: 5;
 }
@@ -19,13 +19,13 @@
 .dark #menuIcon{
     background-color: #0f2027;;
     color: whitesmoke;
-    border: 2px solid #4d6974;
+    border: 2px solid #1FA8CA;
 }
 
 #menuIcon:hover,
 #menuIcon:focus {
-    background-color: rgb(65, 65, 65) !important;
-    box-shadow: 0 0 5px #ffd500, 0 0 10px #ffd500, 0 0 15px #ffb553, 0 0 20px #ffb553;
+    background-color: rgb(18, 18, 18) !important;
+    box-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 15px #11b1cd, 0 0 20px #11b1cd;
     color: whitesmoke !important;
     outline: none;
 }

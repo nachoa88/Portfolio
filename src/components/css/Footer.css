@@ -1,5 +1,5 @@
 .home-page-footer, .other-page-footer {
-    background-color: #a9a18a;
+    background-color: #b1bfc5;
     transition: background-color 0.5s ease;
     opacity: 1;
     display: flex;
@@ -7,10 +7,11 @@
     align-items: center;
     justify-content: center;
     height: 15vh;
+    border-radius: 15px 15px 0 0;
 }
 
 .home-page-footer {
-    width: 60%; /* As the picture uses the 40% of the screen, footer needs to use only 60% */
+    width: 70%; /* As the picture uses the 40% of the screen, footer needs to use only 60% */
     margin-left: auto; /* Also, align it to the right, to see that 60% */
     @media screen and (max-width: 992px) {
           width: 100%; /* When the screen is smaller and the left picture dissappear the footer returns to 100% */

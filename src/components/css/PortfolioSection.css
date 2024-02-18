@@ -8,15 +8,15 @@
 
 /* CARDS STYLE */
 .card {
-    background: rgb(45, 45, 45); /* Agregar degradé!!! */
-    border: 2px solid #a9a18a;
+    background: rgb(45, 45, 45);
+    border: 2px solid #2c5364;
     color: rgba(250, 250, 250, 0.8);
     margin-bottom: 1.5rem;
     transition: transform 0.3s;
 }
 
 .dark .card {
-    border: 2px solid #4d6974;
+    border: 2px solid #1fa8ca;
 }
 
 .card:hover {
@@ -39,20 +39,20 @@
 }
 
 .card-text {
-    height: 160px;
     /* Default height for large screens*/
+    height: 130px;
 
     /* Media queries for different screen sizes, px variate a lot because of rows */
     @media screen and (max-width: 1450px) {
-        height: 200px;
+        height: 160px;
     }
 
     @media screen and (max-width: 1200px) {
-        height: 140px;
+        height: 120px;
     }
 
     @media screen and (max-width: 768px) {
-        height: 100px;
+        height: 80px;
     }
 
     @media screen and (max-width: 576px) {

@@ -13,8 +13,8 @@
 .dropdown-toggle:active,
 .dropdown-toggle:focus {
     color: whitesmoke;
-    background-color: rgb(65, 65, 65) !important;
-    box-shadow: 0 0 5px #ffd500, 0 0 10px #ffd500, 0 0 15px #ff9100, 0 0 20px #ff9100;
+    background-color: rgb(18, 18, 18) !important;
+    box-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 15px #11b1cd, 0 0 20px #11b1cd;
     outline: none;
 }
 
@@ -26,15 +26,15 @@
 }
 
 .language-dropdown {
-    background-color: #d9c48b;
-    border: 2px solid #bfad6e;
+    background-color: #7dbbd3;
+    border: 2px solid #2c5364;
     width: 120px;
     min-width: 0; /*As bootstrap dropdown minimun is 160px it's necessary to override this with a min-width.*/
 }
 
 .dark .language-dropdown {
     background-color: #0f2027;
-    border: 2px solid #4d6974;
+    border: 2px solid #1fa8ca;
 }
 
 .dropdown-item {
