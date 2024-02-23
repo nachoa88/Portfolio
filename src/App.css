@@ -28,7 +28,6 @@ body::before {
         linear-gradient(210deg, #1a172e 60%, transparent 80%);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: top left, top right, bottom;
     opacity: 0;
     transition: opacity 0.5s ease;
@@ -129,7 +128,7 @@ YELLOW: box-shadow: 0 0 5px #ffd500, 0 0 10px #ffd500, 0 0 15px #ffb553, 0 0 20p
 }
 
 .dark .small-btn {
-    background-color: #4D6974;
+    background-color: #4d6974;
 }
 
 .small-btn:hover,
