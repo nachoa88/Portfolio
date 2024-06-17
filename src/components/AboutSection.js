@@ -4,7 +4,7 @@ import '../components/css/AboutSection.css';
 
 function AboutSection({ getIconFileName }) {
     const { t } = useTranslation();
-    
+
     return (
         <div className="w3-content w3-padding-32" id="about">
             <h2>{t('sidebar-about')}</h2>
@@ -32,6 +32,12 @@ function AboutSection({ getIconFileName }) {
                 </div>
                 <div className="col-xl-2 col-md-3 col-sm-4 col-4">
                     <div className="icon-container">
+                        <img className="iconImg" src="img/icons/tailwind_icon.png" alt="TailWind icon" />
+                        <p className="skill-text">TailWind</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-md-3 col-sm-4 col-4">
+                    <div className="icon-container">
                         <img className="iconImg" src="/img/icons/javascript_icon.png" alt="JavaScript icon" />
                         <p className="skill-text">JavaScript</p>
                     </div>
@@ -54,10 +60,22 @@ function AboutSection({ getIconFileName }) {
                 <p className="skill-title w3-wide">Back-End</p>
                 <div className="col-xl-2 col-md-3 col-sm-4 col-4">
                     <div className="icon-container">
+                        <img className="iconImg" src="img/icons/php_icon.png" alt="PHP icon" />
+                        <p className="skill-text">PHP</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-md-3 col-sm-4 col-4">
+                    <div className="icon-container">
+                        <img className="iconImg" src="img/icons/laravel_icon.png" alt="Laravel icon" />
+                        <p className="skill-text">Laravel</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-md-3 col-sm-4 col-4">
+                    <div className="icon-container">
                         <img className="iconImg" src="img/icons/mysql_icon.png" alt="MySQL icon" />
                         <p className="skill-text">MySQL</p>
                     </div>
-                </div>      
+                </div>
                 <div className="col-xl-2 col-md-3 col-sm-4 col-4">
                     <div className="icon-container">
                         <img className="iconImg" src="/img/icons/postman_icon.png" alt="Postman icon" />
@@ -74,6 +92,12 @@ function AboutSection({ getIconFileName }) {
                     <div className="icon-container">
                         <img className="iconImg" src="img/icons/spring_boot_icon.png" alt="Spring Boot icon" />
                         <p className="skill-text">Spring Boot</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-md-3 col-sm-4 col-4">
+                    <div className="icon-container">
+                        <img className="iconImg" src="img/icons/swagger_icon.png" alt="Swagger icon" />
+                        <p className="skill-text">Swagger</p>
                     </div>
                 </div>
             </div>

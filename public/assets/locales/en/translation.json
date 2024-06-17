@@ -11,6 +11,8 @@
     "learn-more": "Learn More",
     "visit-site": "Visit Site",
     "play-game" : "Play Game",
+    "ultimateleague-text": "Ultimate League is a league manager in which you can create, edit, and delete teams, players, and matches. It is made in PHP, Laravel, and MySQL, with the Breeze package to manage user authentication.",
+    "blackjack-text": "Blackjack API is a Rest API created in PHP and Laravel, which creates users, plays games, displays and saves statistics. Passport and Spatie have been used for roles and permissions, and Swagger for documentation.",
     "pokedex-text": "Pokédex created in React, using the PokeAPI to obtain the information of the Pokémon. You can search by name or type, and by clicking on each one, detailed information about it is displayed.",
     "konecta-text": "This project was made with my group during the Web Development Course. Front-end was made in React and back-end with Spring Boot, using AWS for our servers, databases and storage.",
     "photography-text": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools.",
@@ -21,7 +23,7 @@
 
     "about-1": "My name is Ignacio Albiol, I'm a game & web developer and I live in Barcelona. Over the past few years, I have undergone a professional transition, moving from the educational sector to the world of programming and development. I started my journey by learning Unity and C# on my own, and later, I consolidated my skills with an integral full-stack web development course.",
     "about-2": "In terms of my interpersonal skills, I consider myself a serious, responsible, determined and hard-working person. I enjoy diving into diverse projects and I've learned to work effectively in teams, extracting the best from collaboration with my colleagues. Additionally, I am patient and resilient, key qualities in the world of development, which I have perfectionated throughout my professional career as an educator.",
-    "about-3": "I am currently participating in the IT Academy, taking part in a Full-Stack PHP bootcamp, committed to continuous growth and learning in these exciting areas. Excited about the future, and ready to contribute with my experience to the development of new projects.",
+    "about-3": "I've recently finished a Full-Stack PHP bootcamp in the IT Academy of Barcelona Activa, and I'm committed to continuous growth and learning in these exciting areas. Excited about the future, and ready to contribute with my experience to the development of new projects.",
 
     "my-skills": "My Skills",
     "game-dev": "Game Development",

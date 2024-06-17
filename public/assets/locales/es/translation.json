@@ -11,6 +11,8 @@
     "learn-more": "Más información",
     "visit-site": "Visitar Web",
     "play-game" : "Jugar",
+    "ultimateleague-text": "Ultimate League es un gestor de ligas en el cual se pueden crear, editar y eliminar equipos, jugadores y partidos. Realizado en PHP, Laravel y MySQL, con el paquete Breeze para gestionar la autenticación de usuarios.",
+    "blackjack-text": "Blackjack API es una API Rest creada en PHP y Laravel, que crear usuarios, jugar partidas, mostrar y guardar estadísticas. Se ha utilizado Passport y Spatie para los roles y permisos, y Swagger para documentarla.",
     "pokedex-text": "Pokédex creado en React, utilizando la PokeAPI para obtener la información de los pokemones. Se puede buscar por nombre o tipo, y al hacer click en cada uno, se muestra la información detallada del mismo.",
     "konecta-text": "Este proyecto lo realicé junto con mi grupo durante el Curso de Desarrollo Web. El front-end se realizó en React y el back-end con Spring Boot, utilizando AWS para nuestros servidores, bases de datos y almacenamiento.",
     "photography-text": "Este proyecto fue hecho para un amigo que es fotógrafo, básicamente es un portfolio de su trabajo. Lo he hecho con Wordpress y el complemento de Elementor, fue mi primer acercamiento a estas herramientas.",
@@ -21,7 +23,7 @@
 
     "about-1": "Mi nombre es Ignacio Albiol, soy desarrollador web y de videojuegos, y vivo en Barcelona. Durante los últimos años he atravesado un proceso de reconversión profesional, pasando desde el sector educativo hacia el mundo de la programación y desarrollo. Inicié mi camino aprendiendo Unity y C# de forma autodidacta, y luego consolidé mis habilidades con una formación integral en desarrollo de aplicaciones web full-stack.",
     "about-2": "En cuanto a mis habilidades interpersonales, me considero una persona seria, responsable, decidida y trabajadora. Me gusta sumergirme en proyectos diversos, y he aprendido a trabajar en equipo de manera efectiva, extrayendo lo mejor de la colaboración con mis compañeros. Además, soy paciente y resiliente, cualidades clave en el mundo del desarrollo, y que he perfeccionado a lo largo de mi trayectoria profesional como educador.",
-    "about-3": "Actualmente estoy participando en la IT Academy realizando un bootcamp de PHP Full-Stack, comprometido con el continuo crecimiento y aprendizaje en estas apasionantes áreas. Emocionado por el futuro, y listo para aportar mi experiencia en el desarrollo de nuevos proyectos.",
+    "about-3": "Recientemente he terminado un bootcamp de PHP Full-Stack en la IT Academy de Barcelona Activa, y me encuentro comprometido con el continuo crecimiento y aprendizaje en estas apasionantes áreas. Emocionado por el futuro, y listo para aportar mi experiencia en el desarrollo de nuevos proyectos.",
 
     "my-skills": "Mis Habilidades",
     "game-dev": "Desarrollo de Videojuegos",

@@ -41,10 +41,18 @@
     align-items: center;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     border-radius: 5px;
 }
 
 .contact-form p {
     width: 80%;
+}
+
+@media (max-width: 992px) {
+    .contact-info {
+        align-items: center;
+        margin-bottom: 1rem;
+    }
 }
