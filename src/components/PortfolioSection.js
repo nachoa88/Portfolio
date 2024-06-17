@@ -12,13 +12,37 @@ function PortfolioSection() {
             <h2>{t('sidebar-portfolio')}</h2>
             <hr className="w3-opacity" />
             <div className="row">
+            <div className="col-xl-4 col-md-6 col-sm-12">
+                    <div className="card">
+                        <img src="img/ultimate_league.jpg" className="card-img-top" alt="Sample of Ultimate League" loading="lazy" />
+                        <div className="card-body">
+                            <p className="card-title">Ultimate League</p>
+                            <p className="card-text">{t('ultimateleague-text')}</p>
+                            <a href="https://ultimateleague.ignacioalbiol.tech/" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn"><i className="fas fa-link card-icon"></i>{t('visit-site')}</a>
+                            <a href="https://github.com/nachoa88/sprint4.git" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn">
+                                <i className="fab fa-github card-icon" ></i>Github</a>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="img/pokedex.jpg" className="card-img-top" alt="Sample of konect project" loading="lazy" />
+                        <img src="img/blackjack.jpg" className="card-img-top" alt="Sample of Blackjack API" loading="lazy" />
+                        <div className="card-body">
+                            <p className="card-title">Blackjack API</p>
+                            <p className="card-text">{t('blackjack-text')}</p>
+                            <a href="https://blackjack-api.ignacioalbiol.tech/api/documentation" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn"><i className="fas fa-link card-icon"></i>{t('visit-site')}</a>
+                            <a href="https://github.com/nachoa88/sprint5.git" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn">
+                                <i className="fab fa-github card-icon" ></i>Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-xl-4 col-md-6 col-sm-12">
+                    <div className="card">
+                        <img src="img/pokedex.jpg" className="card-img-top" alt="Sample of Pokedex" loading="lazy" />
                         <div className="card-body">
                             <p className="card-title">Pokédex - PokéAPI</p>
                             <p className="card-text">{t('pokedex-text')}</p>
-                            <a href="https://pokedex-iap.netlify.app/" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn"><i className="fas fa-link card-icon"></i>{t('visit-site')}</a>
+                            <a href="https://pokedex.ignacioalbiol.tech/" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn"><i className="fas fa-link card-icon"></i>{t('visit-site')}</a>
                             <a href="https://github.com/nachoa88/Pokedex-PokeAPI" target="_blank" rel="noopener noreferrer" className="normal-btn small-btn">
                                 <i className="fab fa-github card-icon" ></i>Github</a>
                         </div>
@@ -26,7 +50,7 @@ function PortfolioSection() {
                 </div>
                 <div className="col-xl-4 col-md-6 col-sm-12">
                     <div className="card">
-                        <img src="img/konecta.jpg" className="card-img-top" alt="Sample of konect project" loading="lazy" />
+                        <img src="img/konecta.jpg" className="card-img-top" alt="Sample of Konecta project" loading="lazy" />
                         <div className="card-body">
                             <p className="card-title">K0N3CT4</p>
                             <p className="card-text">{t('konecta-text')}</p>

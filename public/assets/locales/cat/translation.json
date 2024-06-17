@@ -11,6 +11,8 @@
     "learn-more": "Més informació",
     "visit-site": "Visita la Web",
     "play-game": "Jugar",
+    "ultimateleague-text": "Ultimate League és un gestor de lligues en el qual es poden crear, editar i eliminar equips, jugadors i partits. Realitzat en PHP, Laravel i MySQL, amb el paquet Breeze per gestionar l'autenticació d'usuaris.",
+    "blackjack-text": "Blackjack API és una API Rest creada en PHP i Laravel, que crea usuaris, juga partides, mostra i guarda estadístiques. S'ha utilitzat Passport i Spatie per als rols i permisos, i Swagger per documentar-la.",
     "pokedex-text": "Pokédex creat en React, utilitzant la PokeAPI per obtenir la informació dels Pokémon. Pots cercar per nom o tipus, i al fer clic en cadascun, es mostra la informació detallada del Pokémon seleccionat.",
     "konecta-text": "Aquest projecte ho vam fer conjuntament amb el meu grup al Curs de Desenvolupament Web. Pel front-end es fa servir React i pel back-end Spring Boot, utilitzant AWS per als nostres servidors.",
     "photography-text": "Aquest projecte ho vaig fer per a un amic fotògraf, bàsicament és un portfoli de la seva feina. Està fet amb Wordpress i el complement Elementor, va ser el meu primer apropament a aquestes eines.",
@@ -21,7 +23,7 @@
 
     "about-1": "Em dic Ignacio Albiol, soc desenvolupador web i de videojocs, i visc a Barcelona. Durant els últims anys he travessat un procés de reconversió professional, passant des del sector educatiu cap al món de la programació i desenvolupament. Vaig iniciar el meu camí aprenent Unity i C# de manera autodidacta, i després vaig consolidar les meves habilitats amb una formació integral en desenvolupament d'aplicacions web full-stack.",
     "about-2": "Pel que fa a les meves habilitats interpersonals, em considero una persona seriosa, responsable, decidida i treballadora. M'agrada submergir-me en projectes diversos, i he après a treballar en equip de manera efectiva, extraient el millor de la col·laboració amb els meus companys. A més, soc pacient i resilient, qualitats claus en món del desenvolupament, i que he perfeccionat al llarg de la meva trajectòria professional com a educador.",
-    "about-3": "Actualment, estic compromès amb el creixement i aprenentatge continu en aquestes àrees apassionants. Emocionat pel futur i preparat per aportar la meva experiència en el desenvolupament de nous projectes.",
+    "about-3": "Recientment he acabat un bootcamp de PHP Full-Stack en la IT Academy de Barcelona Activa, i estic compromès amb el creixement i aprenentatge continu en aquestes àrees apassionants. Emocionat pel futur i preparat per aportar la meva experiència en el desenvolupament de nous projectes.",
 
     "my-skills": "Les Meves Habilitats",
     "game-dev": "Desenvolupament de Videojocs",

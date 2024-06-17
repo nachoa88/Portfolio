@@ -49,26 +49,18 @@ function ContactSection() {
         </div>
 
         <div className="col-lg-6 col-sm-12 order-lg-1">
-          <iframe id="map" title="Map showing my location" alt="Map with my location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7212831.327218925!2d-6.9392616546514825!3d42.07437280125591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona!5e0!3m2!1ses!2ses!4v1704480205423!5m2!1ses!2ses"
-            allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
-      </div>
-      <div>
-        <p className="get-touch">{t("get-in-touch")}</p>
-        <form className="contact-form" ref={form} onSubmit={sendEmail}>
-          <p><input className="w3-input w3-padding-14" type="text" placeholder={t("name")} required name="user_name" /></p>
-          <p><input className="w3-input w3-padding-14" type="email" placeholder={t("email")} required name="user_email" /></p>
-          <p><input className="w3-input w3-padding-14" type="text" placeholder={t("subject")} required name="subject" /></p>
-          <p><textarea className="w3-input w3-padding-14" placeholder={t("message")} required name="message" rows="4"></textarea></p>
-          <p>
+          <p className="get-touch">{t("get-in-touch")}</p>
+          <form className="contact-form" ref={form} onSubmit={sendEmail}>
+            <p><input className="w3-input w3-padding-14" type="text" placeholder={t("name")} required name="user_name" /></p>
+            <p><input className="w3-input w3-padding-14" type="email" placeholder={t("email")} required name="user_email" /></p>
+            <p><input className="w3-input w3-padding-14" type="text" placeholder={t("subject")} required name="subject" /></p>
+            <p><textarea className="w3-input w3-padding-14" placeholder={t("message")} required name="message" rows="4"></textarea></p>
             <button className="normal-btn" type="submit" value="Send">
               <i className="fas fa-paper-plane"></i>
               <span className="button-text">{t("send-message")}</span>
             </button>
-          </p>
-        </form>
+          </form>
+        </div>
       </div>
 
     </div>

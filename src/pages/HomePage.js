@@ -31,7 +31,7 @@ function HomePage({ toggleTheme, getIconFileName }) {
     };
 
     const homeStyles = {
-        marginLeft: '40%',
+        marginLeft: '30%',
     };
 
 

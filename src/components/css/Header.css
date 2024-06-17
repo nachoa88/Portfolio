@@ -1,7 +1,11 @@
 #header {
     padding: 128px 16px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     @media screen and (max-width: 992px) {
         padding: 48px 16px;
+        margin-top: 25px;
+        margin-bottom: 15px;
     }
 }
 
@@ -26,7 +30,7 @@ h1.w3-jumbo {
 
 .header-icon {
     font-size: 4vw;
-    color: #d9c48b;
+    color: #04223b;
     padding: 15px;
     transition: color 0.5s ease, text-shadow 0.5s ease;
     @media screen and (max-width: 992px) {
@@ -35,13 +39,13 @@ h1.w3-jumbo {
 }
 
 .dark .header-icon {
-    color: #4d6974;
+    color: #1FA8CA;
 }
 
 .header-icon:hover,
 .header-icon:focus {
-    color: rgb(65, 65, 65);
-    text-shadow: 0 0 10px #ffd500, 0 0 15px #ffd500, 0 0 20px #ffb553, 0 0 25px #ff9100, 0 0 30px #ff9100;
+    color: rgb(18, 18, 18);
+    text-shadow: 0 0 10px #00FFFF, 0 0 15px #00FFFF, 0 0 20px #00FFFF, 0 0 25px #11b1cd, 0 0 30px #11b1cd;
 }
 
 .dark .header-icon:hover,
