@@ -3,8 +3,8 @@ import { HashLink } from 'react-router-hash-link';
 
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import ThemeToggle from "./ThemeToggle.js";
-import LanguageToggle from "./LanguageToggle.js";
+import ThemeToggle from "./ThemeToggle.jsx";
+import LanguageToggle from "./LanguageToggle.jsx";
 
 import '../components/css/Navbar.css';
 

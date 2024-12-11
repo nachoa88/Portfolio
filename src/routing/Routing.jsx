@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
 
-import ScrollToTop from '../components/utils/helpers/ScrollToTop.js';
-import HomePage from '../pages/HomePage.js';
-import KonectaPage from "../pages/KonectaPage.js";
-import PortfolioPage from "../pages/PortfolioPage.js";
-import LaPhotographyPage from "../pages/LaPhotographyPage.js";
-import Footer from '../components/Footer.js';
+import ScrollToTop from '../components/utils/helpers/ScrollToTop.jsx';
+import HomePage from '../pages/HomePage.jsx';
+import KonectaPage from "../pages/KonectaPage.jsx";
+import PortfolioPage from "../pages/PortfolioPage.jsx";
+import LaPhotographyPage from "../pages/LaPhotographyPage.jsx";
+import Footer from '../components/Footer.jsx';
 
 
 function Routing() {
