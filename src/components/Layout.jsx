@@ -15,7 +15,7 @@ function Layout() {
           <Outlet />
         </main>
       </div>
-      <Footer />
+      <Footer isDarkMode={isDarkMode} />
     </div>
   );
 }
