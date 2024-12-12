@@ -12,7 +12,7 @@ function Footer({ getIconFileName }) {
 
         <footer className={`${isHomePage ? "home-page-footer" : "other-page-footer"} w3-container w3-xxlarge`}>
             <div className="footer-logo">
-                <Link to="https://ignacioalbiol.tech/" target="_blank"
+                <Link to="https://ignacioalbiol.es/" target="_blank"
                     rel="noopener noreferrer" aria-label="Go to IAP Dev Web Page">
                     <img src={getIconFileName("logo")}  className="logo-img" alt="IAP Dev Logo" />
                 </Link>

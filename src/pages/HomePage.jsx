@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-import LeftSidebar from '../components/LeftSidebar.js';
-import NavButton from '../components/NavButton.js';
-import Sidebar from '../components/Sidebar.js';
-import Header from '../components/Header.js';
-import PortfolioSection from '../components/PortfolioSection.js';
-import AboutSection from '../components/AboutSection.js';
-import ContactSection from '../components/ContactSection.js';
-import BackTopButton from '../components/BackTopButton.js';
+import LeftSidebar from '../components/LeftSidebar.jsx';
+import NavButton from '../components/NavButton.jsx';
+import Sidebar from '../components/Sidebar.jsx';
+import Header from '../components/Header.jsx';
+import PortfolioSection from '../components/PortfolioSection.jsx';
+import AboutSection from '../components/AboutSection.jsx';
+import ContactSection from '../components/ContactSection.jsx';
+import BackTopButton from '../components/BackTopButton.jsx';
 
 
 function HomePage({ toggleTheme, getIconFileName }) {
