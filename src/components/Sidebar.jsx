@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import ThemeToggle from "../components/ThemeToggle.jsx";
+import ThemeToggle from "./ThemeToggle.jsx";
 import LanguageToggle from "./LanguageToggle.jsx";
 
 import '../components/css/Sidebar.css';
