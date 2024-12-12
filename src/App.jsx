@@ -1,11 +1,19 @@
-import Routing from './routing/Routing.jsx';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ThemeProvider from "./contexts/ThemeContext";
+import Layout from "./components/Layout";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Routing />
-    </div>
+    <ThemeProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}> {/* The Layout component will be rendered on every route */}
+            {/* <Route index element={<Home />} /> */}
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
