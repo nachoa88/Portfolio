@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 
-export default function Footer({ isDarkMode }) {
+export default function Footer() {
+
   return (
-    <footer className="bg-slate-300 rounded-lg shadow m-4 dark:bg-gray-800">
+    <footer className="bg-slate-300 rounded-lg shadow-lg m-4 dark:bg-gray-800">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <Logo isDarkMode={isDarkMode} />
+        <Logo />
         <span className="text-sm text-sky-950 dark:text-gray-200 sm:text-center">
           © 2025. All Rights Reserved.
         </span>

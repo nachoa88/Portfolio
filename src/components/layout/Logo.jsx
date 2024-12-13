@@ -1,4 +1,8 @@
-export default function Logo({ isDarkMode }) {
+import { useTheme } from "../../hooks/useTheme";
+
+export default function Logo() {
+  const { isDarkMode } = useTheme();
+
   return (
     <div className="flex items-center">
       <div className="flex flex-col justify-center items-end mr-2">

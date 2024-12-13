@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useTheme } from "../../hooks/useTheme";
 import { Link, useLocation } from "react-router-dom";
 import Logo from './Logo';
 
-export default function Navbar({ isDarkMode, toggleTheme }) {
+export default function Navbar() {
+  const { isDarkMode, toggleTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
@@ -15,12 +17,12 @@ export default function Navbar({ isDarkMode, toggleTheme }) {
   ];
 
   return (
-    <nav className="rounded-lg shadow m-4 bg-slate-300 dark:bg-gray-800">
+    <nav className="rounded-lg shadow-lg m-4 bg-slate-300 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex sm:justify-center justify-between h-16">
           <div className="flex">
             {/* Logo */}
-            <Logo isDarkMode={isDarkMode} />
+            <Logo />
 
             {/* Desktop Navigation Links */}
             <div className="hidden sm:flex sm:space-x-8 sm:ms-10">
