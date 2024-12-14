@@ -1,7 +1,20 @@
 import { useTheme } from "../../hooks/useTheme";
+import { useState, useEffect } from "react";
 
 export default function Logo() {
   const { isDarkMode } = useTheme();
+  const [opacity, setOpacity] = useState(1);
+  const [currentSrc, setCurrentSrc] = useState("./logo.png");
+  // When isDarkMode changes, fade out the logo, change the src, and fade in the logo
+  useEffect(() => {
+    setOpacity(0);
+    const timer = setTimeout(() => {
+      setCurrentSrc(isDarkMode ? "./logo_w.png" : "./logo.png");
+      setOpacity(1);
+    }, 250);
+
+    return () => clearTimeout(timer);
+  }, [isDarkMode]);
 
   return (
     <div className="flex items-center">
@@ -14,9 +27,10 @@ export default function Logo() {
         </span>
       </div>
       <img
-        src={isDarkMode ? "./logo_w.png" : "./logo.png"}
+        src={currentSrc}
         alt="IAP-Dev logo"
-        className="h-16 p-3"
+        className="h-16 p-3 transition-opacity duration-700"
+        style={{ opacity }}
       />
     </div>
   );
