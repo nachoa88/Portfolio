@@ -1,6 +1,8 @@
 import portrait from "../../assets/images/portrait_hd.jpg";
 import portrait_w from "../../assets/images/portrait_hd_w.jpg";
 import resume from "../../assets/files/cv2024.pdf";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { useTheme } from "../../hooks/useTheme";
 import { useState } from "react";
 
@@ -38,9 +40,8 @@ export default function Hero() {
               {/* Overlay Text */}
               <div className="text-center">
                 <div className="animate-bounce">
-                  <span className="text-xs uppercase tracking-widest font-semibold text-sky-950 dark:text-teal-400">
-                    Click on portrait to see my {isDarkMode ? "light" : "dark"}{" "}
-                    side...
+                  <span className="text-xs uppercase tracking-widest font-semibold text-sky-600 dark:text-teal-400">
+                    Switch perspectives—click and explore!
                   </span>
                 </div>
               </div>
@@ -78,42 +79,45 @@ export default function Hero() {
               </div>
             </div>
           </div>
-
           {/* Content */}
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold text-sky-950 dark:text-gray-200">
-              Hi, I'm Ignacio Albiol
+            <h1 className="mb-4 text-3xl font-semibold text-sky-950 dark:text-gray-200 md:text-4xl lg:text-5xl">
+              Hi, my name is{" "}
+              <span className="text-sky-600 dark:text-teal-400 font-extrabold">
+                Ignacio.
+              </span>
             </h1>
             <p className="text-lg text-sky-900 dark:text-gray-300">
-              Full Stack Developer passionate about creating intuitive and
-              efficient web solutions.
+              <span className="font-bold text-sky-900 dark:text-gray-300 underline decoration-2 decoration-sky-500 dark:decoration-teal-300">
+                Full Stack Developer
+              </span>{" "}
+              passionate about creating intuitive and efficient web solutions.
             </p>
-            <p className="text-sky-900 dark:text-gray-300">
-              With experience in both front-end and back-end development, I
-              specialize in building responsive web applications using modern
-              technologies.
-            </p>
+            <div className="flex gap-4 mb-4">
+              <Link
+                to="https://www.linkedin.com/in/ignacio-albiol/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn Profile"
+              >
+                <FaLinkedin className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 trasnform hover:scale-110 transition-transform duration-300" />
+              </Link>
+              <Link
+                to="https://github.com/nachoa88"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub Profile"
+              >
+                <FaGithub className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 trasnform hover:scale-110 transition-transform duration-300" />
+              </Link>
+            </div>
             <button
-              className="inline-flex items-center px-4 py-2 bg-sky-950 dark:bg-teal-600 
-                text-white rounded-lg shadow hover:bg-sky-800 dark:hover:bg-teal-500 
-                transition duration-300"
+              className="px-4 py-2 text-sm tracking-widest font-semibold uppercase text-sky-900 dark:text-gray-200 bg-sky-400 dark:bg-teal-600
+              border-2 border-slate-950 shadow-[4px_4px_#0f172a] dark:shadow-[4px_4px_#0f172a] transition-all duration-300 ease-in-out
+              hover:shadow-[6px_6px] hover:bg-slate-950 dark:hover:bg-slate-950 hover:text-gray-200 hover:shadow-sky-400 dark:hover:shadow-teal-600"
               onClick={handleClick}
-              download={resume}
             >
               Download CV
-              <svg
-                className="w-4 h-4 ml-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                />
-              </svg>
             </button>
           </div>
         </div>

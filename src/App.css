@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-    * {
-      @apply transition-colors duration-700;
-    }
+  *:not(svg) {
+    @apply transition-colors duration-700;
+  }
+
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
 }

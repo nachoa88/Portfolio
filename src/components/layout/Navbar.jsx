@@ -30,13 +30,13 @@ export default function Navbar() {
                 <Link
                   key={path}
                   to={path}
-                  className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5 transition duration-150 ease-in-out"
+                  className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5 pointer-events-none"
                 >
                   <span
-                    className={`relative ${
+                    className={`relative pointer-events-auto ${
                       isActivePath(path)
                         ? "text-sky-700 dark:text-teal-400"
-                        : "text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400"
+                        : "text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 hover:transition-none"
                     }`}
                   >
                     {name}
@@ -51,12 +51,12 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-            <div className="hidden sm:flex sm:space-x-8 sm:ms-10">
+            <div className="hidden sm:flex sm:space-x-8 sm:ms-10 pointer-events-none">
               <button
-                className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5 transition duration-150 ease-in-out"
+                className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5"
                 onClick={toggleTheme}
               >
-                <span className="relative text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400">
+                <span className="relative text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 pointer-events-auto hover:transition-none">
                   {isDarkMode ? "Light" : "Dark"} mode
                 </span>
                 <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-sky-500 dark:bg-teal-300 transition-all duration-200 group-hover:w-full"></span>
