@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTheme } from "../../hooks/useTheme";
 import { Link, useLocation } from "react-router-dom";
-import Logo from './Logo';
+import Logo from "./Logo";
 
 export default function Navbar() {
   const { isDarkMode, toggleTheme } = useTheme();
@@ -11,13 +11,20 @@ export default function Navbar() {
   const isActivePath = (path) => location.pathname.startsWith(path);
 
   const navLinks = [
-    { name: "About", path: "/about" },
-    { name: "Experience", path: "/experience" },
-    { name: "Contact", path: "/contact" },
+    { name: "Home", sectionId: "home" },
+    { name: "Projects", sectionId: "projects" },
+    { name: "Contact", sectionId: "contact" },
   ];
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <nav className="rounded-lg shadow-lg m-4 bg-slate-300 dark:bg-gray-800">
+    <nav className="rounded-lg shadow-lg m-4 bg-slate-300 dark:bg-gray-800 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex sm:justify-center justify-between h-16">
           <div className="flex">
@@ -26,15 +33,15 @@ export default function Navbar() {
 
             {/* Desktop Navigation Links */}
             <div className="hidden sm:flex sm:space-x-8 sm:ms-10">
-              {navLinks.map(({ name, path }) => (
-                <Link
-                  key={path}
-                  to={path}
-                  className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5 pointer-events-none"
+              {navLinks.map(({ name, sectionId }) => (
+                <button
+                  key={sectionId}
+                  onClick={() => scrollToSection(sectionId)}
+                  className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5"
                 >
                   <span
-                    className={`relative pointer-events-auto ${
-                      isActivePath(path)
+                    className={`relative ${
+                      isActivePath(sectionId)
                         ? "text-sky-700 dark:text-teal-400"
                         : "text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 hover:transition-none"
                     }`}
@@ -43,12 +50,12 @@ export default function Navbar() {
                   </span>
                   <span
                     className={`absolute bottom-0 left-0 h-0.5 ${
-                      isActivePath(path)
+                      isActivePath(sectionId)
                         ? "w-full bg-sky-500 dark:bg-teal-300"
                         : "w-0 bg-sky-500 dark:bg-teal-300 transition-all duration-200 group-hover:w-full"
                     }`}
                   />
-                </Link>
+                </button>
               ))}
             </div>
             <div className="hidden sm:flex sm:space-x-8 sm:ms-10 pointer-events-none">
@@ -99,18 +106,18 @@ export default function Navbar() {
       {/* Mobile Navigation Menu */}
       <div className={`${isOpen ? "block" : "hidden"} sm:hidden`}>
         <div className="pt-2 pb-3 space-y-1 bg-slate-300 dark:bg-gray-800">
-          {navLinks.map(({ name, path }) => (
-            <Link
-              key={path}
-              to={path}
-              className={`block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
-                isActivePath(path)
+          {navLinks.map(({ name, sectionId }) => (
+            <button
+              key={sectionId}
+              onClick={() => scrollToSection(sectionId)}
+              className={`w-full text-left block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
+                isActivePath(sectionId)
                   ? "border-sky-500 text-sky-700 dark:border-teal-400 dark:text-teal-300 bg-slate-200 dark:bg-gray-700"
                   : "border-transparent text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 hover:bg-slate-200 dark:hover:bg-gray-700 hover:border-sky-500 dark:hover:border-teal-400"
               }`}
             >
               {name}
-            </Link>
+            </button>
           ))}
 
           {/* Add theme toggle to mobile menu */}
