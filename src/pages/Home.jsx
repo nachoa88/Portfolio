@@ -1,5 +1,6 @@
 import Hero from "../components/sections/hero/Hero";
 import Projects from "../components/sections/projects/Projects";
+import Contact from "../components/sections/contact/Contact";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <Hero />
       <Projects />
       {/* <About /> */}
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }

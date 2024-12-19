@@ -97,7 +97,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
             >
-              <FaLinkedin className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 trasnform hover:scale-110 transition-transform duration-300" />
+              <FaLinkedin className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
             </Link>
             <Link
               to="https://github.com/nachoa88"
@@ -105,7 +105,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
             >
-              <FaGithub className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 trasnform hover:scale-110 transition-transform duration-300" />
+              <FaGithub className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
             </Link>
           </div>
           <Button onClick={handleClick}>Download CV</Button>
