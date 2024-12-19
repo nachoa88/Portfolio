@@ -77,12 +77,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 transition duration-150 ease-in-out"
             >
-              <svg
-                className="h-6 w-6"
-                stroke="currentColor"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
+              <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                 <path
                   className={isOpen ? "hidden" : "inline-flex"}
                   strokeLinecap="round"

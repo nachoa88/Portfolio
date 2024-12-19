@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 export default function Layout() {
-
   return (
     <div id="home" className="min-h-screen flex flex-col bg-gray-50 dark:bg-slate-700">
       <Navbar />
@@ -13,7 +12,7 @@ export default function Layout() {
           <Outlet />
         </main>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
