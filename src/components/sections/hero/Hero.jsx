@@ -7,7 +7,6 @@ import portrait from "../../../assets/images/portrait_hd.jpg";
 import portrait_w from "../../../assets/images/portrait_hd_w.jpg";
 import resume from "../../../assets/files/cv2024.pdf";
 import Button from "../../ui/Button";
-import LanguageToggle from "../../ui/LanguageToggle";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -111,7 +110,6 @@ export default function Hero() {
             </Link>
           </div>
           <Button onClick={handleClick}>{t("hero.cta.download")}</Button>
-          <LanguageToggle />
         </div>
       </div>
     </section>

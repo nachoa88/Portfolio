@@ -1,12 +1,16 @@
 import { useState } from "react";
 import { useTheme } from "../../hooks/useTheme";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import LanguageToggle from "../ui/LanguageToggle";
+
 import Logo from "./Logo";
 
 export default function Navbar() {
   const { isDarkMode, toggleTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
 
   const isActivePath = (path) => location.pathname.startsWith(path);
 
@@ -34,40 +38,14 @@ export default function Navbar() {
             {/* Desktop Navigation Links */}
             <div className="hidden sm:flex sm:space-x-8 sm:ms-10">
               {navLinks.map(({ name, sectionId }) => (
-                <button
-                  key={sectionId}
-                  onClick={() => scrollToSection(sectionId)}
-                  className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5"
-                >
-                  <span
-                    className={`relative ${
-                      isActivePath(sectionId)
-                        ? "text-sky-700 dark:text-teal-400"
-                        : "text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 hover:transition-none"
-                    }`}
-                  >
+                <button key={sectionId} onClick={() => scrollToSection(sectionId)} className="group relative">
+                  <span className="flex items-center gap-2 px-2 text-xs uppercase tracking-widest font-semibold text-sky-950 dark:text-gray-200 group-hover:text-sky-600 dark:group-hover:text-teal-300">
                     {name}
                   </span>
-                  <span
-                    className={`absolute bottom-0 left-0 h-0.5 ${
-                      isActivePath(sectionId)
-                        ? "w-full bg-sky-500 dark:bg-teal-300"
-                        : "w-0 bg-sky-500 dark:bg-teal-300 transition-all duration-200 group-hover:w-full"
-                    }`}
-                  />
+                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-sky-500 dark:bg-teal-300 transition-all duration-500 group-hover:w-full" />
                 </button>
               ))}
-            </div>
-            <div className="hidden sm:flex sm:space-x-8 sm:ms-10 pointer-events-none">
-              <button
-                className="group relative inline-flex items-center px-1 pt-1 text-xs uppercase tracking-widest font-semibold leading-5"
-                onClick={toggleTheme}
-              >
-                <span className="relative text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 pointer-events-auto hover:transition-none">
-                  {isDarkMode ? "Light" : "Dark"} mode
-                </span>
-                <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-sky-500 dark:bg-teal-300 transition-all duration-200 group-hover:w-full"></span>
-              </button>
+              <LanguageToggle />
             </div>
           </div>
 
@@ -105,7 +83,7 @@ export default function Navbar() {
             <button
               key={sectionId}
               onClick={() => scrollToSection(sectionId)}
-              className={`w-full text-left block pl-3 pr-4 py-2 border-l-4 text-base font-medium ${
+              className={`w-full text-left block pl-3 pr-4 py-2 border-l-4 text-xs uppercase tracking-widest font-semibold leading-5 ${
                 isActivePath(sectionId)
                   ? "border-sky-500 text-sky-700 dark:border-teal-400 dark:text-teal-300 bg-slate-200 dark:bg-gray-700"
                   : "border-transparent text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 hover:bg-slate-200 dark:hover:bg-gray-700 hover:border-sky-500 dark:hover:border-teal-400"
@@ -114,14 +92,7 @@ export default function Navbar() {
               {name}
             </button>
           ))}
-
-          {/* Add theme toggle to mobile menu */}
-          <button
-            onClick={toggleTheme}
-            className="w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 hover:bg-slate-200 dark:hover:bg-gray-700 hover:border-sky-500 dark:hover:border-teal-400"
-          >
-            {isDarkMode ? "Light" : "Dark"} mode
-          </button>
+          <LanguageToggle />
         </div>
       </div>
     </nav>

@@ -70,7 +70,6 @@ export default function Contact() {
                   type="text"
                   name="name"
                   required
-                  autoFocus
                   autoComplete="name"
                 />
                 <label className={labelClasses} htmlFor="name">
