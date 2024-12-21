@@ -1,13 +1,16 @@
-import portrait from "../../../assets/images/portrait_hd.jpg";
-import portrait_w from "../../../assets/images/portrait_hd_w.jpg";
-import resume from "../../../assets/files/cv2024.pdf";
-import Button from "../../ui/Button";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useTheme } from "../../../hooks/useTheme";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import portrait from "../../../assets/images/portrait_hd.jpg";
+import portrait_w from "../../../assets/images/portrait_hd_w.jpg";
+import resume from "../../../assets/files/cv2024.pdf";
+import Button from "../../ui/Button";
+import LanguageToggle from "../../ui/LanguageToggle";
 
 export default function Hero() {
+  const { t } = useTranslation();
   const { isDarkMode, toggleTheme } = useTheme();
   const [isFlipping, setIsFlipping] = useState(false);
 
@@ -80,15 +83,14 @@ export default function Hero() {
         {/* Content */}
         <div className="space-y-4">
           <h1 className="mb-4 text-3xl font-semibold text-sky-950 dark:text-gray-200 md:text-4xl lg:text-5xl">
-            Hi, my name is <span className="text-sky-600 dark:text-teal-400 font-extrabold">Ignacio.</span>
+            {t("hero.title")}{" "}
+            <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
           </h1>
           <p className="text-lg text-sky-900 dark:text-gray-300">
             <span className="font-bold text-sky-900 dark:text-gray-300 underline decoration-2 decoration-sky-500 dark:decoration-teal-300">
-              Full Stack Developer
+              {t("hero.subtitle")}
             </span>{" "}
-            with a creative and results-oriented mindset, combining a strong technical foundation with a unique
-            perspective thanks to my previous experience in education. I am motivated by continuous learning and taking
-            on new challenges.
+            {t("hero.description")}
           </p>
           <div className="flex gap-4 mb-4">
             <Link
@@ -108,7 +110,8 @@ export default function Hero() {
               <FaGithub className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
             </Link>
           </div>
-          <Button onClick={handleClick}>Download CV</Button>
+          <Button onClick={handleClick}>{t("hero.cta.download")}</Button>
+          <LanguageToggle />
         </div>
       </div>
     </section>

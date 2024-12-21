@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Hola, me llamo",
+    "name": "Ignacio.",
+    "subtitle": "Desarrollador Full Stack",
+    "description": "with a creative and results-oriented mindset, combining a strong technical foundation with a unique perspective thanks to my previous experience in education. I am motivated by continuous learning and taking on new challenges.",
+    "cta": {
+      "download": "Descarga CV"
+    }
+  }
+}
