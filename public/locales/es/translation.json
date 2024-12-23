@@ -3,9 +3,40 @@
     "title": "Hola, me llamo",
     "name": "Ignacio.",
     "subtitle": "Desarrollador Full Stack",
-    "description": "with a creative and results-oriented mindset, combining a strong technical foundation with a unique perspective thanks to my previous experience in education. I am motivated by continuous learning and taking on new challenges.",
+    "description": "con una mentalidad creativa y orientada a resultados, combinando una sólida base técnica con una perspectiva única gracias a mi experiencia previa en educación. Me motiva el aprendizaje continuo y asumir nuevos retos.",
     "cta": {
       "download": "Descarga CV"
+    }
+  },
+  "projects": {
+    "title" : "Mis Proyectos",
+    "buttons": {
+      "view": "Visitar web",
+      "code": "GitHub"
+    },
+    "ultimateLeague": {
+      "title": "Ultimate League - 2024",
+      "description": "Ultimate League es un gestor de ligas en el que puedes crear, editar y eliminar equipos, jugadores y partidos. Está desarrollado en PHP, Laravel y MySQL, utilizando el paquete Breeze para gestionar la autenticación de usuarios."
+    },
+    "blackjackAPI": {
+      "title": "Blackjack API - 2024",
+      "description": "Blackjack API es una API RESTful que te permite jugar al Blackjack, crear usuarios, jugar partidas y mostrar estadísticas. Se han utilizado Passport y Spatie para roles y permisos, y Swagger para la documentación."
+    },
+    "pokedex": {
+      "title": "Pokedex - 2023",
+      "description": "Pokédex creada en React, consumiendo la PokeAPI para mostrar información de los diferentes Pokémon. Puedes filtrar por nombre o tipo, y al hacer clic en cada uno, puedes acceder a información detallada sobre ellos."
+    },
+    "laphotography": {
+      "title": "LA Photography - 2023",
+      "description": "Este proyecto fue realizado para un amigo fotógrafo. Es un portafolio de su trabajo, desarrollado con WordPress y el plugin de Elementor. Fue mi primera aproximación a estas herramientas."
+    },
+    "tilevania": {
+      "title": "Game: Tilevania - 2023",
+      "description": "Proyecto para el curso de GameDev.tv Team, creado con C# en Unity 2D utilizando Tilemaps. En este juego de plataformas, el jugador debe atravesar diferentes niveles, enfrentarse a enemigos y recolectar tantas monedas como sea posible."
+    },
+    "spaceBoost": {
+      "title": "Game: Space-Boost - 2023",
+      "description": "Proyecto para el curso de GameDev.tv Team, creado con C# en Unity 3D utilizando solo formas primarias. El jugador debe llegar a la plataforma de destino enfrentándose a diferentes obstáculos; cuanto más rápido lo haga, más puntos obtendrá."
     }
   }
 }
