@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Hi, my name is",
+    "name": "Ignacio.",
+    "subtitle": "Full Stack Developer",
+    "description": "with a creative and results-oriented mindset, combining a strong technical foundation with a unique perspective thanks to my previous experience in education. I am motivated by continuous learning and taking on new challenges.",
+    "cta": {
+      "download": "Download CV"
+    }
+  },
+  "projects": {
+    "title" : "My Projects",
+    "buttons": {
+      "view": "View project",
+      "code": "GitHub"
+    },
+    "ultimateLeague": {
+      "title": "Ultimate League - 2024",
+      "description": "Ultimate League is a league manager in which you can create, edit, and delete teams, players, and matches. It is made in PHP, Laravel, and MySQL, with the Breeze package to manage user authentication."
+    },
+    "blackjackAPI": {
+      "title": "Blackjack API - 2024",
+      "description": "Blackjack API is a RESTful API that allows you to play Blackjack and in which you can create users, plays games, and display statistics. Passport and Spatie have been used for roles and permissions, and Swagger for documentation."
+    },
+    "pokedex": {
+      "title": "Pokedex - 2023",
+      "description": "Pokédex created in React, consuming PokeAPI in order to display the information of the different Pokémon. You can filter by name or type, and by clicking on each one you can access detailed information about it."
+    },
+    "laphotography": {
+      "title": "LA Photography - 2023",
+      "description": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools."
+    },
+    "tilevania": {
+      "title": "Game: Tilevania - 2023",
+      "description": "Project for the GameDev.tv Team course, created with C# in Unity 2D using Tilemaps. In this platformer game, the player must go through the different levels, face enemies and collect as many coins as possible."
+    },
+    "spaceBoost": {
+      "title": "Game: Space-Boost - 2023",
+      "description": "Project for the GameDev.tv Team course, created with C# in Unity 3D using only primary shapes. The player must reach the destination platform facing different obstacles, the faster, the more points he will score."
+    }
+  }
+}
