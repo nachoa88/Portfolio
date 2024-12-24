@@ -1,4 +1,9 @@
 {
+  "navbar": {
+    "home": "Inici",
+    "projects": "Projectes",
+    "contact": "Contacte"
+  },
   "hero": {
     "title": "Hola, em dic",
     "name": "Ignacio.",
@@ -6,10 +11,11 @@
     "description": "amb una mentalitat creativa i orientada a resultats, combinant una sòlida base tècnica amb una perspectiva única gràcies a la meva experiència prèvia en educació. Em motiva l'aprenentatge continu i afrontar nous reptes.",
     "cta": {
       "download": "Descarrega CV"
-    }
+    },
+    "theme-text": "Canvia de perspectiva—fes clic i explora!"
   },
   "projects": {
-    "title" : "Els Meus Projectes",
+    "title": "Els Meus Projectes",
     "buttons": {
       "view": "Visitar web",
       "code": "GitHub"

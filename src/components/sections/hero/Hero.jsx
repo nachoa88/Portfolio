@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useTheme } from "../../../hooks/useTheme";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import portrait from "../../../assets/images/portrait_hd.jpg";
-import portrait_w from "../../../assets/images/portrait_hd_w.jpg";
+import portrait from "../../../assets/images/portrait_small.jpg";
+import portrait_w from "../../../assets/images/portrait_small_w.jpg";
 import resume from "../../../assets/files/cv2024.pdf";
 import Button from "../../ui/Button";
 
@@ -40,8 +40,8 @@ export default function Hero() {
             {/* Overlay Text */}
             <div className="text-center">
               <div className="animate-bounce">
-                <span className="text-xs uppercase tracking-widest font-semibold text-sky-600 dark:text-teal-400">
-                  Switch perspectives—click and explore!
+                <span className="text-nav tracking-wider text-sky-600 dark:text-teal-400">
+                  {t("hero.theme-text")}
                 </span>
               </div>
             </div>
@@ -81,12 +81,12 @@ export default function Hero() {
         </div>
         {/* Content */}
         <div className="space-y-4">
-          <h1 className="mb-4 text-3xl font-semibold text-sky-950 dark:text-gray-200 md:text-4xl lg:text-5xl">
+          <h1 className="mb-4 text-3xl font-semibold text-primary dark:text-primary-dark md:text-4xl lg:text-5xl">
             {t("hero.title")}{" "}
             <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
           </h1>
-          <p className="text-lg text-sky-900 dark:text-gray-300">
-            <span className="font-bold text-sky-900 dark:text-gray-300 underline decoration-2 decoration-sky-500 dark:decoration-teal-300">
+          <p className="text-lg text-secondary dark:text-secondary-dark">
+            <span className="font-bold text-secondary dark:text-secondary-dark underline decoration-2 decoration-sky-500 dark:decoration-teal-300">
               {t("hero.subtitle")}
             </span>{" "}
             {t("hero.description")}
@@ -98,7 +98,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
             >
-              <FaLinkedin className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
+              <FaLinkedin className="w-8 h-8 text-primary dark:text-primary-dark hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
             </Link>
             <Link
               to="https://github.com/nachoa88"
@@ -106,7 +106,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
             >
-              <FaGithub className="w-8 h-8 text-sky-900 dark:text-gray-200 hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
+              <FaGithub className="w-8 h-8 text-primary dark:text-primary-dark hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
             </Link>
           </div>
           <Button onClick={handleClick}>{t("hero.cta.download")}</Button>

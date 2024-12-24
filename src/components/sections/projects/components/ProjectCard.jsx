@@ -7,12 +7,12 @@ export default function ProjectCard({ title, description, image, technologies, g
   return (
     <div className="flex flex-col md:flex-row items-center bg-sky-100/70 dark:bg-cyan-900/70 border border-sky-800 dark:border-teal-600 rounded-lg shadow-lg">
       <img
-        className="object-cover w-full rounded-t-lg h-96 md:h-64 md:w-auto md:rounded-none md:rounded-s-lg text-sky-900 dark:text-gray-300"
+        className="object-cover w-full rounded-t-lg h-96 md:h-64 md:w-auto md:rounded-none md:rounded-s-lg text-secondary dark:text-secondary-dark"
         src={image}
         alt={`${t(title)} preview`}
       />
       <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-sky-950 dark:text-gray-200">{t(title)}</h5>
+        <p className="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-primary-dark">{t(title)}</p>
         <ul className="mb-2 flex flex-wrap" aria-label="Technologies used">
           {technologies.map((tech) => (
             <li key={tech} className="mr-1.5">
@@ -22,7 +22,7 @@ export default function ProjectCard({ title, description, image, technologies, g
             </li>
           ))}
         </ul>
-        <p className="mb-2 text-sm md:text-lg lg:text-sm text-sky-900 dark:text-gray-300">{t(description)}</p>
+        <p className="mb-2 text-sm md:text-lg lg:text-sm text-secondary dark:text-secondary-dark">{t(description)}</p>
         <div className="flex justify-center gap-4 mt-2">
           {/* Check if there is a web or github Link, if not don't show the button */}
           {githubLink && (

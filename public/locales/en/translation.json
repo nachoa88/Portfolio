@@ -1,4 +1,9 @@
 {
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
   "hero": {
     "title": "Hi, my name is",
     "name": "Ignacio.",
@@ -6,10 +11,11 @@
     "description": "with a creative and results-oriented mindset, combining a strong technical foundation with a unique perspective thanks to my previous experience in education. I am motivated by continuous learning and taking on new challenges.",
     "cta": {
       "download": "Download CV"
-    }
+    },
+    "theme-text": "Switch perspectives—click and explore!"
   },
   "projects": {
-    "title" : "My Projects",
+    "title": "My Projects",
     "buttons": {
       "view": "View project",
       "code": "GitHub"

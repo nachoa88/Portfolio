@@ -1,4 +1,9 @@
 {
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
   "hero": {
     "title": "Hola, me llamo",
     "name": "Ignacio.",
@@ -6,10 +11,11 @@
     "description": "con una mentalidad creativa y orientada a resultados, combinando una sólida base técnica con una perspectiva única gracias a mi experiencia previa en educación. Me motiva el aprendizaje continuo y asumir nuevos retos.",
     "cta": {
       "download": "Descarga CV"
-    }
+    },
+    "theme-text": "Cambia de perspectiva—¡haz clic y explora!"
   },
   "projects": {
-    "title" : "Mis Proyectos",
+    "title": "Mis Proyectos",
     "buttons": {
       "view": "Visitar web",
       "code": "GitHub"
