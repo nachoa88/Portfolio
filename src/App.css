@@ -3,11 +3,42 @@
 @tailwind utilities;
 
 @layer base {
-  *:not(svg) {
-    @apply transition-colors duration-700;
+  *:not(svg, .exclude-transition) {
+    @apply transition-colors duration-500;
   }
 
   body {
     font-family: "Ubuntu", sans-serif;
+  }
+}
+
+@layer components {
+  .text-nav {
+    @apply text-xs uppercase tracking-widest font-semibold;
+  }
+
+  .text-hover {
+    @apply hover:text-sky-600 dark:hover:text-teal-400 transition-colors duration-300;
+  }
+  .text-hover--group {
+    @apply group-hover:text-sky-600 dark:group-hover:text-teal-400 transition-colors duration-300;
+  }
+
+  .active-nav-bg {
+    @apply bg-slate-400/30 dark:bg-gray-900/50 transition-[background-color] duration-500;
+  }
+  /* Buttons */
+  .btn-shadow-sm {
+    @apply shadow-[3px_3px_#0f172a] dark:shadow-[3px_3px_#0f172a] hover:shadow-[4px_4px];
+  }
+  .btn-shadow-default {
+    @apply shadow-[4px_4px_#0f172a] dark:shadow-[4px_4px_#0f172a] hover:shadow-[6px_6px];
+  }
+  .btn-base {
+    @apply rounded-lg tracking-widest font-semibold uppercase text-primary dark:text-primary-dark
+    bg-sky-400 dark:bg-teal-600 order-2 border-slate-950 transition-all duration-300 ease-in-out;
+  }
+  .btn-hover {
+    @apply hover:bg-slate-950 dark:hover:bg-slate-950 hover:text-primary-dark hover:shadow-sky-400 dark:hover:shadow-teal-600;
   }
 }
