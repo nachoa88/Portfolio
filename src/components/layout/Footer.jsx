@@ -10,7 +10,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="rounded-lg shadow-lg m-4 bg-primary dark:bg-primary-dark">
+    <footer className="rounded-lg shadow-lg m-4 bg-primary dark:bg-primary-dark bg-noisy">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <Logo />
         <span className="text-sm text-primary dark:text-primary-dark sm:text-center">© 2025. All Rights Reserved.</span>

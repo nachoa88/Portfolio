@@ -13,6 +13,12 @@
 }
 
 @layer components {
+  /* Background */
+  .bg-noisy {
+    background-image: url('src/assets/images/background_noisy.webp');
+    background-repeat: repeat;
+  }
+
   .text-nav {
     @apply text-xs uppercase tracking-widest font-semibold;
   }
@@ -36,7 +42,8 @@
   }
   .btn-base {
     @apply rounded-lg tracking-widest font-semibold uppercase text-primary dark:text-primary-dark
-    bg-sky-400 dark:bg-teal-600 order-2 border-slate-950 transition-all duration-300 ease-in-out;
+    bg-sky-400 dark:bg-teal-600 order-2 border-slate-950 transition-all duration-300 ease-in-out
+    flex items-center justify-center;
   }
   .btn-hover {
     @apply hover:bg-slate-950 dark:hover:bg-slate-950 hover:text-primary-dark hover:shadow-sky-400 dark:hover:shadow-teal-600;

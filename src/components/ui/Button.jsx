@@ -9,7 +9,7 @@ export default function Button({
   ...props
 }) {
   const sizeClasses = {
-    small: "px-2 py-1 text-xs leading-4 btn-shadow-sm",
+    small: "px-2 py-1 text-xs leading-4 btn-shadow-sm min-w-20",
     default: "px-4 py-2 text-sm leading-5 btn-shadow-default",
   };
 

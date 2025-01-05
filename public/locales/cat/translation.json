@@ -17,31 +17,25 @@
   "projects": {
     "title": "Els Meus Projectes",
     "buttons": {
-      "view": "Visitar web",
+      "view": "Visitar",
       "code": "GitHub"
     },
     "ultimateLeague": {
-      "title": "Ultimate League - 2024",
       "description": "Ultimate League és un gestor de lligues on pots crear, editar i eliminar equips, jugadors i partits. Està desenvolupat en PHP, Laravel i MySQL, utilitzant el paquet Breeze per gestionar l'autenticació d'usuaris."
     },
     "blackjackAPI": {
-      "title": "Blackjack API - 2024",
       "description": "Blackjack API és una API RESTful que et permet jugar al Blackjack, crear usuaris, jugar partides i mostrar estadístiques. S'han utilitzat Passport i Spatie per a rols i permisos, i Swagger per a la documentació."
     },
     "pokedex": {
-      "title": "Pokedex - 2023",
       "description": "Pokédex creada en React, consumint la PokeAPI per mostrar informació dels diferents Pokémon. Pots filtrar per nom o tipus, i fent clic a cadascun, pots accedir a informació detallada sobre ells."
     },
     "laphotography": {
-      "title": "LA Photography - 2023",
       "description": "Aquest projecte va ser realitzat per a un amic fotògraf. És un portafoli del seu treball, desenvolupat amb WordPress i el plugin d'Elementor. Va ser la meva primera aproximació a aquestes eines."
     },
     "tilevania": {
-      "title": "Game: Tilevania - 2023",
       "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 2D utilitzant Tilemaps. En aquest joc de plataformes, el jugador ha de travessar diferents nivells, enfrontar-se a enemics i recollir tantes monedes com sigui possible."
     },
     "spaceBoost": {
-      "title": "Game: Space-Boost - 2023",
       "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 3D utilitzant només formes primàries. El jugador ha d'arribar a la plataforma de destinació enfrontant-se a diferents obstacles; com més ràpid ho faci, més punts obtindrà."
     }
   }

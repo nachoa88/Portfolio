@@ -11,7 +11,7 @@ export default {
         ubuntu: ['Ubuntu', 'sans-serif'],
       },
       backgroundColor: {
-        'primary': '#cbd5e1',      // Light mode: nav, footer, sections - bg-slate-300
+        'primary': '#f1f5f9',      // Light mode: nav, footer, sections - bg-slate-100
         'primary-dark': '#1f2937', // Dark mode: nav, footer, sections - bg-gray-800
         'secondary': '#f3f4f6',    // Light mode: spaces between - bg-gray-100
         'secondary-dark': '#374151' // Dark mode: spaces between - bg-gray-700

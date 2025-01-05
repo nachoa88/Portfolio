@@ -27,7 +27,7 @@ export default function Navbar() {
       ${
         hasScrolled
           ? "shadow-[0px_2px_#94a3b8] dark:shadow-[0px_2px_#0f172a] bg-secondary dark:bg-secondary-dark"
-          : "rounded-lg shadow-lg bg-primary dark:bg-primary-dark"
+          : "rounded-lg shadow-lg bg-primary dark:bg-primary-dark bg-noisy"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
