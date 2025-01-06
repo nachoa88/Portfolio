@@ -21,22 +21,22 @@
       "code": "GitHub"
     },
     "ultimateLeague": {
-      "description": "Ultimate League és un gestor de lligues on pots crear, editar i eliminar equips, jugadors i partits. Està desenvolupat en PHP, Laravel i MySQL, utilitzant el paquet Breeze per gestionar l'autenticació d'usuaris."
+      "description": "Aplicació per a la gestió de lligues esportives que permet crear, editar i eliminar equips, lligues i partits. Aquest projecte segueix el patró d'arquitectura MVC i està desenvolupat amb PHP, Laravel i MySQL. Per al registre, gestió i autenticació d'usuaris, s'ha implementat el paquet Breeze, mentre que Tailwind CSS s'ha utilitzat per al disseny i els estils."
     },
     "blackjackAPI": {
-      "description": "Blackjack API és una API RESTful que et permet jugar al Blackjack, crear usuaris, jugar partides i mostrar estadístiques. S'han utilitzat Passport i Spatie per a rols i permisos, i Swagger per a la documentació."
+      "description": "Una API RESTful basada en el clàssic joc de cartes. Permet als usuaris registrar-se, iniciar sessió, actualitzar el seu sobrenom, eliminar el seu compte, consultar una llista d'usuaris, jugar partides i veure classificacions globals i personals. Desenvolupada amb PHP-Laravel i MySQL, utilitza Passport per a l'autenticació i Spatie per a la gestió de rols i permisos. La documentació ha estat creada amb Swagger."
     },
     "pokedex": {
-      "description": "Pokédex creada en React, consumint la PokeAPI per mostrar informació dels diferents Pokémon. Pots filtrar per nom o tipus, i fent clic a cadascun, pots accedir a informació detallada sobre ells."
+      "description": "Desenvolupada amb React, aquest projecte es va crear com a pràctica per aprendre a consumir APIs. Utilitza la PokeAPI per mostrar informació detallada sobre diferents Pokémon, permetent filtrar per nom o tipus. En seleccionar un Pokémon, els usuaris poden accedir a la seva informació completa. Per al disseny, he utilitzat una combinació de Bootstrap i CSS per aconseguir un estil atractiu i funcional."
     },
     "laphotography": {
-      "description": "Aquest projecte va ser realitzat per a un amic fotògraf. És un portafoli del seu treball, desenvolupat amb WordPress i el plugin d'Elementor. Va ser la meva primera aproximació a aquestes eines."
+      "description": "Portafoli fotogràfic desenvolupat per al fotògraf Lucas Angella, dissenyat per mostrar el seu treball de manera professional. Creat amb WordPress i el connector Elementor, el lloc inclou galeries organitzades, una secció multimèdia i suport multilingüe, permetent canviar fàcilment d'idioma. Aquest projecte va ser la meva primera aproximació a aquestes eines."
     },
     "tilevania": {
-      "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 2D utilitzant Tilemaps. En aquest joc de plataformes, el jugador ha de travessar diferents nivells, enfrontar-se a enemics i recollir tantes monedes com sigui possible."
+      "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 2D utilitzant TileMaps. En aquest joc de plataformes, el jugador ha de travessar diferents nivells, enfrontar-se a enemics i recollir tantes monedes com sigui possible. Es van implementar TileMaps, animacions, càmeres amb Cinemachine, generació d'objectes en temps d'execució, efectes de so i un sistema de gestió d'escenes."
     },
     "spaceBoost": {
-      "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 3D utilitzant només formes primàries. El jugador ha d'arribar a la plataforma de destinació enfrontant-se a diferents obstacles; com més ràpid ho faci, més punts obtindrà."
+      "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 3D utilitzant només formes primàries. El jugador ha d'arribar a la plataforma de destí superant diversos obstacles; com més ràpid ho faci, més punts guanya. Inclou efectes de so i partícules, un sistema d'entrada, gestió d'escenes, guardat de puntuacions altes i un sistema d'il·luminació."
     }
   }
 }

@@ -21,22 +21,22 @@
       "code": "GitHub"
     },
     "ultimateLeague": {
-      "description": "Ultimate League is a league manager in which you can create, edit, and delete teams, players, and matches. It is made in PHP, Laravel, and MySQL, with the Breeze package to manage user authentication."
+      "description": "Application for managing sports leagues that allows users to create, edit, and delete teams, leagues, and matches. This project follows the MVC architecture pattern and is developed with PHP, Laravel, and MySQL. For user registration, management, and authentication, the Breeze package was implemented, while Tailwind CSS was used for design and styling."
     },
     "blackjackAPI": {
-      "description": "Blackjack API is a RESTful API that allows you to play Blackjack and in which you can create users, plays games, and display statistics. Passport and Spatie have been used for roles and permissions, and Swagger for documentation."
+      "description": "A RESTful API based on the classic card game. It allows users to register, log in, update their nickname, delete their account, view a list of users, play games, and view global and personal rankings. Developed in PHP-Laravel and MySQL, it uses Passport for authentication and Spatie for role and permission management. Documentation was created using Swagger."
     },
     "pokedex": {
-      "description": "Pokédex created in React, consuming PokeAPI in order to display the information of the different Pokémon. You can filter by name or type, and by clicking on each one you can access detailed information about it."
+      "description": "Developed in React, this project was created as practice for learning how to consume APIs. It uses the PokeAPI to display detailed information about different Pokémon, allowing users to filter by name or type. By selecting a Pokémon, users can access its complete information. For design, I used a combination of Bootstrap and CSS to achieve an attractive and functional style."
     },
     "laphotography": {
-      "description": "This project was made for a photographer friend of mine, it's a portfolio of his work. I was done using Wordpress and Elementor's plugin, it was my first approach to this tools."
+      "description": "A photographic portfolio developed for photographer Lucas Angella, designed to showcase his work professionally. Created with WordPress and the Elementor plugin, the site includes organized galleries, a multimedia section, and multilingual support, allowing users to easily switch languages. This project was my first experience with these tools."
     },
     "tilevania": {
-      "description": "Project for the GameDev.tv Team course, created with C# in Unity 2D using Tilemaps. In this platformer game, the player must go through the different levels, face enemies and collect as many coins as possible."
+      "description": "A project for the GameDev.tv Team course, created with C# in Unity 2D using TileMaps. In this platform game, the player must traverse different levels, face enemies, and collect as many coins as possible. It features TileMaps, animations, cameras with Cinemachine, runtime object generation, sound effects, and a scene management system."
     },
     "spaceBoost": {
-      "description": "Project for the GameDev.tv Team course, created with C# in Unity 3D using only primary shapes. The player must reach the destination platform facing different obstacles, the faster, the more points he will score."
+      "description": "A project for the GameDev.tv Team course, created with C# in Unity 3D using only primitive shapes. The player must reach the destination platform while avoiding various obstacles; the faster they complete the level, the more points they earn. It includes sound and particle effects, an input system, scene management, high score saving, and a lighting system."
     }
   }
 }
