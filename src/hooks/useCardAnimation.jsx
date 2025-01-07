@@ -37,13 +37,9 @@ export const useCardAnimation = (index, isEven) => {
         }
       }
     };
-    // Set initial visibility for first card, if it's not needed, remove it and all the index references
-    if (index === 0) {
-      toggleClasses(getElements(), false);
-    }
 
     const handleScroll = () => {
-      if (window.scrollY < 100 && index !== 0) {
+      if (window.scrollY < 100) {
         toggleClasses(getElements(), true);
       }
     };
@@ -55,7 +51,7 @@ export const useCardAnimation = (index, isEven) => {
         const isScrollingUp = window.scrollY < lastScroll;
         lastScroll = window.scrollY;
 
-        if (entry.isIntersecting && !isScrollingUp && index !== 0) {
+        if (entry.isIntersecting && !isScrollingUp) {
           if (isMobile) {
             cardRef.current?.classList.add("slide-in-up");
             cardRef.current?.classList.remove("card-hidden");
@@ -81,7 +77,7 @@ export const useCardAnimation = (index, isEven) => {
       }
     );
 
-    if (cardRef.current && index !== 0) {
+    if (cardRef.current) {
       observer.observe(cardRef.current);
     }
 
