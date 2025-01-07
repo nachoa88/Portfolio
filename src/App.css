@@ -3,11 +3,107 @@
 @tailwind utilities;
 
 @layer base {
-  *:not(svg) {
-    @apply transition-colors duration-700;
+  *:not(svg, .exclude-transition) {
+    @apply transition-colors duration-500;
   }
 
   body {
     font-family: "Ubuntu", sans-serif;
+  }
+}
+
+@layer components {
+  /* BACKGROUND */
+  .bg-noisy {
+    background-image: url("src/assets/images/background_noisy.webp");
+    background-repeat: repeat;
+  }
+
+  .text-nav {
+    @apply text-xs uppercase tracking-widest font-semibold;
+  }
+
+  .text-hover {
+    @apply hover:text-sky-600 dark:hover:text-teal-400 transition-colors duration-300;
+  }
+  .text-hover--group {
+    @apply group-hover:text-sky-600 dark:group-hover:text-teal-400 transition-colors duration-300;
+  }
+
+  .active-nav-bg {
+    @apply bg-slate-400/30 dark:bg-gray-900/50 transition-[background-color] duration-500;
+  }
+  /* BUTTONS */
+  .btn-shadow-sm {
+    @apply shadow-[3px_3px_#0f172a] dark:shadow-[3px_3px_#0f172a] hover:shadow-[4px_4px];
+  }
+  .btn-shadow-default {
+    @apply shadow-[4px_4px_#0f172a] dark:shadow-[4px_4px_#0f172a] hover:shadow-[6px_6px];
+  }
+  .btn-base {
+    @apply rounded-lg tracking-widest font-semibold uppercase text-primary dark:text-primary-dark
+    bg-sky-400 dark:bg-teal-600 order-2 border-slate-950 transition-all duration-300 ease-in-out
+    flex items-center justify-center;
+  }
+  .btn-hover {
+    @apply hover:bg-slate-950 dark:hover:bg-slate-950 hover:text-primary-dark hover:shadow-sky-400 dark:hover:shadow-teal-600;
+  }
+
+  /* CARDS ANIMATIONS */
+  .card-hidden {
+    opacity: 0;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .slide-in-left {
+    opacity: 0;
+    animation: slideInLeft 0.6s ease-out forwards;
+  }
+
+  .slide-in-right {
+    opacity: 0;
+    animation: slideInRight 0.6s ease-out forwards;
+  }
+
+  /* Add animation delay for text content */
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+
+  /* MOBILE ANIMATION */
+  @keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .slide-in-up {
+    animation: slideInUp 0.6s ease-out forwards;
   }
 }

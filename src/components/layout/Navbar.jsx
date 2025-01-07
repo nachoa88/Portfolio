@@ -1,51 +1,60 @@
-import { useState } from "react";
-import { useTheme } from "../../hooks/useTheme";
-import { useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageToggle from "../ui/LanguageToggle";
-
+import { navLinks } from "../../constants/navlinks";
+import { useActiveSection } from "../../hooks/useActiveSection";
 import Logo from "./Logo";
 
 export default function Navbar() {
-  const { isDarkMode, toggleTheme } = useTheme();
-  const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
   const { t } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+  const activeSection = useActiveSection(navLinks);
 
-  const isActivePath = (path) => location.pathname.startsWith(path);
-
-  const navLinks = [
-    { name: "Home", sectionId: "home" },
-    { name: "Projects", sectionId: "projects" },
-    { name: "Contact", sectionId: "contact" },
-  ];
+  useEffect(() => {
+    const handleScroll = () => setHasScrolled(window.scrollY > 0);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <nav className="rounded-lg shadow-lg m-4 bg-slate-300 dark:bg-gray-800 sticky top-0 z-50">
+    <nav
+      className={`m-4 sticky top-0 z-50 
+      ${
+        hasScrolled
+          ? "shadow-[0px_2px_#94a3b8] dark:shadow-[0px_2px_#0f172a] bg-secondary dark:bg-secondary-dark"
+          : "rounded-lg shadow-lg bg-primary dark:bg-primary-dark bg-noisy"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex sm:justify-center justify-between h-16">
           <div className="flex">
-            {/* Logo */}
             <Logo />
-
             {/* Desktop Navigation Links */}
             <div className="hidden sm:flex sm:space-x-8 sm:ms-10">
               {navLinks.map(({ name, sectionId }) => (
-                <button key={sectionId} onClick={() => scrollToSection(sectionId)} className="group relative">
-                  <span className="flex items-center gap-2 px-2 text-xs uppercase tracking-widest font-semibold text-sky-950 dark:text-gray-200 group-hover:text-sky-600 dark:group-hover:text-teal-300">
-                    {name}
-                  </span>
-                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-sky-500 dark:bg-teal-300 transition-all duration-500 group-hover:w-full" />
+                <button
+                  key={sectionId}
+                  onClick={() => scrollToSection(sectionId)}
+                  className={`group relative exclude-transition ${
+                    activeSection === sectionId
+                      ? "text-sky-600 dark:text-teal-400 active-nav-bg"
+                      : "text-primary dark:text-primary-dark"
+                  }`}
+                >
+                  <span className={`flex items-center gap-2 px-2 text-nav text-hover--group`}>{t(name)}</span>
+                  <span
+                    className={`absolute bottom-0 left-0 h-0.5 bg-sky-500 dark:bg-teal-300 transition-all duration-500 ${
+                      activeSection === sectionId ? "w-full" : "w-0 group-hover:w-full"
+                    }`}
+                  />
                 </button>
               ))}
-              <LanguageToggle />
+              <LanguageToggle isMobile={false} />
             </div>
           </div>
 
@@ -53,9 +62,14 @@ export default function Navbar() {
           <div className="-mr-2 flex items-center sm:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center p-2 rounded-md text-primary dark:text-primary-dark text-hover transition duration-150 ease-in-out"
+              type="button"
+              aria-controls="mobile-menu"
+              aria-expanded={isOpen}
+              aria-label={isOpen ? "Close menu" : "Open menu"}
             >
-              <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+              <span className="sr-only">{isOpen ? "Close menu" : "Open menu"}</span>
+              <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   className={isOpen ? "hidden" : "inline-flex"}
                   strokeLinecap="round"
@@ -75,24 +89,25 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
       {/* Mobile Navigation Menu */}
       <div className={`${isOpen ? "block" : "hidden"} sm:hidden`}>
-        <div className="pt-2 pb-3 space-y-1 bg-slate-300 dark:bg-gray-800">
+        <div className="pt-2 pb-3 space-y-1 bg-primary dark:bg-primary-dark">
           {navLinks.map(({ name, sectionId }) => (
             <button
               key={sectionId}
               onClick={() => scrollToSection(sectionId)}
-              className={`w-full text-left block pl-3 pr-4 py-2 border-l-4 text-xs uppercase tracking-widest font-semibold leading-5 ${
-                isActivePath(sectionId)
-                  ? "border-sky-500 text-sky-700 dark:border-teal-400 dark:text-teal-300 bg-slate-200 dark:bg-gray-700"
-                  : "border-transparent text-sky-950 dark:text-gray-200 hover:text-sky-700 dark:hover:text-teal-400 hover:bg-slate-200 dark:hover:bg-gray-700 hover:border-sky-500 dark:hover:border-teal-400"
+              className={`w-full text-left px-3 py-2 border-l-4 border-l-sky-500 dark:border-l-teal-300 text-nav leading-5 ${
+                activeSection === sectionId
+                  ? "text-sky-600 dark:text-teal-400 active-nav-bg"
+                  : "text-primary dark:text-primary-dark"
               }`}
             >
-              {name}
+              {t(name)}
             </button>
           ))}
-          <LanguageToggle />
+          <div className="w-full flex text-left mt-1 px-3 py-2 border-l-4 border-l-sky-500 dark:border-l-teal-300 leading-5">
+            <LanguageToggle isMobile={true} />
+          </div>
         </div>
       </div>
     </nav>

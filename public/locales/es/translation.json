@@ -1,4 +1,9 @@
 {
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
   "hero": {
     "title": "Hola, me llamo",
     "name": "Ignacio.",
@@ -6,37 +11,32 @@
     "description": "con una mentalidad creativa y orientada a resultados, combinando una sólida base técnica con una perspectiva única gracias a mi experiencia previa en educación. Me motiva el aprendizaje continuo y asumir nuevos retos.",
     "cta": {
       "download": "Descarga CV"
-    }
+    },
+    "theme-text": "Cambia de perspectiva—¡haz clic y explora!"
   },
   "projects": {
-    "title" : "Mis Proyectos",
+    "title": "Mis Proyectos",
     "buttons": {
-      "view": "Visitar web",
+      "view": "Visitar",
       "code": "GitHub"
     },
     "ultimateLeague": {
-      "title": "Ultimate League - 2024",
-      "description": "Ultimate League es un gestor de ligas en el que puedes crear, editar y eliminar equipos, jugadores y partidos. Está desarrollado en PHP, Laravel y MySQL, utilizando el paquete Breeze para gestionar la autenticación de usuarios."
+      "description": "Aplicación para la gestión de ligas deportivas que permite crear, editar y eliminar equipos, ligas y partidos. Este proyecto sigue el patrón de arquitectura MVC y está desarrollado con PHP, Laravel y MySQL. Para el registro y gestión de usuarios, y la autenticación de los mismos, se ha implementado el paquete Breeze, mientras que Tailwind CSS se ha utilizado para el diseño y los estilos."
     },
     "blackjackAPI": {
-      "title": "Blackjack API - 2024",
-      "description": "Blackjack API es una API RESTful que te permite jugar al Blackjack, crear usuarios, jugar partidas y mostrar estadísticas. Se han utilizado Passport y Spatie para roles y permisos, y Swagger para la documentación."
+      "description": "API RESTful basada en el clásico juego de cartas. Permite a los usuarios registrarse, iniciar sesión, actualizar su nickname, eliminar su cuenta, consultar un listado de usuarios, jugar partidas y visualizar rankings globales y personales. Está desarrollada en PHP-Laravel y MySQL, utilizando Passport para la autenticación y Spatie para la gestión de roles y permisos. La documentación ha sido creada con Swagger."
     },
     "pokedex": {
-      "title": "Pokedex - 2023",
-      "description": "Pokédex creada en React, consumiendo la PokeAPI para mostrar información de los diferentes Pokémon. Puedes filtrar por nombre o tipo, y al hacer clic en cada uno, puedes acceder a información detallada sobre ellos."
+      "description": "Desarrollada en React, creada como un proyecto de práctica para aprender a consumir APIs. Utiliza la PokeAPI para mostrar información detallada sobre diferentes Pokémon, permitiendo filtrar por nombre o tipo. Al seleccionar un Pokémon, los usuarios pueden acceder a su información completa. En cuanto al diseño, he utilizado una combinación de Bootstrap y CSS para lograr un estilo atractivo y funcional."
     },
     "laphotography": {
-      "title": "LA Photography - 2023",
-      "description": "Este proyecto fue realizado para un amigo fotógrafo. Es un portafolio de su trabajo, desarrollado con WordPress y el plugin de Elementor. Fue mi primera aproximación a estas herramientas."
+      "description": "Portafolio fotográfico desarrollado para el fotógrafo Lucas Angella, diseñado para mostrar su trabajo de forma profesional. Creado con WordPress y el plugin Elementor, el sitio incluye diversas galerías organizadas, una sección multimedia y soporte multilingüe, permitiendo cambiar el idioma fácilmente. Este proyecto fue mi primera aproximación a estas herramientas."
     },
     "tilevania": {
-      "title": "Game: Tilevania - 2023",
-      "description": "Proyecto para el curso de GameDev.tv Team, creado con C# en Unity 2D utilizando Tilemaps. En este juego de plataformas, el jugador debe atravesar diferentes niveles, enfrentarse a enemigos y recolectar tantas monedas como sea posible."
+      "description": "Proyecto para el curso de GameDev.tv Team, creado con C# en Unity 2D utilizando Tilemaps. En este juego de plataformas, el jugador debe atravesar diferentes niveles, enfrentarse a enemigos y recolectar tantas monedas como sea posible. Se implementaron TileMaps, animaciones, cámaras con Cinemachine, generación de objetos en tiempo de ejecución, efectos de sonido y un sistema de gestión de escenas."
     },
     "spaceBoost": {
-      "title": "Game: Space-Boost - 2023",
-      "description": "Proyecto para el curso de GameDev.tv Team, creado con C# en Unity 3D utilizando solo formas primarias. El jugador debe llegar a la plataforma de destino enfrentándose a diferentes obstáculos; cuanto más rápido lo haga, más puntos obtendrá."
+      "description": "Proyecto para el curso de GameDev.tv Team, creado con C# en Unity 3D utilizando solo formas primarias. El jugador debe llegar a la plataforma de destino enfrentándose a diferentes obstáculos; cuanto más rápido lo haga, más puntos obtendrá. Incluye efectos de sonido y partículas, sistema de entrada, gestión de escenas, guardado de puntajes y un sistema de iluminación."
     }
   }
 }
