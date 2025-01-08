@@ -43,7 +43,19 @@
     }
   },
   "contact": {
-    "title": "Let's get in touch!"
+    "title": "Let's get in touch!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "sending": "Sending...",
+      "submit": "Send Message"
+    },
+    "text": {
+      "p": "If you have any questions or want to discuss a project, feel free to reach out. I am open to new opportunities and collaborations.",
+      "span": "I'll reach out soon!"
+    }
   },
   "footer": {
     "copyright": "© 2025. You can copy whatever you want."
