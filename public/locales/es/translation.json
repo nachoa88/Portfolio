@@ -14,6 +14,9 @@
     },
     "theme-text": "Cambia de perspectiva—¡haz clic y explora!"
   },
+  "stack": {
+    "title": "Mi Stack"
+  },
   "projects": {
     "title": "Mis Proyectos",
     "buttons": {
@@ -38,5 +41,11 @@
     "spaceBoost": {
       "description": "Proyecto para el curso de GameDev.tv Team, creado con C# en Unity 3D utilizando solo formas primarias. El jugador debe llegar a la plataforma de destino enfrentándose a diferentes obstáculos; cuanto más rápido lo haga, más puntos obtendrá. Incluye efectos de sonido y partículas, sistema de entrada, gestión de escenas, guardado de puntajes y un sistema de iluminación."
     }
+  },
+  "contact": {
+    "title": "Ponte en contacto!"
+  },
+  "footer": {
+    "copyright": "© 2025. Puedes copiar todo lo que quieras."
   }
 }

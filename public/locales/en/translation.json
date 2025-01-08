@@ -14,6 +14,9 @@
     },
     "theme-text": "Switch perspectives—click and explore!"
   },
+  "stack": {
+    "title": "My Stack"
+  },
   "projects": {
     "title": "My Projects",
     "buttons": {
@@ -38,5 +41,11 @@
     "spaceBoost": {
       "description": "A project for the GameDev.tv Team course, created with C# in Unity 3D using only primitive shapes. The player must reach the destination platform while avoiding various obstacles; the faster they complete the level, the more points they earn. It includes sound and particle effects, an input system, scene management, high score saving, and a lighting system."
     }
+  },
+  "contact": {
+    "title": "Let's get in touch!"
+  },
+  "footer": {
+    "copyright": "© 2025. You can copy whatever you want."
   }
 }

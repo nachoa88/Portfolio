@@ -14,6 +14,9 @@
     },
     "theme-text": "Canvia de perspectiva—fes clic i explora!"
   },
+  "stack": {
+    "title": "El Meu Stack"
+  },
   "projects": {
     "title": "Els Meus Projectes",
     "buttons": {
@@ -38,5 +41,11 @@
     "spaceBoost": {
       "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 3D utilitzant només formes primàries. El jugador ha d'arribar a la plataforma de destí superant diversos obstacles; com més ràpid ho faci, més punts guanya. Inclou efectes de so i partícules, un sistema d'entrada, gestió d'escenes, guardat de puntuacions altes i un sistema d'il·luminació."
     }
+  },
+  "contact": {
+    "title": "Posa't en contacte!"
+  },
+  "footer": {
+    "copyright": "© 2025. Pots copiar tot el que vulguis."
   }
 }

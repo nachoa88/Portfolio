@@ -9,7 +9,7 @@ export default function Stack() {
   console.log(isDarkMode);
   return (
     <section id="stack" className="pt-4 pb-10 p-4 w-full mx-auto max-w-screen-xl">
-      <SectionTitle title="Stack" />
+      <SectionTitle title= {t("stack.title")} />
       <ul className="flex flex-wrap justify-center gap-4 mx-auto">
       {technologies.map(({ name, bgColorLight, bgColorDark, borderColor, image }) => {
           const bgColor = isDarkMode ? bgColorDark : bgColorLight;

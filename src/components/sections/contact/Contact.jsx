@@ -3,8 +3,10 @@ import Button from "../../ui/Button";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { useRef } from "react";
 import { useEmailSender } from "../../../hooks/useEmailSender";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
   const form = useRef();
   const inputClasses =
     "block py-2.5 px-0 w-full text-sm text-primary dark:text-primary-dark bg-transparent border-0 border-b-2 border-sky-900 dark:border-teal-600 appearance-none focus:outline-none focus:ring-0 focus:border-sky-400 dark:focus:border-teal-300 peer";
@@ -23,7 +25,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="pt-20 pb-20 p-4 w-full mx-auto max-w-screen-xl">
-      <SectionTitle title="Get in touch" />
+      <SectionTitle title={t("contact.title")} />
 
       <div className="grid lg:grid-cols-2 gap-8 mt-8">
         {/* Contact Info */}

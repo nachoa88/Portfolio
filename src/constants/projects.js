@@ -1,9 +1,9 @@
-import ultimateLeague from "../assets/images/ultimate_league.jpg";
-import blackjackAPI from "../assets/images/blackjack.jpg";
-import pokedex from "../assets/images/pokedex.jpg";
-import laphotography from "../assets/images/laphotography.jpg";
-import tilevania from "../assets/images/tilevania.jpg";
-import spaceBoost from "../assets/images/space_boost.jpg";
+import ultimateLeague from "../assets/images/ultimate_league.png";
+import blackjackAPI from "../assets/images/blackjack.png";
+import pokedex from "../assets/images/pokedex.png";
+import laphotography from "../assets/images/laphotography.png";
+import tilevania from "../assets/images/tilevania.png";
+import spaceBoost from "../assets/images/space_boost.png";
 
 export const projects = [
   {
