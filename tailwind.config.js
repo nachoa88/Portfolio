@@ -10,6 +10,9 @@ export default {
       fontFamily: {
         ubuntu: ['Ubuntu', 'sans-serif'],
       },
+      fontSize: {
+        xxs: '.625rem',
+      },
       backgroundColor: {
         'primary': '#f1f5f9',      // Light mode: nav, footer, sections - bg-slate-100
         'primary-dark': '#1f2937', // Dark mode: nav, footer, sections - bg-gray-800

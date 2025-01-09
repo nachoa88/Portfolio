@@ -39,7 +39,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <section id="hero" className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <div className="grid md:grid-cols-2 gap-8 items-center mt-8">
         {/* Image */}
         <div className="w-full max-w-xs mx-auto">
@@ -87,8 +87,9 @@ export default function Hero() {
         </div>
         {/* Content */}
         <div className="space-y-4">
-          <h1 className="mb-4 text-3xl font-semibold text-primary dark:text-primary-dark md:text-4xl lg:text-5xl">
-            {t("hero.title")} <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
+          <h1 className="flex justify-center md:justify-start mb-4 text-3xl font-semibold text-primary dark:text-primary-dark md:text-4xl lg:text-5xl">
+            {t("hero.title")}&nbsp; {/* &nbsp; is a non-breaking space, flex was breaking normal space */}
+            <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
           </h1>
           <p className="text-lg text-secondary dark:text-secondary-dark">
             <span className="font-bold text-secondary dark:text-secondary-dark underline decoration-2 decoration-sky-500 dark:decoration-teal-300">
@@ -96,7 +97,7 @@ export default function Hero() {
             </span>{" "}
             {t("hero.description")}
           </p>
-          <div className="flex gap-4 mb-4">
+          <div className="flex justify-center md:justify-start gap-4 mb-4">
             <Link
               to="https://www.linkedin.com/in/ignacio-albiol/"
               target="_blank"
@@ -125,7 +126,9 @@ export default function Hero() {
               )}
             </div>
           </div>
-          <Button onClick={handleClick}>{t("hero.cta.download")}</Button>
+          <div className="flex justify-center md:justify-start">
+            <Button onClick={handleClick}>{t("hero.cta.download")}</Button>
+          </div>
         </div>
       </div>
     </section>

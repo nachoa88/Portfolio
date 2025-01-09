@@ -32,7 +32,7 @@ export default function LanguageToggle({ isMobile }) {
           )}
         </ListboxButton>
         {/* Dropdown Options */}
-        <ListboxOptions className="absolute left-0 top-full mt-2 w-32 bg-gray-200 dark:bg-cyan-950 rounded-lg shadow-lg ring-1 ring-black/5 p-1 focus:outline-none z-50">
+        <ListboxOptions className="absolute left-0 top-full mt-2 w-32 bg-slate-300/80 dark:bg-gray-900/80 rounded-lg shadow-lg ring-1 ring-black/5 p-1 focus:outline-none z-50">
           {languages.map((lang) => (
             <ListboxOption
               key={lang.code}

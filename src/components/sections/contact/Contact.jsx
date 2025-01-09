@@ -7,7 +7,7 @@ export default function Contact() {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="pt-20 pb-20 p-4 w-full mx-auto max-w-screen-xl">
+    <section id="contact" className="p-2 sm:p-4 pt-8 sm:pt-20 pb-8 sm:pb-20 w-full mx-auto max-w-screen-xl">
       <SectionTitle title={t("contact.title")} />
 
       <div className="grid lg:grid-cols-2 gap-8 pt-4">
