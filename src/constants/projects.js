@@ -24,7 +24,7 @@ export const projects = [
     technologies: ["PHP", "Laravel", "Swagger", "MySQL"],
     description: "projects.blackjackAPI.description",
     githubLink: "https://github.com/nachoa88/sprint5-blackjackAPI",
-    webLink: "https://blackjackapi.ignacioalbiol.es/",
+    webLink: "https://blackjack-api.ignacioalbiol.es/api/documentation",
   },
   {
     id: 3,

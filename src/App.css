@@ -15,7 +15,7 @@
 @layer components {
   /* BACKGROUND */
   .bg-noisy {
-    background-image: url("src/assets/images/background_noisy.webp");
+    background-image: url("assets/images/background_noisy.webp");
     background-repeat: repeat;
   }
 
