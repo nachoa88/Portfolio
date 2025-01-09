@@ -87,9 +87,8 @@ export default function Hero() {
         </div>
         {/* Content */}
         <div className="space-y-4">
-          <h1 className="flex justify-center md:justify-start mb-4 text-3xl font-semibold text-primary dark:text-primary-dark md:text-4xl lg:text-5xl">
-            {t("hero.title")}&nbsp; {/* &nbsp; is a non-breaking space, flex was breaking normal space */}
-            <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
+          <h1 className="text-center md:text-left mb-4 text-3xl font-semibold text-primary dark:text-primary-dark md:text-4xl lg:text-5xl">
+            {t("hero.title")} <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
           </h1>
           <p className="text-lg text-secondary dark:text-secondary-dark">
             <span className="font-bold text-secondary dark:text-secondary-dark underline decoration-2 decoration-sky-500 dark:decoration-teal-300">
