@@ -9,6 +9,7 @@
     "name": "Ignacio.",
     "subtitle": "Full Stack Developer",
     "description": "with a creative and results-oriented mindset, combining a strong technical foundation with a unique perspective thanks to my previous experience in education. I am motivated by continuous learning and taking on new challenges.",
+    "email-copied": "Copied!",
     "cta": {
       "download": "Download CV"
     },
@@ -50,7 +51,9 @@
       "subject": "Subject",
       "message": "Message",
       "sending": "Sending...",
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "There was an error. Please try again."
     },
     "text": {
       "p": "If you have any questions or want to discuss a project, feel free to reach out. I am open to new opportunities and collaborations.",

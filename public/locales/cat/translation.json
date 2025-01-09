@@ -9,6 +9,7 @@
     "name": "Ignacio.",
     "subtitle": "Desenvolupador Full Stack",
     "description": "amb una mentalitat creativa i orientada a resultats, combinant una sòlida base tècnica amb una perspectiva única gràcies a la meva experiència prèvia en educació. Em motiva l'aprenentatge continu i afrontar nous reptes.",
+    "email-copied": "Copiat!",
     "cta": {
       "download": "Descarrega CV"
     },
@@ -50,7 +51,9 @@
       "subject": "Assumpte",
       "message": "Missatge",
       "sending": "Enviant...",
-      "submit": "Enviar Missatge"
+      "submit": "Enviar Missatge",
+      "success": "Missatge enviat correctament!",
+      "error": "Hi ha hagut un error. Si us plau, torna a intentar-ho."
     },
     "text": {
       "p": "Si tens alguna pregunta o vols parlar sobre un projecte, no dubtis a posar-te en contacte amb mi. Estic obert a noves oportunitats i col·laboracions.",

@@ -113,17 +113,17 @@ export default function Contact() {
               {t("contact.text.span")}
             </span>
           </p>
-          <div className="flex items-center text-lg gap-2 text-secondary dark:text-secondary-dark text-hover">
+          <div className="flex items-center text-lg gap-2 text-secondary dark:text-secondary-dark">
             <MdEmail className="w-10 h-10" />
             <span>nacho.albiol88@gmail.com</span>
           </div>
-          <div className="flex items-center text-lg gap-2 text-secondary dark:text-secondary-dark text-hover">
+          <div className="flex items-center text-lg gap-2 text-secondary dark:text-secondary-dark">
             <MdPhone className="w-10 h-10" />
             <span>+34 677 246 546</span>
           </div>
-          <div className="flex items-center text-lg gap-2 text-secondary dark:text-secondary-dark text-hover">
+          <div className="flex items-center text-lg gap-2 text-secondary dark:text-secondary-dark">
             <MdLocationOn className="w-10 h-10" />
-            <span>Barcelona, Catalonia</span>
+            <span>Barcelona, 08003</span>
           </div>
         </div>
       </div>
