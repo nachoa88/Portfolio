@@ -16,8 +16,8 @@ export default function ProjectCard({ index, year, title, description, image, te
         className={`w-full h-auto md:max-w-[400px] text-secondary dark:text-secondary-dark rounded-t-2xl md:rounded-none ${
           isEven ? "md:rounded-l-2xl" : "md:rounded-r-2xl"
         }`}
-        //src={image} images should be 400x300
-        src="src/assets/images/background.png"
+        src={image}
+        // src="src/assets/images/background.png"
         alt={`${title} preview`}
       />
       <div

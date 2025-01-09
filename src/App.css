@@ -19,6 +19,7 @@
     background-repeat: repeat;
   }
 
+  /* NAV STYLE TEXT */
   .text-nav {
     @apply text-xs uppercase tracking-widest font-semibold;
   }
@@ -33,6 +34,23 @@
   .active-nav-bg {
     @apply bg-slate-400/30 dark:bg-gray-900/50 transition-[background-color] duration-500;
   }
+  
+  /* POPOUT MESSAGE ANIMATION */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate(-50%, 20px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+  }
+  
+  .animate-fade-in-down {
+    animation: fadeInDown 0.2s ease-out forwards;
+  }
+
   /* BUTTONS */
   .btn-shadow-sm {
     @apply shadow-[3px_3px_#0f172a] dark:shadow-[3px_3px_#0f172a] hover:shadow-[4px_4px];
@@ -105,5 +123,21 @@
 
   .slide-in-up {
     animation: slideInUp 0.6s ease-out forwards;
+  }
+
+  /* CONTACT FORM */
+  .form-input {
+    @apply block py-2.5 px-0 w-full text-sm text-primary dark:text-primary-dark
+      bg-transparent border-0 border-b-2 border-sky-900 dark:border-teal-600
+      appearance-none focus:outline-none focus:ring-0 focus:border-sky-400
+      dark:focus:border-teal-300 peer;
+  }
+  
+  .form-label {
+    @apply absolute text-sm text-secondary dark:text-secondary-dark duration-300
+      transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0
+      peer-focus:text-sky-400 dark:peer-focus:text-teal-300 peer-focus:font-medium
+      peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0
+      peer-focus:scale-75 peer-focus:-translate-y-6 transition-all;
   }
 }

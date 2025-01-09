@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { useTheme } from "../../../hooks/useTheme";
 import { useState } from "react";
@@ -12,6 +13,7 @@ export default function Hero() {
   const { t } = useTranslation();
   const { isDarkMode, toggleTheme } = useTheme();
   const [isFlipping, setIsFlipping] = useState(false);
+  const [copyStatus, setCopyStatus] = useState("");
 
   const handleThemeToggle = () => {
     setIsFlipping(true);
@@ -30,6 +32,12 @@ export default function Hero() {
     event.currentTarget.blur(); // Remove focus after click
   };
 
+  const handleEmailCopy = () => {
+    navigator.clipboard.writeText("nacho.albiol88@gmail.com");
+    setCopyStatus(t("hero.email-copied"));
+    setTimeout(() => setCopyStatus(""), 1000);
+  };
+
   return (
     <section className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <div className="grid md:grid-cols-2 gap-8 items-center mt-8">
@@ -40,9 +48,7 @@ export default function Hero() {
             {/* Overlay Text */}
             <div className="text-center">
               <div className="animate-bounce">
-                <span className="text-nav tracking-wider text-sky-600 dark:text-teal-400">
-                  {t("hero.theme-text")}
-                </span>
+                <span className="text-nav tracking-wider text-sky-600 dark:text-teal-400">{t("hero.theme-text")}</span>
               </div>
             </div>
             {/* Flip container */}
@@ -82,8 +88,7 @@ export default function Hero() {
         {/* Content */}
         <div className="space-y-4">
           <h1 className="mb-4 text-3xl font-semibold text-primary dark:text-primary-dark md:text-4xl lg:text-5xl">
-            {t("hero.title")}{" "}
-            <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
+            {t("hero.title")} <span className="text-sky-600 dark:text-teal-400 font-extrabold">{t("hero.name")}</span>
           </h1>
           <p className="text-lg text-secondary dark:text-secondary-dark">
             <span className="font-bold text-secondary dark:text-secondary-dark underline decoration-2 decoration-sky-500 dark:decoration-teal-300">
@@ -108,6 +113,17 @@ export default function Hero() {
             >
               <FaGithub className="w-8 h-8 text-primary dark:text-primary-dark hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300" />
             </Link>
+            <div className="relative">
+              <MdEmail
+                className="w-8 h-8 text-primary dark:text-primary-dark hover:text-sky-600 dark:hover:text-teal-300 hover:scale-110 transition-transform duration-300 cursor-pointer"
+                onClick={handleEmailCopy}
+              />
+              {copyStatus && (
+                <div className="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 text-primary-dark dark:text-primary bg-sky-950 dark:bg-gray-200 text-sm rounded-md shadow-lg whitespace-nowrap animate-fade-in-down">
+                  {copyStatus}
+                </div>
+              )}
+            </div>
           </div>
           <Button onClick={handleClick}>{t("hero.cta.download")}</Button>
         </div>

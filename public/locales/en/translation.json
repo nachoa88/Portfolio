@@ -9,10 +9,14 @@
     "name": "Ignacio.",
     "subtitle": "Full Stack Developer",
     "description": "with a creative and results-oriented mindset, combining a strong technical foundation with a unique perspective thanks to my previous experience in education. I am motivated by continuous learning and taking on new challenges.",
+    "email-copied": "Copied!",
     "cta": {
       "download": "Download CV"
     },
     "theme-text": "Switch perspectives—click and explore!"
+  },
+  "stack": {
+    "title": "My Stack"
   },
   "projects": {
     "title": "My Projects",
@@ -38,5 +42,25 @@
     "spaceBoost": {
       "description": "A project for the GameDev.tv Team course, created with C# in Unity 3D using only primitive shapes. The player must reach the destination platform while avoiding various obstacles; the faster they complete the level, the more points they earn. It includes sound and particle effects, an input system, scene management, high score saving, and a lighting system."
     }
+  },
+  "contact": {
+    "title": "Let's get in touch!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "sending": "Sending...",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "There was an error. Please try again."
+    },
+    "text": {
+      "p": "If you have any questions or want to discuss a project, feel free to reach out. I am open to new opportunities and collaborations.",
+      "span": "I'll reach out soon!"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025. You can copy whatever you want."
   }
 }

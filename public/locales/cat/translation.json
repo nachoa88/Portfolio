@@ -9,10 +9,14 @@
     "name": "Ignacio.",
     "subtitle": "Desenvolupador Full Stack",
     "description": "amb una mentalitat creativa i orientada a resultats, combinant una sòlida base tècnica amb una perspectiva única gràcies a la meva experiència prèvia en educació. Em motiva l'aprenentatge continu i afrontar nous reptes.",
+    "email-copied": "Copiat!",
     "cta": {
       "download": "Descarrega CV"
     },
     "theme-text": "Canvia de perspectiva—fes clic i explora!"
+  },
+  "stack": {
+    "title": "El Meu Stack"
   },
   "projects": {
     "title": "Els Meus Projectes",
@@ -38,5 +42,25 @@
     "spaceBoost": {
       "description": "Projecte per al curs de GameDev.tv Team, creat amb C# a Unity 3D utilitzant només formes primàries. El jugador ha d'arribar a la plataforma de destí superant diversos obstacles; com més ràpid ho faci, més punts guanya. Inclou efectes de so i partícules, un sistema d'entrada, gestió d'escenes, guardat de puntuacions altes i un sistema d'il·luminació."
     }
+  },
+  "contact": {
+    "title": "Posa't en contacte!",
+    "form": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "subject": "Assumpte",
+      "message": "Missatge",
+      "sending": "Enviant...",
+      "submit": "Enviar Missatge",
+      "success": "Missatge enviat correctament!",
+      "error": "Hi ha hagut un error. Si us plau, torna a intentar-ho."
+    },
+    "text": {
+      "p": "Si tens alguna pregunta o vols parlar sobre un projecte, no dubtis a posar-te en contacte amb mi. Estic obert a noves oportunitats i col·laboracions.",
+      "span": "Et respondré aviat!"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025. Pots copiar tot el que vulguis."
   }
 }
