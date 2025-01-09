@@ -23,7 +23,9 @@
   .text-nav {
     @apply text-xs uppercase tracking-widest font-semibold;
   }
-
+  .text-nav-xxs {
+    @apply text-xxs uppercase tracking-tight font-semibold;
+  }
   .text-hover {
     @apply hover:text-sky-600 dark:hover:text-teal-400 transition-colors duration-300;
   }
