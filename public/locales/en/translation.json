@@ -24,6 +24,9 @@
       "view": "Visit",
       "code": "GitHub"
     },
+    "ecoTrail": {
+      "description": "Sitio web creado para una empresa ficticia dedicada a la huella de carbono. Ofrece información sobre sus servicios, permite el inicio de sesión y registro utilizando la API de reqres.in, y cuenta con una calculadora de huella de carbono para usuarios registrados. Desarrollado en Vue.js 3, con Pinia para la gestión del JWT, axios para las peticiones a la API, VeeValidate para la validación de formularios y Tailwind CSS para el diseño."
+    },
     "ultimateLeague": {
       "description": "Application for managing sports leagues that allows users to create, edit, and delete teams, leagues, and matches. This project follows the MVC architecture pattern and is developed with PHP, Laravel, and MySQL. For user registration, management, and authentication, the Breeze package was implemented, while Tailwind CSS was used for design and styling."
     },

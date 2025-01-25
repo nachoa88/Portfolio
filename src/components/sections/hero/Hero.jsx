@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import portrait from "../../../assets/images/portrait_small.jpg";
 import portrait_w from "../../../assets/images/portrait_small_w.jpg";
-import resume from "../../../assets/files/cv2024.pdf";
+import resume from "../../../assets/files/cv2025.pdf";
 import Button from "../../ui/Button";
 
 export default function Hero() {

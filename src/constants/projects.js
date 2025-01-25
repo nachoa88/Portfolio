@@ -1,3 +1,4 @@
+import ecoTrail from "../assets/images/ecotrail.png";
 import ultimateLeague from "../assets/images/ultimate_league.png";
 import blackjackAPI from "../assets/images/blackjack.png";
 import pokedex from "../assets/images/pokedex.png";
@@ -8,26 +9,36 @@ import spaceBoost from "../assets/images/space_boost.png";
 export const projects = [
   {
     id: 1,
+    image: ecoTrail,
+    year: 2025,
+    title: "EcoTrail",
+    technologies: ["Vue.js", "JavaScript", "Tailwind"],
+    description: "projects.ecoTrail.description",
+    githubLink: "https://github.com/nachoa88/landing-tph",
+    webLink: "https://ecotrail.ignacioalbiol.es/",
+  },
+  {
+    id: 2,
     image: ultimateLeague,
     year: 2024,
     title: "Ultimate League",
     technologies: ["PHP", "Laravel", "Blade", "MySQL"],
     description: "projects.ultimateLeague.description",
-    githubLink: "https://github.com/nachoa88/sprint4-UltimateLeague",
+    githubLink: "https://github.com/nachoa88/ultimate-league",
     webLink: "https://ultimateleague.ignacioalbiol.es/",
   },
   {
-    id: 2,
+    id: 3,
     image: blackjackAPI,
     year: 2024,
     title: "Blackjack API",
     technologies: ["PHP", "Laravel", "Swagger", "MySQL"],
     description: "projects.blackjackAPI.description",
-    githubLink: "https://github.com/nachoa88/sprint5-blackjackAPI",
+    githubLink: "https://github.com/nachoa88/blackjack",
     webLink: "https://blackjack-api.ignacioalbiol.es/api/documentation",
   },
   {
-    id: 3,
+    id: 4,
     image: pokedex,
     year: 2023,
     title: "PokéDex",
@@ -37,7 +48,7 @@ export const projects = [
     webLink: "https://pokedex.ignacioalbiol.es/",
   },
   {
-    id: 4,
+    id: 5,
     image: laphotography,
     year: 2023,
     title: "Portfolio: LA Photography",
@@ -46,7 +57,7 @@ export const projects = [
     webLink: "https://laphotography.es/",
   },
   {
-    id: 5,
+    id: 6,
     image: tilevania,
     year: 2023,
     title: "Game: TileVania",
@@ -56,7 +67,7 @@ export const projects = [
     webLink: "https://sharemygame.com/@nachoa88/tilevania",
   },
   {
-    id: 6,
+    id: 7,
     image: spaceBoost,
     year: 2023,
     title: "Game: Project-Boost",
