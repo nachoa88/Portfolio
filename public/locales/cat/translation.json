@@ -24,6 +24,9 @@
       "view": "Visitar",
       "code": "GitHub"
     },
+    "ecoTrail": {
+      "description": "Lloc web creat per a una empresa fictícia dedicada a la petjada de carboni. Proporciona informació sobre els seus serveis, permet l'inici de sessió i el registre utilitzant l'API de reqres.in, i compta amb un calculador de petjada de carboni per a usuaris registrats. Desenvolupat amb Vue.js 3, amb Pinia per a la gestió de JWT, axios per a les sol·licituds API, VeeValidate per a la validació de formularis, i Tailwind CSS per al disseny."
+    },
     "ultimateLeague": {
       "description": "Aplicació per a la gestió de lligues esportives que permet crear, editar i eliminar equips, lligues i partits. Aquest projecte segueix el patró d'arquitectura MVC i està desenvolupat amb PHP, Laravel i MySQL. Per al registre, gestió i autenticació d'usuaris, s'ha implementat el paquet Breeze, mentre que Tailwind CSS s'ha utilitzat per al disseny i els estils."
     },

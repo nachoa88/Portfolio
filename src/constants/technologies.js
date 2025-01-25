@@ -11,6 +11,7 @@ import mysql from "../assets/images/icons/mysql_icon.png";
 import swagger from "../assets/images/icons/swagger_icon.png";
 import java from "../assets/images/icons/java_icon.png";
 import php from "../assets/images/icons/php_icon.png";
+import vue from "../assets/images/icons/vue_icon.png";
 import postman from "../assets/images/icons/postman_icon.png";
 
 export const technologies = [
@@ -41,6 +42,13 @@ export const technologies = [
     bgColorDark: "#00d8ff33",
     borderColor: "#00d8ff",
     image: react,
+  },
+  {
+    name: "Vue.js",
+    bgColorLight: "#16653450",
+    bgColorDark: "#41b88333",
+    borderColor: "#41b883",
+    image: vue,
   },
   {
     name: "Tailwind",
