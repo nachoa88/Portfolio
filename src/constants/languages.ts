@@ -1,4 +1,10 @@
-export const languages = [
+interface Language {
+  code: string;
+  name: string;
+  country_code: string;
+}
+
+export const languages: Language[] = [
   {
     code: "es",
     name: "Español",

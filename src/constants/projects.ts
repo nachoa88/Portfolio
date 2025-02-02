@@ -6,7 +6,18 @@ import laphotography from "../assets/images/laphotography.png";
 import tilevania from "../assets/images/tilevania.png";
 import spaceBoost from "../assets/images/space_boost.png";
 
-export const projects = [
+interface Project {
+  id: number;
+  image: string;
+  year: number;
+  title: string;
+  technologies: string[];
+  description: string;
+  githubLink: string | null;
+  webLink: string | null;
+}
+
+export const projects: Project[] = [
   {
     id: 1,
     image: ecoTrail,
@@ -54,6 +65,7 @@ export const projects = [
     title: "Portfolio: LA Photography",
     technologies: ["WordPress", "Elementor"],
     description: "projects.laphotography.description",
+    githubLink: null,
     webLink: "https://laphotography.es/",
   },
   {

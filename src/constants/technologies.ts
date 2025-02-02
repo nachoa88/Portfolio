@@ -14,7 +14,15 @@ import php from "../assets/images/icons/php_icon.png";
 import vue from "../assets/images/icons/vue_icon.png";
 import postman from "../assets/images/icons/postman_icon.png";
 
-export const technologies = [
+interface Technology {
+  name: string;
+  bgColorLight: string;
+  bgColorDark: string;
+  borderColor: string;
+  image: string;
+}
+
+export const technologies: Technology[] = [
   {
     name: "PHP",
     bgColorLight: "#155e7550",
